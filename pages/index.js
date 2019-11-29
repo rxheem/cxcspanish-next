@@ -5,6 +5,10 @@ import Breadcrumb from "../common/Breadcrumb";
 import BreadcrumbItem from "../common/BreadcrumbItem";
 import LazyLoad from "react-lazyload";
 import uuidv4 from "uuid/v4";
+import Link from "next/link";
+
+// Page Viwes
+import QuizHomeScreen from "../home/QuizHomeScreen";
 
 class Index extends React.Component {
   render() {
@@ -43,16 +47,7 @@ class Index extends React.Component {
 
           <div className="column is-one-third">
             <div className="box">
-              <h1 className="title is-6">Text</h1>
-            </div>
-            <div className="box">
-              <h1 className="title is-6">
-                <LazyLoad once height="200">
-                  <i class="fas fa-lightbulb"></i>
-                </LazyLoad>
-                Take A Quiz
-              </h1>
-              <p>Test your knowledge and vocabulary</p>
+              <QuizHomeScreen />
             </div>
             <div className="box">
               <h1 className="title is-6">Text</h1>
