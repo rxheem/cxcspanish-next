@@ -13,12 +13,13 @@ class Navbar extends React.Component {
       });
     });
   }
+
   render() {
     return (
       <nav
         className="navbar has-shadow is-spaced is-danger"
         role="navigation"
-        aria-label="main navigation"
+        ariaLabel="main navigation"
       >
         <div className="navbar-brand">
           <Link href="/">
@@ -32,13 +33,13 @@ class Navbar extends React.Component {
           <a
             role="button"
             className="navbar-burger burger"
-            aria-label="menu"
-            aria-expanded="false"
+            ariaLabel="menu"
+            ariaExpanded="false"
             dataTarget="mainNavbar"
           >
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
+            <span ariaHidden="true"></span>
+            <span ariaHidden="true"></span>
+            <span ariaHidden="true"></span>
           </a>
         </div>
 
@@ -105,7 +106,7 @@ class Navbar extends React.Component {
             </a>
 
             <NavItem title="Resources" href="/resources" />
-            <NavItem title="eTest" href="/etest" />
+            <NavItem title="Quiz" href="/quiz" />
             <NavItem title="Forum" href="/forum" />
           </div>
 

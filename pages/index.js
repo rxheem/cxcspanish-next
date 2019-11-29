@@ -3,6 +3,7 @@ import ReactGA from "react-ga";
 import Head from "next/head";
 import Breadcrumb from "../common/Breadcrumb";
 import BreadcrumbItem from "../common/BreadcrumbItem";
+import LazyLoad from "react-lazyload";
 import uuidv4 from "uuid/v4";
 
 class Index extends React.Component {
@@ -34,6 +35,30 @@ class Index extends React.Component {
         <Breadcrumb>
           <BreadcrumbItem />
         </Breadcrumb>
+
+        <div className="columns">
+          <div className="column">
+            <div className="box"></div>
+          </div>
+
+          <div className="column is-one-third">
+            <div className="box">
+              <h1 className="title is-6">Text</h1>
+            </div>
+            <div className="box">
+              <h1 className="title is-6">
+                <LazyLoad once height="200">
+                  <i class="fas fa-lightbulb"></i>
+                </LazyLoad>
+                Take A Quiz
+              </h1>
+              <p>Test your knowledge and vocabulary</p>
+            </div>
+            <div className="box">
+              <h1 className="title is-6">Text</h1>
+            </div>
+          </div>
+        </div>
       </Layout>
     );
   }

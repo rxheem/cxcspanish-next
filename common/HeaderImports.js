@@ -16,8 +16,8 @@ const HeaderImports = props => (
     <meta name="distribution" content="Global" />
     <meta name="rating" content="General" />
     <meta name="revisit-after" content="1 days" />
-    <meta http-equiv="Expires" content="3å" />
-    <meta http-equiv="Pragma" content="no-cache" />
+    <meta httpEquiv="Expires" content="3å" />
+    <meta httpEquiv="Pragma" content="no-cache" />
     <meta name="language" content="EN" />
     <meta name="fb:page_id" content="105703077445673" />
     <meta
@@ -40,12 +40,11 @@ const HeaderImports = props => (
       integrity="sha256-cCazLItaM+Zz5UEzu9HNzlgWhXlvknCzjdE45LBeTns="
       crossOrigin="anonymous"
     />
+
     <link
-      rel="shortcut icon"
-      href="./assets/kisspng-spanish-logos-translation-celebrando-la-navidad-5afdf35c4e3dd8.0682344115265923483205.png"
-      type="image/x-icon"
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <script src="https://kit.fontawesome.com/3b83e0293b.js"></script>
   </Head>
 );
 

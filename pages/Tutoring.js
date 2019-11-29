@@ -4,7 +4,7 @@ import Head from "next/head";
 const Tutoring = props => (
   <Layout>
     <Head>
-      <title>CXC Spanish | Guide, Past Papers and Exercises</title>
+      <title>Tutoring | Guide, Past Papers and Exercises</title>
       <meta name="description" content="" />
       <meta name="keywords" content="your, tags" />
 

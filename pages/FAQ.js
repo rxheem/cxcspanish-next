@@ -6,14 +6,25 @@ import BreadcrumbItem from "../common/BreadcrumbItem";
 const FAQ = props => (
   <Layout>
     <Head>
-      <title>CXC Spanish | Guide, Past Papers and Exercises</title>
-      <meta name="description" content="" />
+      <title>
+        Frequently Asked Quesiton | Guide, Past Papers and Exercises
+      </title>
+      <meta
+        name="description"
+        content="Here we answer any question you may have about CXC Spansih Online. If you don't see your question, send us an inquiry at hola@cxcspanish.com."
+      />
       <meta name="keywords" content="your, tags" />
 
       {/* Facebook meta tags */}
-      <meta name="og:title" content="" />
+      <meta
+        name="og:title"
+        content="Frequently Asked Quesiton | Guide, Past Papers and Exercises"
+      />
       <meta name="og:url" content="" />
-      <meta name="og:description" content="" />
+      <meta
+        name="og:description"
+        content="Here we answer any question you may have about CXC Spansih Online. If you don't see your question, send us an inquiry at hola@cxcspanish.com."
+      />
     </Head>
 
     <Breadcrumb>

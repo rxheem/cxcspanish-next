@@ -6,7 +6,7 @@ import BreadcrumbItem from "../common/BreadcrumbItem";
 const Guide = props => (
   <Layout>
     <Head>
-      <title>Contact | CXC Spanish Guide</title>
+      <title>Guide | CXC Spanish Guide</title>
       <meta
         name="description"
         content="Take your Spanish to the next level with our detailed lesson guides, completed with examples and practice questions."

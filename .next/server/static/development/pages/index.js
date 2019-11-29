@@ -317,7 +317,7 @@ const HeaderImports = props => __jsx(next_head__WEBPACK_IMPORTED_MODULE_2___defa
   },
   __self: undefined
 }), __jsx("meta", {
-  "http-equiv": "Expires",
+  httpEquiv: "Expires",
   content: "3\xE5",
   __source: {
     fileName: _jsxFileName,
@@ -325,7 +325,7 @@ const HeaderImports = props => __jsx(next_head__WEBPACK_IMPORTED_MODULE_2___defa
   },
   __self: undefined
 }), __jsx("meta", {
-  "http-equiv": "Pragma",
+  httpEquiv: "Pragma",
   content: "no-cache",
   __source: {
     fileName: _jsxFileName,
@@ -392,19 +392,11 @@ const HeaderImports = props => __jsx(next_head__WEBPACK_IMPORTED_MODULE_2___defa
   },
   __self: undefined
 }), __jsx("link", {
-  rel: "shortcut icon",
-  href: "./assets/kisspng-spanish-logos-translation-celebrando-la-navidad-5afdf35c4e3dd8.0682344115265923483205.png",
-  type: "image/x-icon",
+  rel: "stylesheet",
+  href: "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 43
-  },
-  __self: undefined
-}), __jsx("script", {
-  src: "https://kit.fontawesome.com/3b83e0293b.js",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 48
+    lineNumber: 44
   },
   __self: undefined
 }));
@@ -1117,31 +1109,31 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     return __jsx("nav", {
       className: "navbar has-shadow is-spaced is-danger",
       role: "navigation",
-      "aria-label": "main navigation",
+      ariaLabel: "main navigation",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18
+        lineNumber: 19
       },
       __self: this
     }, __jsx("div", {
       className: "navbar-brand",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 23
+        lineNumber: 24
       },
       __self: this
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
       href: "/",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 24
+        lineNumber: 25
       },
       __self: this
     }, __jsx("a", {
       className: "navbar-item",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25
+        lineNumber: 26
       },
       __self: this
     }, __jsx("h1", {
@@ -1151,7 +1143,7 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 26
+        lineNumber: 27
       },
       __self: this
     }, __jsx("span", {
@@ -1160,39 +1152,39 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 27
+        lineNumber: 28
       },
       __self: this
     }, "CXC Spanish Guide")))), __jsx("a", {
       role: "button",
       className: "navbar-burger burger",
-      "aria-label": "menu",
-      "aria-expanded": "false",
+      ariaLabel: "menu",
+      ariaExpanded: "false",
       dataTarget: "mainNavbar",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 32
+        lineNumber: 33
       },
       __self: this
     }, __jsx("span", {
-      "aria-hidden": "true",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 39
-      },
-      __self: this
-    }), __jsx("span", {
-      "aria-hidden": "true",
+      ariaHidden: "true",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 40
       },
       __self: this
     }), __jsx("span", {
-      "aria-hidden": "true",
+      ariaHidden: "true",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 41
+      },
+      __self: this
+    }), __jsx("span", {
+      ariaHidden: "true",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 42
       },
       __self: this
     }))), __jsx("div", {
@@ -1200,14 +1192,14 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       className: "navbar-menu",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 45
+        lineNumber: 46
       },
       __self: this
     }, __jsx("div", {
       className: "navbar-start",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 46
+        lineNumber: 47
       },
       __self: this
     }, __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -1215,35 +1207,35 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       href: "/guide",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 47
+        lineNumber: 48
       },
       __self: this
     }), __jsx("a", {
       className: "navbar-item has-dropdown is-hoverable",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 49
+        lineNumber: 50
       },
       __self: this
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
       href: "exam-topics",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 50
+        lineNumber: 51
       },
       __self: this
     }, __jsx("a", {
       className: "navbar-link",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 51
+        lineNumber: 52
       },
       __self: this
     }, "Exam Topics")), __jsx("div", {
       className: "navbar-dropdown",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 54
+        lineNumber: 55
       },
       __self: this
     }, __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -1251,7 +1243,7 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       title: "Directed Situations",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 55
+        lineNumber: 56
       },
       __self: this
     }), __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -1259,7 +1251,7 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       title: "Letter Writing",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 59
+        lineNumber: 60
       },
       __self: this
     }), __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -1267,7 +1259,7 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       title: "Composition",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 60
+        lineNumber: 61
       },
       __self: this
     }), __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -1275,7 +1267,7 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       title: "Contextual Announcements",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 61
+        lineNumber: 62
       },
       __self: this
     }), __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -1283,7 +1275,7 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       title: "Contextual Dialogue",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 65
+        lineNumber: 66
       },
       __self: this
     }), __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -1291,35 +1283,35 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       title: "Reading Comprehension",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 69
+        lineNumber: 70
       },
       __self: this
     }))), __jsx("a", {
       className: "navbar-item has-dropdown is-hoverable",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 76
+        lineNumber: 77
       },
       __self: this
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
       href: "exam-topics",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 77
+        lineNumber: 78
       },
       __self: this
     }, __jsx("a", {
       className: "navbar-link",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 78
+        lineNumber: 79
       },
       __self: this
     }, "Verb Tenses")), __jsx("div", {
       className: "navbar-dropdown",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 81
+        lineNumber: 82
       },
       __self: this
     }, __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -1327,7 +1319,7 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       href: "/tenses/present-tense",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 82
+        lineNumber: 83
       },
       __self: this
     }), __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -1335,7 +1327,7 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       href: "/tenses/present-progressive",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 83
+        lineNumber: 84
       },
       __self: this
     }), __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -1343,7 +1335,7 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       href: "/tenses/preterite-tense",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 87
+        lineNumber: 88
       },
       __self: this
     }), __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -1351,7 +1343,7 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       href: "/tenses/imperfect-tense",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 91
+        lineNumber: 92
       },
       __self: this
     }), __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -1359,7 +1351,7 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       href: "/tenses/conditional-tense",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 95
+        lineNumber: 96
       },
       __self: this
     }), __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -1367,7 +1359,7 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       href: "/tenses/subjunctive-mood",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 99
+        lineNumber: 100
       },
       __self: this
     }), __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -1375,7 +1367,7 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       href: "/tenses/subjunctive-mood",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 100
+        lineNumber: 101
       },
       __self: this
     }))), __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -1383,15 +1375,15 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       href: "/resources",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 107
+        lineNumber: 108
       },
       __self: this
     }), __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
-      title: "eTest",
-      href: "/etest",
+      title: "Quiz",
+      href: "/quiz",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 108
+        lineNumber: 109
       },
       __self: this
     }), __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -1399,14 +1391,14 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       href: "/forum",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 109
+        lineNumber: 110
       },
       __self: this
     })), __jsx("div", {
       className: "navbar-end",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 112
+        lineNumber: 113
       },
       __self: this
     }, __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -1414,7 +1406,7 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       href: "/about",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 113
+        lineNumber: 114
       },
       __self: this
     }), __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -1422,7 +1414,7 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       href: "/tutoring",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 114
+        lineNumber: 115
       },
       __self: this
     }), __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -1430,7 +1422,7 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       href: "/FAQ",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 115
+        lineNumber: 116
       },
       __self: this
     }), __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -1438,7 +1430,7 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       href: "/contact",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 116
+        lineNumber: 117
       },
       __self: this
     }))));
@@ -3203,11 +3195,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _common_Breadcrumb__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../common/Breadcrumb */ "./common/Breadcrumb.js");
 /* harmony import */ var _common_BreadcrumbItem__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../common/BreadcrumbItem */ "./common/BreadcrumbItem.js");
-/* harmony import */ var uuid_v4__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! uuid/v4 */ "uuid/v4");
-/* harmony import */ var uuid_v4__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(uuid_v4__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var react_lazyload__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-lazyload */ "react-lazyload");
+/* harmony import */ var react_lazyload__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_lazyload__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var uuid_v4__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! uuid/v4 */ "uuid/v4");
+/* harmony import */ var uuid_v4__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(uuid_v4__WEBPACK_IMPORTED_MODULE_7__);
 var _jsxFileName = "/Users/raheemmcdonald/Desktop/cxcspanish-next/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -3220,19 +3215,19 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 11
+        lineNumber: 12
       },
       __self: this
     }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_3___default.a, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 12
+        lineNumber: 13
       },
       __self: this
     }, __jsx("title", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 13
+        lineNumber: 14
       },
       __self: this
     }, "CXC Spanish | Guide, Past Papers and Exercises"), __jsx("meta", {
@@ -3240,7 +3235,7 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       content: "CXC Spanish Online is the perfect free online study guide to pass your CXC Spanish exam with syllabus revision, exercises and downloadable resouces.",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 14
+        lineNumber: 15
       },
       __self: this
     }), __jsx("meta", {
@@ -3248,7 +3243,7 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       content: "cxc,csec spanish,spanish jamaica,cxc spanish,cxc spansih jamaica,espanol jamaica, csec spanish past papers, spanish, cape, caribbean examination counsil,caribbean examination counsel, espa\xF1ol, espanol, study guide, study, pass csec spanish exam, caribbean examination counsil,caribbean examination counsel, espa\xF1ol, espanol, study guide, study, directed situations, free response,present tense,imperfect tense,ser vs estar,subjunctive mood,subjunctive tense spanish,reading comprehension,contextual dialogue, contextual announcements, poster,spanish,pass",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18
+        lineNumber: 19
       },
       __self: this
     }), __jsx("meta", {
@@ -3256,7 +3251,7 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       content: "CXC Spanish | Guide, Past Papers and Exercises",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 24
+        lineNumber: 25
       },
       __self: this
     }), __jsx("meta", {
@@ -3264,22 +3259,113 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       content: "CXC Spanish Online is the perfect free online study guide to pass your CXC Spanish exam with syllabus revision, exercises and downloadable resouces.",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28
+        lineNumber: 29
       },
       __self: this
     })), __jsx(_common_Breadcrumb__WEBPACK_IMPORTED_MODULE_4__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 34
+        lineNumber: 35
       },
       __self: this
     }, __jsx(_common_BreadcrumbItem__WEBPACK_IMPORTED_MODULE_5__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 35
+        lineNumber: 36
       },
       __self: this
-    })));
+    })), __jsx("div", {
+      className: "columns",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 39
+      },
+      __self: this
+    }, __jsx("div", {
+      className: "column",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 40
+      },
+      __self: this
+    }, __jsx("div", {
+      className: "box",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 41
+      },
+      __self: this
+    })), __jsx("div", {
+      className: "column is-one-third",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 44
+      },
+      __self: this
+    }, __jsx("div", {
+      className: "box",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 45
+      },
+      __self: this
+    }, __jsx("h1", {
+      className: "title is-6",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 46
+      },
+      __self: this
+    }, "Text")), __jsx("div", {
+      className: "box",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 48
+      },
+      __self: this
+    }, __jsx("h1", {
+      className: "title is-6",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 49
+      },
+      __self: this
+    }, __jsx(react_lazyload__WEBPACK_IMPORTED_MODULE_6___default.a, {
+      once: true,
+      height: "200",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 50
+      },
+      __self: this
+    }, __jsx("i", {
+      class: "fas fa-lightbulb",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 51
+      },
+      __self: this
+    })), "Take A Quiz"), __jsx("p", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 55
+      },
+      __self: this
+    }, "Test your knowledge and vocabulary")), __jsx("div", {
+      className: "box",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 57
+      },
+      __self: this
+    }, __jsx("h1", {
+      className: "title is-6",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 58
+      },
+      __self: this
+    }, "Text")))));
   }
 
 }
@@ -3462,6 +3548,17 @@ module.exports = require("react-ga");
 /***/ (function(module, exports) {
 
 module.exports = require("react-is");
+
+/***/ }),
+
+/***/ "react-lazyload":
+/*!*********************************!*\
+  !*** external "react-lazyload" ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-lazyload");
 
 /***/ }),
 

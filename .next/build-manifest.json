@@ -1,28 +1,68 @@
 {
-  "devFiles": [
-    "static/development/dll/dll_d6a88dbe3071bd165157.js",
-    "static/development/dll/dll_d6a88dbe3071bd165157.js.map"
-  ],
+  "devFiles": [],
   "pages": {
     "/": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.582725caa4cc2f8a4b2a.js",
+      "static/runtime/main-b66554a45048ff5eed7e.js"
+    ],
+    "/About": [
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.582725caa4cc2f8a4b2a.js",
+      "static/runtime/main-b66554a45048ff5eed7e.js"
+    ],
+    "/Contact": [
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.582725caa4cc2f8a4b2a.js",
+      "static/runtime/main-b66554a45048ff5eed7e.js"
+    ],
+    "/FAQ": [
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.582725caa4cc2f8a4b2a.js",
+      "static/runtime/main-b66554a45048ff5eed7e.js"
+    ],
+    "/Forum": [
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.582725caa4cc2f8a4b2a.js",
+      "static/runtime/main-b66554a45048ff5eed7e.js"
+    ],
+    "/Guide": [
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.582725caa4cc2f8a4b2a.js",
+      "static/runtime/main-b66554a45048ff5eed7e.js"
+    ],
+    "/Privacy-Policy": [
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.582725caa4cc2f8a4b2a.js",
+      "static/runtime/main-b66554a45048ff5eed7e.js"
+    ],
+    "/Quiz": [
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.582725caa4cc2f8a4b2a.js",
+      "static/runtime/main-b66554a45048ff5eed7e.js"
+    ],
+    "/Tutoring": [
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.582725caa4cc2f8a4b2a.js",
+      "static/runtime/main-b66554a45048ff5eed7e.js"
     ],
     "/_app": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.582725caa4cc2f8a4b2a.js",
+      "static/runtime/main-b66554a45048ff5eed7e.js"
     ],
     "/_error": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.582725caa4cc2f8a4b2a.js",
+      "static/runtime/main-b66554a45048ff5eed7e.js"
     ],
     "/_polyfills": [
-      "static/runtime/polyfills.js",
-      "static/runtime/polyfills.js.map"
+      "static/runtime/polyfills-099147a670e7b68459d6.js"
     ],
     "/index": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.582725caa4cc2f8a4b2a.js",
+      "static/runtime/main-b66554a45048ff5eed7e.js"
     ]
   }
 }
