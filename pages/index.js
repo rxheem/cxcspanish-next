@@ -7,8 +7,9 @@ import LazyLoad from "react-lazyload";
 import uuidv4 from "uuid/v4";
 import Link from "next/link";
 
-// Page Viwes
+// Home Viwes
 import QuizHomeScreen from "../home/QuizHomeScreen";
+import Feed from "../home/Feed";
 
 class Index extends React.Component {
   render() {
@@ -42,7 +43,9 @@ class Index extends React.Component {
 
         <div className="columns">
           <div className="column">
-            <div className="box"></div>
+            <div className="box">
+              <Feed />
+            </div>
           </div>
 
           <div className="column is-one-third">
