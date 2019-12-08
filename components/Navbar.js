@@ -108,6 +108,7 @@ class Navbar extends React.Component {
             <NavItem title="Resources" href="/resources" />
             <NavItem title="Quiz" href="/quiz" />
             <NavItem title="Forum" href="/forum" />
+            <NavItem title="CAPE" href="/cape" />
           </div>
 
           <div className="navbar-end">

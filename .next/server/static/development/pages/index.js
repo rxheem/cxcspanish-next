@@ -1575,11 +1575,19 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         lineNumber: 110
       },
       __self: this
+    }), __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      title: "CAPE",
+      href: "/cape",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 111
+      },
+      __self: this
     })), __jsx("div", {
       className: "navbar-end",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 113
+        lineNumber: 114
       },
       __self: this
     }, __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -1587,7 +1595,7 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       href: "/about",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 114
+        lineNumber: 115
       },
       __self: this
     }), __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -1595,7 +1603,7 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       href: "/tutoring",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 115
+        lineNumber: 116
       },
       __self: this
     }), __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -1603,7 +1611,7 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       href: "/FAQ",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 116
+        lineNumber: 117
       },
       __self: this
     }), __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -1611,7 +1619,7 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       href: "/contact",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 117
+        lineNumber: 118
       },
       __self: this
     }))));
@@ -1726,6 +1734,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 const QuizHomeScreen = props => __jsx("div", {
+  className: "box",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 7
@@ -1881,9 +1890,46 @@ const QuizHomeScreen = props => __jsx("div", {
     lineNumber: 48
   },
   __self: undefined
-}, "See more"));
+}, "See more..."));
 
 /* harmony default export */ __webpack_exports__["default"] = (QuizHomeScreen);
+
+/***/ }),
+
+/***/ "./home/WordOfTheDay.js":
+/*!******************************!*\
+  !*** ./home/WordOfTheDay.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/raheemmcdonald/Desktop/cxcspanish-next/home/WordOfTheDay.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+const WordOfTheDay = props => __jsx("div", {
+  className: "box",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 4
+  },
+  __self: undefined
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 5
+  },
+  __self: undefined
+}, "This is word of the day"));
+
+/* harmony default export */ __webpack_exports__["default"] = (WordOfTheDay);
 
 /***/ }),
 
@@ -3646,11 +3692,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var uuid_v4__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(uuid_v4__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _home_QuizHomeScreen__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../home/QuizHomeScreen */ "./home/QuizHomeScreen.js");
-/* harmony import */ var _home_Feed__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../home/Feed */ "./home/Feed.js");
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "@fortawesome/react-fontawesome");
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _home_QuizHomeScreen__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../home/QuizHomeScreen */ "./home/QuizHomeScreen.js");
+/* harmony import */ var _home_Feed__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../home/Feed */ "./home/Feed.js");
+/* harmony import */ var _home_WordOfTheDay__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../home/WordOfTheDay */ "./home/WordOfTheDay.js");
 var _jsxFileName = "/Users/raheemmcdonald/Desktop/cxcspanish-next/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -3663,24 +3713,25 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
 class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
     return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 17
+        lineNumber: 19
       },
       __self: this
     }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_3___default.a, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18
+        lineNumber: 20
       },
       __self: this
     }, __jsx("title", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 19
+        lineNumber: 21
       },
       __self: this
     }, "CXC Spanish | Guide, Past Papers and Exercises"), __jsx("meta", {
@@ -3688,7 +3739,7 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       content: "CXC Spanish Online is the perfect free online study guide to pass your CXC Spanish exam with syllabus revision, exercises and downloadable resouces.",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 20
+        lineNumber: 22
       },
       __self: this
     }), __jsx("meta", {
@@ -3696,7 +3747,7 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       content: "cxc,csec spanish,spanish jamaica,cxc spanish,cxc spansih jamaica,espanol jamaica, csec spanish past papers, spanish, cape, caribbean examination counsil,caribbean examination counsel, espa\xF1ol, espanol, study guide, study, pass csec spanish exam, caribbean examination counsil,caribbean examination counsel, espa\xF1ol, espanol, study guide, study, directed situations, free response,present tense,imperfect tense,ser vs estar,subjunctive mood,subjunctive tense spanish,reading comprehension,contextual dialogue, contextual announcements, poster,spanish,pass",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 24
+        lineNumber: 26
       },
       __self: this
     }), __jsx("meta", {
@@ -3704,7 +3755,7 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       content: "CXC Spanish | Guide, Past Papers and Exercises",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 30
+        lineNumber: 32
       },
       __self: this
     }), __jsx("meta", {
@@ -3712,80 +3763,79 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       content: "CXC Spanish Online is the perfect free online study guide to pass your CXC Spanish exam with syllabus revision, exercises and downloadable resouces.",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 34
+        lineNumber: 36
       },
       __self: this
     })), __jsx(_common_Breadcrumb__WEBPACK_IMPORTED_MODULE_4__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 40
+        lineNumber: 42
       },
       __self: this
     }, __jsx(_common_BreadcrumbItem__WEBPACK_IMPORTED_MODULE_5__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 41
+        lineNumber: 43
       },
       __self: this
     })), __jsx("div", {
       className: "columns",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 44
+        lineNumber: 46
       },
       __self: this
     }, __jsx("div", {
       className: "column",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 45
+        lineNumber: 47
       },
       __self: this
     }, __jsx("div", {
       className: "box",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 46
+        lineNumber: 48
       },
       __self: this
-    }, __jsx(_home_Feed__WEBPACK_IMPORTED_MODULE_10__["default"], {
+    }, __jsx(_home_Feed__WEBPACK_IMPORTED_MODULE_11__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 47
+        lineNumber: 49
       },
       __self: this
     }))), __jsx("div", {
       className: "column is-one-third",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 51
-      },
-      __self: this
-    }, __jsx("div", {
-      className: "box",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 52
-      },
-      __self: this
-    }, __jsx(_home_QuizHomeScreen__WEBPACK_IMPORTED_MODULE_9__["default"], {
-      __source: {
-        fileName: _jsxFileName,
         lineNumber: 53
       },
       __self: this
-    })), __jsx("div", {
-      className: "box",
+    }, __jsx(_home_WordOfTheDay__WEBPACK_IMPORTED_MODULE_12__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 54
+      },
+      __self: this
+    }), __jsx(_home_QuizHomeScreen__WEBPACK_IMPORTED_MODULE_10__["default"], {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 55
+      },
+      __self: this
+    }), __jsx("div", {
+      className: "box",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 57
       },
       __self: this
     }, __jsx("h1", {
       className: "title is-6",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 56
+        lineNumber: 58
       },
       __self: this
     }, "Text")))));
@@ -3806,6 +3856,17 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
 module.exports = __webpack_require__(/*! /Users/raheemmcdonald/Desktop/cxcspanish-next/pages/index.js */"./pages/index.js");
 
+
+/***/ }),
+
+/***/ "@fortawesome/react-fontawesome":
+/*!*************************************************!*\
+  !*** external "@fortawesome/react-fontawesome" ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@fortawesome/react-fontawesome");
 
 /***/ }),
 

@@ -4,7 +4,7 @@ import LazyLoad from "react-lazyload";
 import Link from "next/link";
 
 const QuizHomeScreen = props => (
-  <div>
+  <div className="box">
     <h1 className="title is-6">
       <LazyLoad once height="200">
         <i class="fas fa-lightbulb"></i>
@@ -45,7 +45,7 @@ const QuizHomeScreen = props => (
       </li>
     </ul>
     <br />
-    <Link href="/">See more</Link>
+    <Link href="/">See more...</Link>
   </div>
 );
 

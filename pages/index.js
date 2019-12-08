@@ -6,10 +6,12 @@ import BreadcrumbItem from "../common/BreadcrumbItem";
 import LazyLoad from "react-lazyload";
 import uuidv4 from "uuid/v4";
 import Link from "next/link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 // Home Viwes
 import QuizHomeScreen from "../home/QuizHomeScreen";
 import Feed from "../home/Feed";
+import WordOfTheDay from "../home/WordOfTheDay";
 
 class Index extends React.Component {
   render() {
@@ -49,9 +51,9 @@ class Index extends React.Component {
           </div>
 
           <div className="column is-one-third">
-            <div className="box">
-              <QuizHomeScreen />
-            </div>
+            <WordOfTheDay />
+            <QuizHomeScreen />
+
             <div className="box">
               <h1 className="title is-6">Text</h1>
             </div>

@@ -27,8 +27,64 @@ const Tutoring = props => (
       <div className="column">
         <div>
           <h1 className="title is-4">Tutoring</h1>
+
+          <p>
+            Our tutoring classes begin in the week on January 18th, 2020. Please
+            see schedule below.
+          </p>
+
+          <br />
+          <p>
+            <b>NOTE</b>: Schedule, lacation and tutor subjected to change.
+          </p>
+          <br />
+
+          <table className="table is-striped is-narrow is-hoverable is-fullwidth">
+            <tr>
+              <th>Day</th>
+              <th>Time</th>
+              <th>Location</th>
+              <th>Tutor</th>
+            </tr>
+            <tr>
+              <td>
+                <b>Saturday</b>
+              </td>
+              <td>9am - 11am</td>
+              <td>TBA</td>
+              <td>Raheem M.</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>12pm - 2pm</td>
+              <td>TBA</td>
+              <td>Raheem M.</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>3pm - 5pm</td>
+              <td>TBA</td>
+              <td>Raheem M.</td>
+            </tr>
+            <br /> <br />
+            <tr>
+              <td>
+                <b>Sunday</b>
+              </td>
+              <td>10am - 12pm</td>
+              <td>TBA</td>
+              <td>Raheem M.</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>1pm - 3pm</td>
+              <td>TBA</td>
+              <td>Raheem M.</td>
+            </tr>
+          </table>
         </div>
       </div>
+      <br />
 
       <div className="column is-one-third">
         <div className="box">
@@ -36,7 +92,7 @@ const Tutoring = props => (
 
           <p>
             Read our <Link href="/faq">FAQ</Link> or send us an enquiry at{" "}
-            <a href="mailto:hola@cxcspanish.com">hola@cxcspanish.com</a>
+            <a href="mailto:hola@cxcspanish.com">hola@cxcspanish.com</a>.
           </p>
         </div>
       </div>
