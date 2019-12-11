@@ -12,6 +12,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import QuizHomeScreen from "../home/QuizHomeScreen";
 import Feed from "../home/Feed";
 import WordOfTheDay from "../home/WordOfTheDay";
+import AdvancedLearning from "../home/AdvancedLearning";
+import Reviews from "../home/Reviews";
 
 class Index extends React.Component {
   render() {
@@ -27,7 +29,7 @@ class Index extends React.Component {
             name="keywords"
             content="cxc,csec spanish,spanish jamaica,cxc spanish,cxc spansih jamaica,espanol jamaica, csec spanish past papers, spanish, cape, caribbean examination counsil,caribbean examination counsel, español, espanol, study guide, study, pass csec spanish exam, caribbean examination counsil,caribbean examination counsel, español, espanol, study guide, study, directed situations, free response,present tense,imperfect tense,ser vs estar,subjunctive mood,subjunctive tense spanish,reading comprehension,contextual dialogue, contextual announcements, poster,spanish,pass"
           />
-
+          <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/js/bulma-carousel.min.js"></script>
           {/* Facebook meta tags */}
           <meta
             name="og:title"
@@ -51,14 +53,10 @@ class Index extends React.Component {
           </div>
 
           <div className="column is-one-third">
-            <WordOfTheDay />
             <QuizHomeScreen />
-
-            <div className="box">
-              <h1 className="title is-6">Text</h1>
-            </div>
           </div>
         </div>
+        <Reviews />
       </Layout>
     );
   }

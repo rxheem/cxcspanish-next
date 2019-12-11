@@ -25,6 +25,7 @@
     "bootstrap": "^4.3.1",
     "bulma": "^0.7.5",
     "bulma-badge": "^3.0.1",
+    "bulma-carousel": "^4.0.4",
     "clipboard": "^2.0.4",
     "express": "^4.17.1",
     "font-awesome": "^4.7.0",

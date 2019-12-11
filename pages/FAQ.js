@@ -2,6 +2,8 @@ import Layout from "../components/Layout";
 import Head from "next/head";
 import Breadcrumb from "../common/Breadcrumb";
 import BreadcrumbItem from "../common/BreadcrumbItem";
+import DropItem from "../common/DropItem.js";
+import uuidv4 from "uuid";
 
 const FAQ = props => (
   <Layout>
@@ -31,7 +33,26 @@ const FAQ = props => (
       <BreadcrumbItem title="Frequently Asked Questions" href="/FAQ" />
     </Breadcrumb>
 
-    <p>This is FAQ</p>
+    <div className="columns">
+      <div className="column">
+        <ul style={{ listStyleType: "circle", paddingLeft: "20px" }}>
+          <DropItem id={uuidv4()} question="Hi" answer="Good" />
+          <DropItem id={uuidv4()} question="How" answer="Good" />
+          <DropItem id={uuidv4()} question="Are" answer="Good" />
+          <DropItem id={uuidv4()} question="You" answer="Good" />
+          <DropItem id={uuidv4()} question="Today" answer="Good" />
+        </ul>
+      </div>
+      <div className="column">
+        <ul style={{ listStyleType: "circle", paddingLeft: "20px" }}>
+          <DropItem id={uuidv4()} question="Hi" answer="Good" />
+          <DropItem id={uuidv4()} question="How" answer="Good" />
+          <DropItem id={uuidv4()} question="Are" answer="Good" />
+          <DropItem id={uuidv4()} question="You" answer="Good" />
+          <DropItem id={uuidv4()} question="Today" answer="Good" />
+        </ul>
+      </div>
+    </div>
   </Layout>
 );
 

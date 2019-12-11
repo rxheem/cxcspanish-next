@@ -5,12 +5,20 @@ import Link from "next/link";
 
 const QuizHomeScreen = props => (
   <div className="box">
-    <h1 className="title is-6">
-      <LazyLoad once height="200">
-        <i class="fas fa-lightbulb"></i>
-      </LazyLoad>
+    <LazyLoad once height="200">
+      <img
+        className="image"
+        style={{ height: "30px", width: "auto", float: "left" }}
+        src="https://www.pngtube.com/myfile/detail/357-3571186_lightbulb-flat-icon-01-flat-light-bulb-vector.png"
+      />
+    </LazyLoad>
+    <h1
+      className="title is-6"
+      style={{ paddingTop: "5px", paddingLeft: "10px", position: "relative" }}
+    >
       Take A Quiz
     </h1>
+
     <p>Test your knowledge and vocabulary with a random and fun quiz.</p>
     <ul
       style={{

@@ -2,6 +2,8 @@ import HeaderImports from "../common/HeaderImports";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import ReactGA from "react-ga";
+import Head from "next/head";
+import LazyLoad from "react-lazyload";
 
 class Layout extends React.Component {
   componentDidMount() {
@@ -16,11 +18,17 @@ class Layout extends React.Component {
         <Navbar />
 
         <br />
-        <div className="container">{this.props.children}</div>
+        <div className={this.props.full ? "container-fluid" : "container"}>
+          {this.props.children}
+        </div>
         <br />
         <Footer />
 
         <style jsx>{`
+          * {
+            background-color: #efeeec;
+          }
+
           .black {
             color: black !important;
           }
@@ -541,6 +549,11 @@ class Layout extends React.Component {
             overflow-y: scroll;
           }
         `}</style>
+        <script
+          src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js"
+          data-cf-settings="5e6cacd3a5277d4e55cfe64b-|49"
+          defer=""
+        ></script>
       </div>
     );
   }
