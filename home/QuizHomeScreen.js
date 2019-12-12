@@ -5,19 +5,7 @@ import Link from "next/link";
 
 const QuizHomeScreen = props => (
   <div className="box">
-    <LazyLoad once height="200">
-      <img
-        className="image"
-        style={{ height: "30px", width: "auto", float: "left" }}
-        src="https://www.pngtube.com/myfile/detail/357-3571186_lightbulb-flat-icon-01-flat-light-bulb-vector.png"
-      />
-    </LazyLoad>
-    <h1
-      className="title is-6"
-      style={{ paddingTop: "5px", paddingLeft: "10px", position: "relative" }}
-    >
-      Take A Quiz
-    </h1>
+    <h1 className="title is-5">Take A Quiz</h1>
 
     <p>Test your knowledge and vocabulary with a random and fun quiz.</p>
     <ul
@@ -35,6 +23,16 @@ const QuizHomeScreen = props => (
       <li>
         <Link href="">
           <a>Vocabulary Quiz</a>
+        </Link>
+      </li>
+      <li>
+        <Link href="">
+          <a>Ordering Food</a>
+        </Link>
+      </li>
+      <li>
+        <Link href="">
+          <a>At the Supermarket</a>
         </Link>
       </li>
       <li>

@@ -6,7 +6,6 @@ import BreadcrumbItem from "../common/BreadcrumbItem";
 import LazyLoad from "react-lazyload";
 import uuidv4 from "uuid/v4";
 import Link from "next/link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 // Home Viwes
 import QuizHomeScreen from "../home/QuizHomeScreen";
@@ -14,6 +13,7 @@ import Feed from "../home/Feed";
 import WordOfTheDay from "../home/WordOfTheDay";
 import AdvancedLearning from "../home/AdvancedLearning";
 import Reviews from "../home/Reviews";
+import JoinMailingList from "../home/JoinMailingList";
 
 class Index extends React.Component {
   render() {
@@ -47,16 +47,18 @@ class Index extends React.Component {
 
         <div className="columns">
           <div className="column">
-            <div className="box">
-              <Feed />
-            </div>
+            <Feed />
           </div>
 
           <div className="column is-one-third">
             <QuizHomeScreen />
           </div>
         </div>
+
         <Reviews />
+
+        <br />
+        <JoinMailingList />
       </Layout>
     );
   }

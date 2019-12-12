@@ -26,7 +26,7 @@ class Layout extends React.Component {
 
         <style jsx>{`
           * {
-            background-color: #efeeec;
+            background-color: #f2f2f2;
           }
 
           .black {
