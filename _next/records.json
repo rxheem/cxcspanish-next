@@ -1,0 +1,55 @@
+{
+  "modules": {
+    "byIdentifier": {},
+    "usedIds": {}
+  },
+  "chunks": {
+    "byName": {
+      "static/runtime/webpack.js": 0,
+      "commons": 1,
+      "static/cNYIuJoXhYqTKUTX8jUzz/pages/Contact.js": 2,
+      "static/cNYIuJoXhYqTKUTX8jUzz/pages/_app.js": 3,
+      "static/cNYIuJoXhYqTKUTX8jUzz/pages/_error.js": 4,
+      "static/cNYIuJoXhYqTKUTX8jUzz/pages/about.js": 5,
+      "static/cNYIuJoXhYqTKUTX8jUzz/pages/ape.js": 6,
+      "static/cNYIuJoXhYqTKUTX8jUzz/pages/exam-topics.js": 7,
+      "static/cNYIuJoXhYqTKUTX8jUzz/pages/faq.js": 8,
+      "static/cNYIuJoXhYqTKUTX8jUzz/pages/forum.js": 9,
+      "static/cNYIuJoXhYqTKUTX8jUzz/pages/guide.js": 10,
+      "static/cNYIuJoXhYqTKUTX8jUzz/pages/index.js": 11,
+      "static/cNYIuJoXhYqTKUTX8jUzz/pages/mailing-list.js": 12,
+      "static/cNYIuJoXhYqTKUTX8jUzz/pages/misc/ResourceBookLayout.js": 13,
+      "static/cNYIuJoXhYqTKUTX8jUzz/pages/privacy-policy.js": 14,
+      "static/cNYIuJoXhYqTKUTX8jUzz/pages/quiz.js": 15,
+      "static/cNYIuJoXhYqTKUTX8jUzz/pages/resources.js": 16,
+      "static/cNYIuJoXhYqTKUTX8jUzz/pages/topics/Directed-Situations.js": 17,
+      "static/cNYIuJoXhYqTKUTX8jUzz/pages/tutoring.js": 18,
+      "static/runtime/main.js": 19,
+      "static/runtime/polyfills.js": 20
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      2,
+      20,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+}

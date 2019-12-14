@@ -14,6 +14,7 @@ import WordOfTheDay from "../home/WordOfTheDay";
 import AdvancedLearning from "../home/AdvancedLearning";
 import Reviews from "../home/Reviews";
 import JoinMailingList from "../home/JoinMailingList";
+import MorePastPapers from "../home/MorePastPapers";
 
 class Index extends React.Component {
   render() {
@@ -56,9 +57,8 @@ class Index extends React.Component {
         </div>
 
         <Reviews />
-
         <br />
-        <JoinMailingList />
+        <MorePastPapers />
       </Layout>
     );
   }

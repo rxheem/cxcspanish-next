@@ -1,17 +1,25 @@
-const {
-  PHASE_DEVELOPMENT_SERVER,
-  PHASE_PRODUCTION_BUILD
-} = require("next/constants");
+/* eslint-disable no-param-reassign */
+require("dotenv").config();
 
-// Fixes npm packages that depend on `fs` module
-const nextConfig = {
-  webpack: config => ({ ...config, node: { fs: "empty" } })
-};
+const path = require("path");
+const Dotenv = require("dotenv-webpack");
+const withCSS = require("@zeit/next-css");
 
-module.exports = (phase, { defaultConfig }) => {
-  if (phase === PHASE_DEVELOPMENT_SERVER || phase === PHASE_PRODUCTION_BUILD) {
-    const withCSS = require("@zeit/next-css");
-    return withCSS(nextConfig);
+module.exports = withCSS({
+  target: "serverless",
+  webpack: config => {
+    config.plugins = config.plugins || [];
+
+    config.plugins = [
+      ...config.plugins,
+
+      // Read the .env file
+      new Dotenv({
+        path: path.join(__dirname, ".env"),
+        systemvars: true
+      })
+    ];
+
+    return config;
   }
-  return nextConfig;
-};
+});

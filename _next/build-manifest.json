@@ -1,0 +1,98 @@
+{
+  "devFiles": [],
+  "pages": {
+    "/": [
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.d0de1d23bc46b38c859f.js",
+      "static/runtime/main-45b4c71f14c58f4adf97.js"
+    ],
+    "/Contact": [
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.d0de1d23bc46b38c859f.js",
+      "static/runtime/main-45b4c71f14c58f4adf97.js"
+    ],
+    "/_app": [
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.d0de1d23bc46b38c859f.js",
+      "static/runtime/main-45b4c71f14c58f4adf97.js"
+    ],
+    "/_error": [
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.d0de1d23bc46b38c859f.js",
+      "static/runtime/main-45b4c71f14c58f4adf97.js"
+    ],
+    "/_polyfills": [
+      "static/runtime/polyfills-e8d67e0dc900152e0efc.js"
+    ],
+    "/about": [
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.d0de1d23bc46b38c859f.js",
+      "static/runtime/main-45b4c71f14c58f4adf97.js"
+    ],
+    "/ape": [
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.d0de1d23bc46b38c859f.js",
+      "static/runtime/main-45b4c71f14c58f4adf97.js"
+    ],
+    "/exam-topics": [
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.d0de1d23bc46b38c859f.js",
+      "static/runtime/main-45b4c71f14c58f4adf97.js"
+    ],
+    "/faq": [
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.d0de1d23bc46b38c859f.js",
+      "static/runtime/main-45b4c71f14c58f4adf97.js"
+    ],
+    "/forum": [
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.d0de1d23bc46b38c859f.js",
+      "static/runtime/main-45b4c71f14c58f4adf97.js"
+    ],
+    "/guide": [
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.d0de1d23bc46b38c859f.js",
+      "static/runtime/main-45b4c71f14c58f4adf97.js"
+    ],
+    "/index": [
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.d0de1d23bc46b38c859f.js",
+      "static/runtime/main-45b4c71f14c58f4adf97.js"
+    ],
+    "/mailing-list": [
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.d0de1d23bc46b38c859f.js",
+      "static/runtime/main-45b4c71f14c58f4adf97.js"
+    ],
+    "/misc/ResourceBookLayout": [
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.d0de1d23bc46b38c859f.js",
+      "static/runtime/main-45b4c71f14c58f4adf97.js"
+    ],
+    "/privacy-policy": [
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.d0de1d23bc46b38c859f.js",
+      "static/runtime/main-45b4c71f14c58f4adf97.js"
+    ],
+    "/quiz": [
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.d0de1d23bc46b38c859f.js",
+      "static/runtime/main-45b4c71f14c58f4adf97.js"
+    ],
+    "/resources": [
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.d0de1d23bc46b38c859f.js",
+      "static/runtime/main-45b4c71f14c58f4adf97.js"
+    ],
+    "/topics/Directed-Situations": [
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.d0de1d23bc46b38c859f.js",
+      "static/runtime/main-45b4c71f14c58f4adf97.js"
+    ],
+    "/tutoring": [
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.d0de1d23bc46b38c859f.js",
+      "static/runtime/main-45b4c71f14c58f4adf97.js"
+    ]
+  }
+}

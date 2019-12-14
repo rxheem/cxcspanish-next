@@ -11,7 +11,7 @@ const Feed = props => (
           <img
             className="image"
             alt="image of the cxc spansih textbooks"
-            src="https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482630_4.jpg"
+            src="https://cxc-store.com/media/catalog/product/cache/1/image/400x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482630_4.jpg"
           />
         </a>
       </div>

@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1889,7 +1889,7 @@ const Feed = props => __jsx("div", {
 }, __jsx("img", {
   className: "image",
   alt: "image of the cxc spansih textbooks",
-  src: "https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482630_4.jpg",
+  src: "https://cxc-store.com/media/catalog/product/cache/1/image/400x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482630_4.jpg",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 11
@@ -2182,6 +2182,187 @@ const JoinMailingList = props => __jsx("div", {
 }))));
 
 /* harmony default export */ __webpack_exports__["default"] = (JoinMailingList);
+
+/***/ }),
+
+/***/ "./home/MorePastPapers.js":
+/*!********************************!*\
+  !*** ./home/MorePastPapers.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/raheemmcdonald/Desktop/cxcspanish-next/home/MorePastPapers.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+const MorePastPapers = props => __jsx("div", {
+  className: "box",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 4
+  },
+  __self: undefined
+}, __jsx("h1", {
+  className: "title is-5",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 5
+  },
+  __self: undefined
+}, "More Past Papers"), __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 6
+  },
+  __self: undefined
+}, "Check out and download our free catalogue of CSEC and CAPE past paper booklets for other subjects,", " ", __jsx("span", {
+  className: "has-text-danger",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9
+  },
+  __self: undefined
+}, __jsx("b", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10
+  },
+  __self: undefined
+}, "not just for Spanish!"))), __jsx("br", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
+  },
+  __self: undefined
+}), __jsx("div", {
+  className: "columns",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "column",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16
+  },
+  __self: undefined
+}, __jsx("img", {
+  style: {
+    height: "auto",
+    width: "auto"
+  },
+  src: "https://cxc-store.com/media/catalog/product/cache/1/image/400x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482876_3.jpg",
+  alt: "cxc past paper booklet",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17
+  },
+  __self: undefined
+})), __jsx("div", {
+  className: "column",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 23
+  },
+  __self: undefined
+}, __jsx("img", {
+  style: {
+    height: "auto",
+    width: "auto"
+  },
+  src: "https://cxc-store.com/media/catalog/product/cache/1/image/400x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482456_25.jpg",
+  alt: "cxc past paper booklet",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 24
+  },
+  __self: undefined
+})), __jsx("div", {
+  className: "column",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 30
+  },
+  __self: undefined
+}, __jsx("img", {
+  style: {
+    height: "auto",
+    width: "auto"
+  },
+  src: "https://cxc-store.com/media/catalog/product/cache/1/image/400x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482357_25.jpg",
+  alt: "cxc past paper booklet",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 31
+  },
+  __self: undefined
+})), __jsx("div", {
+  className: "column",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 37
+  },
+  __self: undefined
+}, __jsx("img", {
+  style: {
+    height: "auto",
+    width: "auto"
+  },
+  src: "https://cxc-store.com/media/catalog/product/cache/1/image/400x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482661_25.jpg",
+  alt: "cxc past paper booklet",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 38
+  },
+  __self: undefined
+})), __jsx("div", {
+  className: "column",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 44
+  },
+  __self: undefined
+}, __jsx("img", {
+  style: {
+    height: "auto",
+    width: "auto"
+  },
+  src: "https://cxc-store.com/media/catalog/product/cache/1/image/400x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230481831_23.jpg",
+  alt: "cxc past paper booklet",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 45
+  },
+  __self: undefined
+}))), __jsx("a", {
+  className: "has-text-info",
+  style: {
+    marginBottom: "10px"
+  },
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 53
+  },
+  __self: undefined
+}, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 54
+  },
+  __self: undefined
+}, "View all...")));
+
+/* harmony default export */ __webpack_exports__["default"] = (MorePastPapers);
 
 /***/ }),
 
@@ -4690,6 +4871,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _home_AdvancedLearning__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../home/AdvancedLearning */ "./home/AdvancedLearning.js");
 /* harmony import */ var _home_Reviews__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../home/Reviews */ "./home/Reviews.js");
 /* harmony import */ var _home_JoinMailingList__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../home/JoinMailingList */ "./home/JoinMailingList.js");
+/* harmony import */ var _home_MorePastPapers__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../home/MorePastPapers */ "./home/MorePastPapers.js");
 var _jsxFileName = "/Users/raheemmcdonald/Desktop/cxcspanish-next/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -4709,24 +4891,25 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
 class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
     return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 21
+        lineNumber: 22
       },
       __self: this
     }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_3___default.a, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 22
+        lineNumber: 23
       },
       __self: this
     }, __jsx("title", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 23
+        lineNumber: 24
       },
       __self: this
     }, "CXC Spanish | Guide, Past Papers and Exercises"), __jsx("meta", {
@@ -4734,7 +4917,7 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       content: "CXC Spanish Online is the perfect free online study guide to pass your CXC Spanish exam with syllabus revision, exercises and downloadable resouces.",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 24
+        lineNumber: 25
       },
       __self: this
     }), __jsx("meta", {
@@ -4742,14 +4925,14 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       content: "cxc,csec spanish,spanish jamaica,cxc spanish,cxc spansih jamaica,espanol jamaica, csec spanish past papers, spanish, cape, caribbean examination counsil,caribbean examination counsel, espa\xF1ol, espanol, study guide, study, pass csec spanish exam, caribbean examination counsil,caribbean examination counsel, espa\xF1ol, espanol, study guide, study, directed situations, free response,present tense,imperfect tense,ser vs estar,subjunctive mood,subjunctive tense spanish,reading comprehension,contextual dialogue, contextual announcements, poster,spanish,pass",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28
+        lineNumber: 29
       },
       __self: this
     }), __jsx("script", {
       src: "https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/js/bulma-carousel.min.js",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 32
+        lineNumber: 33
       },
       __self: this
     }), __jsx("meta", {
@@ -4757,7 +4940,7 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       content: "CXC Spanish | Guide, Past Papers and Exercises",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 34
+        lineNumber: 35
       },
       __self: this
     }), __jsx("meta", {
@@ -4765,58 +4948,58 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       content: "CXC Spanish Online is the perfect free online study guide to pass your CXC Spanish exam with syllabus revision, exercises and downloadable resouces.",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 38
+        lineNumber: 39
       },
       __self: this
     })), __jsx(_common_Breadcrumb__WEBPACK_IMPORTED_MODULE_4__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 44
+        lineNumber: 45
       },
       __self: this
     }, __jsx(_common_BreadcrumbItem__WEBPACK_IMPORTED_MODULE_5__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 45
+        lineNumber: 46
       },
       __self: this
     })), __jsx("div", {
       className: "columns",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 48
+        lineNumber: 49
       },
       __self: this
     }, __jsx("div", {
       className: "column",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 49
+        lineNumber: 50
       },
       __self: this
     }, __jsx(_home_Feed__WEBPACK_IMPORTED_MODULE_10__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 50
+        lineNumber: 51
       },
       __self: this
     })), __jsx("div", {
       className: "column is-one-third",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 53
+        lineNumber: 54
       },
       __self: this
     }, __jsx(_home_QuizHomeScreen__WEBPACK_IMPORTED_MODULE_9__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 54
+        lineNumber: 55
       },
       __self: this
     }))), __jsx(_home_Reviews__WEBPACK_IMPORTED_MODULE_13__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 58
+        lineNumber: 59
       },
       __self: this
     }), __jsx("br", {
@@ -4825,7 +5008,7 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         lineNumber: 60
       },
       __self: this
-    }), __jsx(_home_JoinMailingList__WEBPACK_IMPORTED_MODULE_14__["default"], {
+    }), __jsx(_home_MorePastPapers__WEBPACK_IMPORTED_MODULE_15__["default"], {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 61
@@ -4840,7 +5023,7 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
