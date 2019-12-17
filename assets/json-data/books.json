@@ -1,0 +1,44 @@
+{
+  "books": [
+    {
+      "id": "",
+      "title": "",
+      "subject": "",
+      "level": "",
+      "img": "",
+      "href": "",
+      "yearStart": "",
+      "yearEnd": ""
+    },
+    {
+      "id": "",
+      "title": "",
+      "subject": "",
+      "level": "",
+      "img": "",
+      "href": "",
+      "yearStart": "",
+      "yearEnd": ""
+    },
+    {
+      "id": "",
+      "title": "",
+      "subject": "",
+      "level": "",
+      "img": "",
+      "href": "",
+      "yearStart": "",
+      "yearEnd": ""
+    },
+    {
+      "id": "",
+      "title": "",
+      "subject": "",
+      "level": "",
+      "img": "",
+      "href": "",
+      "yearStart": "",
+      "yearEnd": ""
+    }
+  ]
+}

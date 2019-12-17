@@ -33,24 +33,33 @@ const FAQ = props => (
       <BreadcrumbItem title="Frequently Asked Questions" href="/FAQ" />
     </Breadcrumb>
 
-    <div className="columns">
-      <div className="column">
-        <ul style={{ listStyleType: "circle", paddingLeft: "20px" }}>
-          <DropItem id={uuidv4()} question="Hi" answer="Good" />
-          <DropItem id={uuidv4()} question="How" answer="Good" />
-          <DropItem id={uuidv4()} question="Are" answer="Good" />
-          <DropItem id={uuidv4()} question="You" answer="Good" />
-          <DropItem id={uuidv4()} question="Today" answer="Good" />
-        </ul>
+    <div className="row">
+      <div className="col-sm-12 col-md-8 col-lg-8">
+        <h1 className="title is-5">Frequently Asked Questions</h1>
+        <div className="box">
+          <span>
+            Here we answer some of our most frequently asked questions. If your
+            question isn't asnwered, or you have additional queries, please send
+            us an email at{" "}
+            <a href="mailto:hola@cxcspanish.com">hola@cxcspanish.com</a> or
+            <a href="mailto:holacxcspanish@gmail.com">
+              {" "}
+              holacxcspanish@gmail.com
+            </a>
+            .
+          </span>
+        </div>
       </div>
-      <div className="column">
-        <ul style={{ listStyleType: "circle", paddingLeft: "20px" }}>
-          <DropItem id={uuidv4()} question="Hi" answer="Good" />
-          <DropItem id={uuidv4()} question="How" answer="Good" />
-          <DropItem id={uuidv4()} question="Are" answer="Good" />
-          <DropItem id={uuidv4()} question="You" answer="Good" />
-          <DropItem id={uuidv4()} question="Today" answer="Good" />
-        </ul>
+      <div className="col-sm-12 col-md-4 col-lg-4">
+        <div className="box">
+          <ul style={{ listStyleType: "circle", paddingLeft: "20px" }}>
+            <DropItem id={uuidv4()} question="" answer="" />
+            <DropItem id={uuidv4()} question="" answer="" />
+            <DropItem id={uuidv4()} question="" answer="" />
+            <DropItem id={uuidv4()} question="" answer="" />
+            <DropItem id={uuidv4()} question="" answer="" />
+          </ul>
+        </div>
       </div>
     </div>
   </Layout>
