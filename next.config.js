@@ -7,7 +7,7 @@ const withCSS = require("@zeit/next-css");
 
 const sitemap = require("nextjs-sitemap-generator");
 sitemap({
-  baseUrl: "<your_website_base_url>",
+  baseUrl: "https://www.cxcspanish.com",
   pagesDirectory: __dirname + "/pages",
   targetDirectory: "static/"
 });
