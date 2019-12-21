@@ -44,7 +44,7 @@ const QuizHomeScreen = props => (
         <Link href="">
           <a style={{ paddingRight: "5px" }}>Expressions</a>
         </Link>
-        <span class="badge badge-success">NEW</span>
+        <span className="badge badge-success">NEW</span>
       </li>
       <li>
         <a>Verb Quiz</a>

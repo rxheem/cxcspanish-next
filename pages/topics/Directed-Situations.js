@@ -25,7 +25,11 @@ const DirectedSituations = props => (
     </Head>
 
     <Breadcrumb>
-      <BreadcrumbItem title="Directed Situations" href="/directed-situations" />
+      <BreadcrumbItem title="Exam Topics" href="/exam-topics" />
+      <BreadcrumbItem
+        title="Directed Situations"
+        href="/topics/directed-situations"
+      />
     </Breadcrumb>
   </Layout>
 );

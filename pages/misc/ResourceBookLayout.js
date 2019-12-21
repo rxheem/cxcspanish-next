@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const ResourceBookLayout = props => (
-  <div>
+  <div id={props.id}>
     <a href="" target="_blank">
       <img
         className="image"

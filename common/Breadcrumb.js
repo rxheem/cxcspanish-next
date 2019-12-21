@@ -1,8 +1,10 @@
+import Link from "next/link";
+
 const Breadcrumb = props => (
-  <nav className="breadcrumb" aria-label="breadcrumbs">
+  <nav className="breadcrumb is-desktop-only" aria-label="breadcrumbs">
     <ul>
       <li>
-        <a href="/">Home</a>
+        <Link href="/">Home</Link>
       </li>
       {props.children}
     </ul>

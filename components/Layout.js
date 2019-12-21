@@ -5,6 +5,10 @@ import ReactGA from "react-ga";
 import Head from "next/head";
 import LazyLoad from "react-lazyload";
 
+// CSS imports
+import CSS from "../assets/bulma.css";
+import BulmaAccordianCSS from "../assets/bulma-accordian.css";
+
 class Layout extends React.Component {
   componentDidMount() {
     ReactGA.initialize("UA-146229442-1");

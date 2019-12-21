@@ -150,6 +150,11 @@ class Footer extends React.Component {
               </ul>
             </div>
           </div>
+
+          <br />
+          <div className="has-text-centered has-text-light">
+            © 2018 Copyright: CXC Spanish Online
+          </div>
         </div>
       </footer>
     );

@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Breadcrumb from "../common/Breadcrumb";
 import BreadcrumbItem from "../common/BreadcrumbItem";
+import uuidv4 from "uuid";
 
 import ResourceBookLayout from "./misc/ResourceBookLayout";
 
@@ -36,6 +37,7 @@ const Resources = props => (
           <div className="row">
             <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
               <ResourceBookLayout
+                id={uuidv4()}
                 title=""
                 level=""
                 yearStart=""
@@ -47,6 +49,8 @@ const Resources = props => (
             {/* Booklet -  */}
             <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
               <ResourceBookLayout
+                i
+                d={uuidv4()}
                 title=""
                 level=""
                 yearStart=""
@@ -58,6 +62,7 @@ const Resources = props => (
             {/* Booklet -  */}
             <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
               <ResourceBookLayout
+                id={uuidv4()}
                 title=""
                 level=""
                 yearStart=""
@@ -69,6 +74,7 @@ const Resources = props => (
             {/* Booklet -  */}
             <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
               <ResourceBookLayout
+                id={uuidv4()}
                 title=""
                 level=""
                 yearStart=""
@@ -80,6 +86,7 @@ const Resources = props => (
             {/* Booklet -  */}
             <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
               <ResourceBookLayout
+                id={uuidv4()}
                 title=""
                 level=""
                 yearStart=""
@@ -91,6 +98,7 @@ const Resources = props => (
             {/* Booklet -  */}
             <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
               <ResourceBookLayout
+                id={uuidv4()}
                 title=""
                 level=""
                 yearStart=""
@@ -102,6 +110,7 @@ const Resources = props => (
             {/* Booklet -  */}
             <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
               <ResourceBookLayout
+                id={uuidv4()}
                 title=""
                 level=""
                 yearStart=""
@@ -113,6 +122,7 @@ const Resources = props => (
             {/* Booklet -  */}
             <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
               <ResourceBookLayout
+                id={uuidv4()}
                 title=""
                 level=""
                 yearStart=""
@@ -124,6 +134,7 @@ const Resources = props => (
             {/* Booklet -  */}
             <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
               <ResourceBookLayout
+                id={uuidv4()}
                 title=""
                 level=""
                 yearStart=""
@@ -135,6 +146,7 @@ const Resources = props => (
             {/* Booklet -  */}
             <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
               <ResourceBookLayout
+                id={uuidv4()}
                 title=""
                 level=""
                 yearStart=""
@@ -146,6 +158,7 @@ const Resources = props => (
             {/* Booklet -  */}
             <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
               <ResourceBookLayout
+                id={uuidv4()}
                 title=""
                 level=""
                 yearStart=""
@@ -157,6 +170,7 @@ const Resources = props => (
             {/* Booklet -  */}
             <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
               <ResourceBookLayout
+                id={uuidv4()}
                 title=""
                 level=""
                 yearStart=""
@@ -170,6 +184,7 @@ const Resources = props => (
       <div className="column is-one-third">
         <div className="box">
           <ResourceBookLayout
+            id={uuidv4()}
             title="Applied Mathematics"
             level="CAPE"
             yearStart="2007"

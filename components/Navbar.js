@@ -3,6 +3,14 @@ import Link from "next/link";
 import $ from "jquery";
 
 class Navbar extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      title: "CXC Spanish Guide"
+    };
+  }
+
   componentDidMount() {
     $(".navbar-burger").click(function() {
       $(".navbar-burger").toggleClass("is-active");
@@ -13,7 +21,7 @@ class Navbar extends React.Component {
   render() {
     return (
       <nav
-        className="navbar has-shadow is-spaced is-danger"
+        className="navbar has-shadow is-spaced is-link"
         role="navigation"
         ariaLabel="main navigation"
       >
@@ -21,7 +29,7 @@ class Navbar extends React.Component {
           <Link href="/">
             <a className="navbar-item">
               <h1 className="title is-5" style={{ paddingBottom: "1px" }}>
-                <span style={{ color: "white" }}>CXC Spanish Guide</span>
+                <span style={{ color: "white" }}>{this.state.title}</span>
               </h1>
             </a>
           </Link>

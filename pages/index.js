@@ -29,8 +29,6 @@ const Index = props => {
           name="keywords"
           content="cxc,csec spanish,spanish jamaica,cxc spanish,cxc spansih jamaica,espanol jamaica, csec spanish past papers, spanish, cape, caribbean examination counsil,caribbean examination counsel, español, espanol, study guide, study, pass csec spanish exam, caribbean examination counsil,caribbean examination counsel, español, espanol, study guide, study, directed situations, free response,present tense,imperfect tense,ser vs estar,subjunctive mood,subjunctive tense spanish,reading comprehension,contextual dialogue, contextual announcements, poster,spanish,pass"
         />
-        <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/js/bulma-carousel.min.js"></script>
-        {/* Facebook meta tags */}
         <meta
           name="og:title"
           content="CXC Spanish | Guide, Past Papers and Exercises"
@@ -44,20 +42,6 @@ const Index = props => {
       <Breadcrumb>
         <BreadcrumbItem />
       </Breadcrumb>
-
-      <div className="columns">
-        <div className="column">
-          <Feed />
-        </div>
-
-        <div className="column is-one-third">
-          <QuizHomeScreen />
-        </div>
-      </div>
-
-      <Reviews />
-      <br />
-      <MorePastPapers />
     </Layout>
   );
 };

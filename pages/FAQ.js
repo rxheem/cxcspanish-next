@@ -33,8 +33,8 @@ const FAQ = props => (
       <BreadcrumbItem title="Frequently Asked Questions" href="/FAQ" />
     </Breadcrumb>
 
-    <div className="row">
-      <div className="col-sm-12 col-md-8 col-lg-8">
+    <div className="columns">
+      <div className="column">
         <h1 className="title is-5">Frequently Asked Questions</h1>
         <div className="box">
           <span>
@@ -50,7 +50,7 @@ const FAQ = props => (
           </span>
         </div>
       </div>
-      <div className="col-sm-12 col-md-4 col-lg-4">
+      <div className="column is-one-third">
         <div className="box">
           <ul style={{ listStyleType: "circle", paddingLeft: "20px" }}>
             <DropItem id={uuidv4()} question="" answer="" />

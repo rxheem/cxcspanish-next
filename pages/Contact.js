@@ -26,6 +26,29 @@ const Contact = props => (
     <Breadcrumb>
       <BreadcrumbItem title="Contact" href="/contact" />
     </Breadcrumb>
+
+    <h1 className="title is-5">Contact Us</h1>
+
+    <div className="columns">
+      <div className="column">
+        <div className="box">
+          <p>
+            Whether you're a beginner or just looking for some refreshers, we
+            want to express gratitude for letting us be a part of your journey.
+          </p>
+
+          <br />
+          <p>
+            You can read our{" "}
+            <span className="has-text-dark">
+              <Link href="/FAQ">Frequently Aksed Questions </Link>
+            </span>
+            to see if your question has already been answered.
+          </p>
+        </div>
+      </div>
+      <div className="column is-one-third">...</div>
+    </div>
   </Layout>
 );
 
