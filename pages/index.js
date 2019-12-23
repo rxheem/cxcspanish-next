@@ -8,13 +8,8 @@ import uuidv4 from "uuid/v4";
 import Link from "next/link";
 
 // Home Viwes
-import QuizHomeScreen from "../home/QuizHomeScreen";
-import Feed from "../home/Feed";
-import WordOfTheDay from "../home/WordOfTheDay";
-import AdvancedLearning from "../home/AdvancedLearning";
-import Reviews from "../home/Reviews";
-import JoinMailingList from "../home/JoinMailingList";
-import MorePastPapers from "../home/MorePastPapers";
+import PastPapersPreview from "../home/PastPapersPreview";
+import TopUpVocabulary from "../home/TopUpVocabulary";
 
 const Index = props => {
   return (
@@ -38,10 +33,20 @@ const Index = props => {
           content="CXC Spanish Online is the perfect free online study guide to pass your CXC Spanish exam with syllabus revision, exercises and downloadable resouces."
         />
       </Head>
-
       <Breadcrumb>
         <BreadcrumbItem />
       </Breadcrumb>
+
+      <PastPapersPreview />
+
+      <div className="columns">
+        <div className="column">
+          <div className="box"></div>
+        </div>
+        <div className="column is-one-third">
+          <TopUpVocabulary />
+        </div>
+      </div>
     </Layout>
   );
 };

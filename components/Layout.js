@@ -22,15 +22,17 @@ class Layout extends React.Component {
         <Navbar />
 
         <br />
-        <div className={this.props.full ? "container-fluid" : "container"}>
-          {this.props.children}
-        </div>
+        <main role="main" id="main">
+          <div className={this.props.full ? "container-fluid" : "container"}>
+            {this.props.children}
+          </div>
+        </main>
         <br />
         <Footer />
 
         <style jsx>{`
           * {
-            background-color: #f2f2f2;
+            background-color: #f6f8fa;
           }
 
           .black {
@@ -87,10 +89,6 @@ class Layout extends React.Component {
 
           .hidden * {
             display: none !important;
-          }
-
-          .answers p {
-            color: black !important;
           }
 
           .underline:hover {

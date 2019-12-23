@@ -49,17 +49,33 @@ const FAQ = props => (
             .
           </span>
         </div>
+
+        <div className="box">
+          <DropItem
+            id={uuidv4()}
+            question="What is CXC Spanish Online?"
+            answer="CXC Spanish Online is a free online study guide for students sitting the CXC Spanish exam at the CSEC level that aims to assist students score higher in class on and pass their exams. For more information, check out our About Us page."
+          />
+          <DropItem
+            id={uuidv4()}
+            question="Am I required to sign up?"
+            answer="No, no sign up is required."
+          />
+          <DropItem
+            id={uuidv4()}
+            question="How can I get weekly emails?"
+            answer="Send us a message on Facebook or Instagram, or send us a message via our contact page."
+          />
+          <DropItem id={uuidv4()} question="Are the courses free?" answer="" />
+          <DropItem
+            id={uuidv4()}
+            question="Will it be helping me with my orals?"
+            answer="Yes, we will a review of the oral exam, practice exercises and pronunciation and study tips for orals."
+          />
+        </div>
       </div>
       <div className="column is-one-third">
-        <div className="box">
-          <ul style={{ listStyleType: "circle", paddingLeft: "20px" }}>
-            <DropItem id={uuidv4()} question="" answer="" />
-            <DropItem id={uuidv4()} question="" answer="" />
-            <DropItem id={uuidv4()} question="" answer="" />
-            <DropItem id={uuidv4()} question="" answer="" />
-            <DropItem id={uuidv4()} question="" answer="" />
-          </ul>
-        </div>
+        <div className=""></div>
       </div>
     </div>
   </Layout>

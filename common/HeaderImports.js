@@ -29,7 +29,10 @@ const HeaderImports = props => (
       name="robots"
       content="archive,follow,imageindex,index,odp,snippet,translate"
     />
-
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/assets/bulma.css" />
     <script
       type="text/javascript"

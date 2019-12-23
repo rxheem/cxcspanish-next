@@ -8,7 +8,7 @@ const DropItem = props => (
       <li style={{ paddingBottom: "15px" }}> {props.question}</li>
     </label>
     <div className="answers">
-      <p> {props.answer}</p>
+      <p style={{ color: "black" }}> {props.answer}</p>
     </div>
 
     <style jsx>{`
@@ -24,30 +24,15 @@ const DropItem = props => (
 
       .question {
         position: relative;
+
         margin: 0;
-        padding: 0px 0px 0px 30px;
+        padding: 10px 5px 0px 40px;
         display: block;
         width: 100%;
         cursor: pointer;
       }
-
       .answers {
-        margin: 5px 0;
-        color: black !important;
-        max-height: 0;
-        overflow: hidden;
-        z-index: -1;
-        position: relative;
-        opacity: 0;
-        -webkit-transition: 0.7s ease;
-        -moz-transition: 0.7s ease;
-        -o-transition: 0.7s ease;
-        transition: 0.7s ease;
-      }
-
-      .answers {
-        background: #f2f2f2;
-        color: black !important;
+        background: white;
         margin: 5px 0;
         max-height: 0;
         overflow: hidden;
@@ -62,7 +47,7 @@ const DropItem = props => (
 
       .questions:checked ~ .answers {
         max-height: 500px;
-        opacity: 1;
+        opacity: 100;
         padding: 15px;
       }
 
@@ -70,7 +55,7 @@ const DropItem = props => (
         position: absolute;
         margin-left: 5px;
         z-index: 5;
-        font-size: 1em;
+        font-size: 2em;
         line-height: 100%;
         -webkit-user-select: none;
         -moz-user-select: none;
@@ -88,10 +73,6 @@ const DropItem = props => (
         -moz-transform: rotate(45deg);
         -o-transform: rotate(45deg);
         transform: rotate(45deg);
-      }
-
-      .questions p {
-        color: black !important;
       }
 
       .questions {

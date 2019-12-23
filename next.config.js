@@ -12,6 +12,9 @@ sitemap({
   targetDirectory: "static/"
 });
 
+const withImages = require("next-images");
+module.exports = withImages();
+
 module.exports = withCSS({
   exportPathMap: function() {
     return {
