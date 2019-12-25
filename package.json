@@ -42,6 +42,8 @@
     "fbjs": "^1.0.0",
     "font-awesome": "^4.7.0",
     "formik": "^1.5.8",
+    "google-ads-api": "^3.5.0",
+    "google-translate": "^3.0.0",
     "graphql": "^14.4.2",
     "graphql-playground-middleware-koa": "^1.6.12",
     "graphql-relay": "^0.6.0",

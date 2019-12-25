@@ -1,6 +1,7 @@
 import NavItem from "../common/NavItem";
 import Link from "next/link";
 import $ from "jquery";
+import FA from "react-fontawesome";
 
 class Navbar extends React.Component {
   constructor(props) {
@@ -116,10 +117,10 @@ class Navbar extends React.Component {
           </div>
 
           <div className="navbar-end">
-            <NavItem title="About Us" href="/about" />
-            <NavItem title="Tutoring" href="/tutoring" />
-            <NavItem title="FAQ" href="/FAQ" />
-            <NavItem title="Contact" href="/contact" />
+            <NavItem faName="" title="About Us" href="/about" />
+            <NavItem faName="" title="Tutoring" href="/tutoring" />
+            <NavItem faName="" title="FAQ" href="/FAQ" />
+            <NavItem faName="" title="Contact" href="/contact" />
           </div>
         </div>
       </nav>
