@@ -11,6 +11,7 @@ import Quote from "../../common/Quote";
 
 // All contents
 import Overview from "./contents/dir-sit/Overview";
+import TryThese from "./contents/dir-sit/TryThese";
 
 class DirectedSituations extends React.Component {
   constructor(props) {
@@ -64,7 +65,7 @@ class DirectedSituations extends React.Component {
             </div>
           </div>
           <div className="column is-one-third">
-            <div className="box"></div>
+            <TryThese />
           </div>
         </div>
       </Layout>
