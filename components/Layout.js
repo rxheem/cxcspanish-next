@@ -7,7 +7,6 @@ import LazyLoad from "react-lazyload";
 
 // CSS imports
 import CSS from "../assets/bulma.css";
-import Emojis from "../assets/emoji.css";
 import BulmaAccordianCSS from "../assets/bulma-accordian.css";
 import "../assets/fontawesome.js";
 
