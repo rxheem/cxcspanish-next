@@ -11,7 +11,7 @@ const Answer = props => (
       {props.translated}
 
       <a href={props.href} target="_blank">
-        <FA style={{ paddingLeft: "10px" }} name="external-link" />
+        <FA style={{ paddingLeft: "10px" }} name="external-link-alt" />
       </a>
     </p>
   </div>

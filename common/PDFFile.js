@@ -1,10 +1,10 @@
 import FA from "react-fontawesome";
 
 const PDFFIle = props => (
-  <div>
-    <FA name="file" style={{ color: "#f00" }} />
+  <a href={props.href} download>
+    <FA name="file-pdf" style={{ color: "#f00" }} />
     <span style={{ paddingLeft: "10px" }}>{props.title}</span>
-  </div>
+  </a>
 );
 
 export default PDFFIle;

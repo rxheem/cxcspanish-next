@@ -64,7 +64,7 @@ const FAQ = props => (
           <DropItem
             id={uuidv4()}
             question="How can I get weekly emails?"
-            answer="Send us a message on Facebook or Instagram, or send us a message via our contact page."
+            answer="Send us a message on Facebook or Instagram, or send us a message on our contact page."
           />
           <DropItem id={uuidv4()} question="Are the courses free?" answer="" />
           <DropItem
