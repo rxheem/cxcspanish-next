@@ -7,9 +7,8 @@ const NavItem = props => (
       className="navbar-item"
       style={{ display: props.hide ? "none" : "visible" }}
     >
-      <FA name={props.faName} />
       {props.hasIcon ? (
-        <i className={props.iconClass} style={{ color: props.color }} />
+        <FA style={{ paddingRight: "7px" }} name={props.name} />
       ) : null}
       {props.title}
     </a>

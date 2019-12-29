@@ -8,7 +8,7 @@ class Navbar extends React.Component {
     super(props);
 
     this.state = {
-      title: "CXC Spanish Guide"
+      title: "CXC Spanish Online"
     };
   }
 
@@ -59,20 +59,38 @@ class Navbar extends React.Component {
 
               <div className="navbar-dropdown">
                 <NavItem
+                  hasIcon
+                  name="angle-double-right"
                   href="/topics/directed-situations"
                   title="Directed Situations"
                 />
-                <NavItem href="/topics/letter-writing" title="Letter Writing" />
-                <NavItem href="/topics/composition" title="Composition" />
                 <NavItem
+                  hasIcon
+                  name="angle-double-right"
+                  href="/topics/letter-writing"
+                  title="Letter Writing"
+                />
+                <NavItem
+                  hasIcon
+                  name="angle-double-right"
+                  href="/topics/composition"
+                  title="Composition"
+                />
+                <NavItem
+                  hasIcon
+                  name="angle-double-right"
                   href="/topics/contextual-announcements"
                   title="Contextual Announcements"
                 />
                 <NavItem
+                  hasIcon
+                  name="angle-double-right"
                   href="/topics/contextual-dialogue"
                   title="Contextual Dialogue"
                 />
                 <NavItem
+                  hasIcon
+                  name="angle-double-right"
                   href="/topics/reading-comprehension"
                   title="Reading Comprehension"
                 />
@@ -112,15 +130,18 @@ class Navbar extends React.Component {
 
             <NavItem title="Resources" href="/resources" />
             <NavItem title="Quiz" href="/quiz" />
-            <NavItem title="Forum" href="/forum" />
-            <NavItem title="CAPE" href="/cape" />
           </div>
 
           <div className="navbar-end">
-            <NavItem faName="" title="About Us" href="/about" />
-            <NavItem faName="" title="Tutoring" href="/tutoring" />
-            <NavItem faName="" title="FAQ" href="/FAQ" />
-            <NavItem faName="" title="Contact" href="/contact" />
+            <NavItem hasIcon name="users" title="About Us" href="/about" />
+            <NavItem
+              hasIcon
+              name="chalkboard-teacher"
+              title="Tutoring"
+              href="/tutoring"
+            />
+            <NavItem hasIcon name="comment" title="FAQ" href="/FAQ" />
+            <NavItem hasIcon name="id-badge" title="Contact" href="/contact" />
           </div>
         </div>
       </nav>

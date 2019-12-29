@@ -444,13 +444,11 @@ var NavItem = function NavItem(props) {
     style: {
       display: props.hide ? "none" : "visible"
     }
-  }, __jsx(react_fontawesome__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    name: props.faName
-  }), props.hasIcon ? __jsx("i", {
-    className: props.iconClass,
+  }, props.hasIcon ? __jsx(react_fontawesome__WEBPACK_IMPORTED_MODULE_2___default.a, {
     style: {
-      color: props.color
-    }
+      paddingRight: "7px"
+    },
+    name: props.name
   }) : null, props.title));
 };
 
@@ -485,6 +483,7 @@ var PDFFIle = function PDFFIle(props) {
       color: "#f00"
     }
   }), __jsx("span", {
+    className: "",
     style: {
       paddingLeft: "10px"
     }
@@ -859,7 +858,7 @@ function (_React$Component) {
 
     _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Navbar).call(this, props));
     _this.state = {
-      title: "CXC Spanish Guide"
+      title: "CXC Spanish Online"
     };
     return _this;
   }
@@ -923,21 +922,33 @@ function (_React$Component) {
       }, "Exam Topics")), __jsx("div", {
         className: "navbar-dropdown"
       }, __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_6__["default"], {
+        hasIcon: true,
+        name: "angle-double-right",
         href: "/topics/directed-situations",
         title: "Directed Situations"
       }), __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_6__["default"], {
+        hasIcon: true,
+        name: "angle-double-right",
         href: "/topics/letter-writing",
         title: "Letter Writing"
       }), __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_6__["default"], {
+        hasIcon: true,
+        name: "angle-double-right",
         href: "/topics/composition",
         title: "Composition"
       }), __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_6__["default"], {
+        hasIcon: true,
+        name: "angle-double-right",
         href: "/topics/contextual-announcements",
         title: "Contextual Announcements"
       }), __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_6__["default"], {
+        hasIcon: true,
+        name: "angle-double-right",
         href: "/topics/contextual-dialogue",
         title: "Contextual Dialogue"
       }), __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_6__["default"], {
+        hasIcon: true,
+        name: "angle-double-right",
         href: "/topics/reading-comprehension",
         title: "Reading Comprehension"
       }))), __jsx("a", {
@@ -975,28 +986,26 @@ function (_React$Component) {
       }), __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_6__["default"], {
         title: "Quiz",
         href: "/quiz"
-      }), __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_6__["default"], {
-        title: "Forum",
-        href: "/forum"
-      }), __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_6__["default"], {
-        title: "CAPE",
-        href: "/cape"
       })), __jsx("div", {
         className: "navbar-end"
       }, __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_6__["default"], {
-        faName: "",
+        hasIcon: true,
+        name: "users",
         title: "About Us",
         href: "/about"
       }), __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_6__["default"], {
-        faName: "",
+        hasIcon: true,
+        name: "chalkboard-teacher",
         title: "Tutoring",
         href: "/tutoring"
       }), __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_6__["default"], {
-        faName: "",
+        hasIcon: true,
+        name: "comment",
         title: "FAQ",
         href: "/FAQ"
       }), __jsx(_common_NavItem__WEBPACK_IMPORTED_MODULE_6__["default"], {
-        faName: "",
+        hasIcon: true,
+        name: "id-badge",
         title: "Contact",
         href: "/contact"
       }))));
@@ -25468,6 +25477,85 @@ function plural(ms, n, name) {
 
 /***/ }),
 
+/***/ "./pages/topics/contents/dir-sit/Examples.js":
+/*!***************************************************!*\
+  !*** ./pages/topics/contents/dir-sit/Examples.js ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_fontawesome__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-fontawesome */ "./node_modules/react-fontawesome/lib/index.js");
+/* harmony import */ var react_fontawesome__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_fontawesome__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _common_Quote__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../common/Quote */ "./common/Quote.js");
+/* harmony import */ var _common_Answer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../common/Answer */ "./common/Answer.js");
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+var Examples = function Examples(props) {
+  return __jsx("div", {
+    id: "examples"
+  }, __jsx("p", null, "Now that you have an idea of what Directed Situations are, let's look at some more examples."), __jsx("br", null), __jsx(_common_Quote__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    text: "You see an old man sitting on the side of the street. He is holding a note requesting assistance. What does the note say?"
+  }), __jsx("br", null), __jsx("h1", {
+    className: "has-text-danger title is-6"
+  }, "Suggested Responses"), __jsx(_common_Answer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    text: "\xBFPuede ayudarme usted a comprar comida?",
+    translated: "Can you help me buy food?",
+    href: "https://www.spanishdict.com/translate/%C2%BFPuedes%20ayudarme%20a%20comprar%20comida%3F"
+  }), __jsx("br", null), __jsx(_common_Quote__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    text: "You are shopping and go to the section where your favourite food is kept. However, you find the shelves empt and a notice informing customers of a problem with the item. What does the notice say? "
+  }), __jsx("br", null), __jsx("h1", {
+    className: "has-text-danger title is-6"
+  }, "Suggested Responses"), __jsx(_common_Answer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    text: "Este producto ya no est\xE1 disponible",
+    translated: "This product is no longer available",
+    href: "https://www.spanishdict.com/translate/Este%20producto%20ya%20no%20esta%20disponible"
+  }), __jsx(_common_Answer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    text: "Nuestros oreos est\xE1n agotados",
+    translated: "Our oreos are currently out of stock",
+    href: "https://www.spanishdict.com/translate/Nuestros%20oreos%20est%C3%A1n%20agotados"
+  }), __jsx("br", null), __jsx(_common_Quote__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    text: "You are walking through the lobby of a hotel while the floor is being mopped. What sign do you see to alert guests?"
+  }), __jsx("br", null), __jsx("h1", {
+    className: "has-text-danger title is-6"
+  }, "Suggested Responses"), __jsx(_common_Answer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    text: "Cuidado, piso mojado",
+    translated: "Caution, wet floor",
+    href: "https://www.spanishdict.com/translate/cuidado%20piso%20mojado"
+  }), __jsx(_common_Answer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    text: "Precauci\xF3n, piso mojado posible",
+    translated: "Caution, wet floor possible",
+    href: "https://www.spanishdict.com/translate/Precauci%C3%B3n%2C%20piso%20mojado%20posible"
+  }), __jsx("br", null), __jsx(_common_Quote__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    text: "One of your classmates is ill at home, but wishes to do the Spanish assignment. What do you write in the note you send with his/her neighbour?"
+  }), __jsx("br", null), __jsx("h1", {
+    className: "has-text-danger title is-6"
+  }, "Suggested Responses"), __jsx(_common_Answer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    text: __jsx("span", null, "\xBFPuede ayudar usted ", __jsx("b", null, "a"), " Sean con la tarea?"),
+    translated: "Can you help Sean with the assignment?",
+    href: "https://www.spanishdict.com/translate/%C2%BFPuede%20ayudar%20usted%20a%20Sean%20con%20la%20tarea%3F"
+  }), __jsx("br", null), __jsx(_common_Quote__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    text: "You have just heard that your cousin's wedding, which you were to attend, has been called off. Write the text message you send expressing your disappointment."
+  }), __jsx("br", null), __jsx("h1", {
+    className: "has-text-danger title is-6"
+  }, "Suggested Responses"), __jsx(_common_Answer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    text: "Yo lamento escuchar tu boda fue cancelada",
+    translated: "I'm sorry to hear that your wedding was cancelled",
+    href: "https://www.spanishdict.com/translate/Lamento%20escuchar%20tu%20boda%20fue%20cancelada"
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Examples);
+
+/***/ }),
+
 /***/ "./pages/topics/contents/dir-sit/Overview.js":
 /*!***************************************************!*\
   !*** ./pages/topics/contents/dir-sit/Overview.js ***!
@@ -25510,7 +25598,7 @@ var Overview = function Overview(props) {
     href: "https://www.spanishdict.com/translate/Felicidades%20en%20su%20nuevo%20trabajo."
   }), __jsx("br", null), __jsx("p", null, "Let's try another example."), __jsx("br", null), __jsx(_common_Quote__WEBPACK_IMPORTED_MODULE_2__["default"], {
     text: "You have to stay back at school this afternoon. Write the text that you send to your mother explaining why."
-  }), __jsx("br", null), __jsx("p", null, "In thsi example, we are only "), __jsx("br", null), __jsx("h1", {
+  }), __jsx("br", null), __jsx("h1", {
     className: "has-text-danger title is-6"
   }, "Suggested Responses"), __jsx(_common_Answer__WEBPACK_IMPORTED_MODULE_3__["default"], {
     text: "Yo voy a limpiar mi aula esta tarde",
@@ -25552,7 +25640,37 @@ var TryThese = function TryThese(props) {
     className: "box"
   }, __jsx("h1", {
     className: "title is-6"
-  }, "Exercises"), __jsx("p", null, "Try these exercises taken from past papers."), __jsx("ul", null, __jsx("li", null, __jsx("a", null, "..."), __jsx(_common_PDFFile_js__WEBPACK_IMPORTED_MODULE_1__["default"], null))));
+  }, "Exercises"), __jsx("p", null, "Try these exercises taken from past papers."), __jsx("br", null), __jsx("h1", {
+    className: "title is-6"
+  }, "Easy"), __jsx("ul", {
+    className: "list-ul"
+  }, __jsx("li", null, __jsx(_common_PDFFile_js__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    title: "Easy Exercise 1"
+  })), __jsx("li", null, __jsx(_common_PDFFile_js__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    title: "Easy Exercise 2"
+  })), __jsx("li", null, __jsx(_common_PDFFile_js__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    title: "Easy Exercise 3"
+  }))), __jsx("br", null), __jsx("h1", {
+    className: "title is-6"
+  }, "Moderate"), __jsx("ul", {
+    className: "list-ul"
+  }, __jsx("li", null, __jsx(_common_PDFFile_js__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    title: "Moderate Exercise 1"
+  })), __jsx("li", null, __jsx(_common_PDFFile_js__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    title: "Moderate Exercise 2"
+  })), __jsx("li", null, __jsx(_common_PDFFile_js__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    title: "Moderate Exercise 3"
+  }))), __jsx("br", null), __jsx("h1", {
+    className: "title is-6"
+  }, "Challenging"), __jsx("ul", {
+    className: "list-ul"
+  }, __jsx("li", null, __jsx(_common_PDFFile_js__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    title: "Challenging Exercise 1"
+  })), __jsx("li", null, __jsx(_common_PDFFile_js__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    title: "Challenging Exercise 2"
+  })), __jsx("li", null, __jsx(_common_PDFFile_js__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    title: "Challenging Exercise 3"
+  }))), __jsx("style", null, "\n      .list-ul {\n        padding-left: 20px;\n        margin-top: -10px;\n      }\n\n      .list-ul li {\n        padding-bottom: 10px;\n      }\n      "));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (TryThese);
@@ -25587,9 +25705,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_fontawesome__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react-fontawesome */ "./node_modules/react-fontawesome/lib/index.js");
 /* harmony import */ var react_fontawesome__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(react_fontawesome__WEBPACK_IMPORTED_MODULE_12__);
 /* harmony import */ var react_youtube__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! react-youtube */ "./node_modules/react-youtube/es/YouTube.js");
-/* harmony import */ var _common_Quote__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../common/Quote */ "./common/Quote.js");
-/* harmony import */ var _contents_dir_sit_Overview__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./contents/dir-sit/Overview */ "./pages/topics/contents/dir-sit/Overview.js");
-/* harmony import */ var _contents_dir_sit_TryThese__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./contents/dir-sit/TryThese */ "./pages/topics/contents/dir-sit/TryThese.js");
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _common_Quote__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../common/Quote */ "./common/Quote.js");
+/* harmony import */ var _contents_dir_sit_Overview__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./contents/dir-sit/Overview */ "./pages/topics/contents/dir-sit/Overview.js");
+/* harmony import */ var _contents_dir_sit_Examples__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./contents/dir-sit/Examples */ "./pages/topics/contents/dir-sit/Examples.js");
+/* harmony import */ var _contents_dir_sit_TryThese__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./contents/dir-sit/TryThese */ "./pages/topics/contents/dir-sit/TryThese.js");
 
 
 
@@ -25605,7 +25726,9 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
 
 
 
+
  // All contents
+
 
 
 
@@ -25628,7 +25751,45 @@ function (_React$Component) {
 
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(DirectedSituations, [{
     key: "componentDidMount",
-    value: function componentDidMount() {}
+    value: function componentDidMount() {
+      function removeActiveClass() {
+        jquery__WEBPACK_IMPORTED_MODULE_14___default()(".liOverview").removeClass("is-active");
+        jquery__WEBPACK_IMPORTED_MODULE_14___default()(".liTips").removeClass("is-active");
+        jquery__WEBPACK_IMPORTED_MODULE_14___default()(".liExamples").removeClass("is-active");
+      } // Function to hide all the content
+
+
+      function hideAllContent() {
+        jquery__WEBPACK_IMPORTED_MODULE_14___default()("#overview").hide();
+        jquery__WEBPACK_IMPORTED_MODULE_14___default()("#resources").hide();
+        jquery__WEBPACK_IMPORTED_MODULE_14___default()("#examples").hide();
+        jquery__WEBPACK_IMPORTED_MODULE_14___default()("#tipsandtricks").hide();
+      } // On click event for overview
+
+
+      jquery__WEBPACK_IMPORTED_MODULE_14___default()(".btnOverview").click(function () {
+        removeActiveClass();
+        hideAllContent();
+        jquery__WEBPACK_IMPORTED_MODULE_14___default()("#overview").show();
+        jquery__WEBPACK_IMPORTED_MODULE_14___default()(".liOverview").addClass("is-active");
+      }); // On click event for Examples
+
+      jquery__WEBPACK_IMPORTED_MODULE_14___default()(".btnExamples").click(function () {
+        removeActiveClass();
+        hideAllContent();
+        jquery__WEBPACK_IMPORTED_MODULE_14___default()("#examples").show();
+        jquery__WEBPACK_IMPORTED_MODULE_14___default()(".liExamples").addClass("is-active");
+      }); // On click event for overview
+
+      jquery__WEBPACK_IMPORTED_MODULE_14___default()(".btnTips").click(function () {
+        hideAllContent();
+        removeActiveClass();
+        jquery__WEBPACK_IMPORTED_MODULE_14___default()("#tips").show();
+        jquery__WEBPACK_IMPORTED_MODULE_14___default()(".liTips").addClass("is-active");
+      }); // Triggers click on Overview tabs
+
+      jquery__WEBPACK_IMPORTED_MODULE_14___default()(".btnOverview").trigger("click");
+    }
   }, {
     key: "render",
     value: function render() {
@@ -25663,11 +25824,40 @@ function (_React$Component) {
         className: "columns"
       }, __jsx("div", {
         className: "column"
-      }, __jsx("div", {
+      }, __jsx("nav", {
+        className: "tabs"
+      }, __jsx("ul", null, __jsx("li", {
+        className: "liOverview is-active"
+      }, __jsx("a", {
+        className: "btnOverview"
+      }, "Overview")), __jsx("li", {
+        className: "liExamples"
+      }, __jsx("a", {
+        "class": "btnExamples"
+      }, "Examples")))), __jsx("div", {
+        id: "content",
         className: "box"
-      }, __jsx(_contents_dir_sit_Overview__WEBPACK_IMPORTED_MODULE_15__["default"], null))), __jsx("div", {
+      }, __jsx("div", {
+        id: "overview"
+      }, __jsx(_contents_dir_sit_Overview__WEBPACK_IMPORTED_MODULE_16__["default"], null)), __jsx("div", {
+        id: "examples"
+      }, __jsx(_contents_dir_sit_Examples__WEBPACK_IMPORTED_MODULE_17__["default"], null))), __jsx("nav", {
+        className: "tabs is-hidden-desktop"
+      }, __jsx("ul", null, __jsx("li", {
+        className: "liOverview is-active"
+      }, __jsx("a", {
+        className: "btnOverview"
+      }, "Overview")), __jsx("li", {
+        className: "liExamples"
+      }, __jsx("a", {
+        "class": "btnExamples"
+      }, "Examples")), __jsx("li", {
+        className: "liResources"
+      }, __jsx("a", {
+        className: "btnResources"
+      }, "Resources"))))), __jsx("div", {
         className: "column is-one-third"
-      }, __jsx(_contents_dir_sit_TryThese__WEBPACK_IMPORTED_MODULE_16__["default"], null))));
+      }, __jsx(_contents_dir_sit_TryThese__WEBPACK_IMPORTED_MODULE_18__["default"], null))));
     }
   }, {
     key: "_onReady",
@@ -25684,7 +25874,7 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 1:
+/***/ 0:
 /*!********************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Ftopics%2Fdirected-situations&absolutePagePath=%2FUsers%2Fraheemmcdonald%2FDesktop%2Fcxcspanish-next%2Fpages%2Ftopics%2Fdirected-situations.js ***!
   \********************************************************************************************************************************************************************************************/
@@ -25707,5 +25897,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=directed-situations.js.map

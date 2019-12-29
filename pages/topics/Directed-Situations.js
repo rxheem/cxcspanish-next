@@ -6,11 +6,14 @@ import Breadcrumb from "../../common/Breadcrumb";
 import BreadcrumbItem from "../../common/BreadcrumbItem";
 import FA from "react-fontawesome";
 import YouTube from "react-youtube";
+import $ from "jquery";
 
 import Quote from "../../common/Quote";
 
 // All contents
 import Overview from "./contents/dir-sit/Overview";
+import Examples from "./contents/dir-sit/Examples";
+
 import TryThese from "./contents/dir-sit/TryThese";
 
 class DirectedSituations extends React.Component {
@@ -21,7 +24,51 @@ class DirectedSituations extends React.Component {
   }
 
   // Runs when the component finishes mounting
-  componentDidMount() {}
+  componentDidMount() {
+    function removeActiveClass() {
+      $(".liOverview").removeClass("is-active");
+      $(".liTips").removeClass("is-active");
+      $(".liExamples").removeClass("is-active");
+    }
+
+    // Function to hide all the content
+    function hideAllContent() {
+      $("#overview").hide();
+      $("#resources").hide();
+      $("#examples").hide();
+      $("#tipsandtricks").hide();
+    }
+
+    // On click event for overview
+    $(".btnOverview").click(function() {
+      removeActiveClass();
+      hideAllContent();
+
+      $("#overview").show();
+      $(".liOverview").addClass("is-active");
+    });
+
+    // On click event for Examples
+    $(".btnExamples").click(function() {
+      removeActiveClass();
+      hideAllContent();
+
+      $("#examples").show();
+      $(".liExamples").addClass("is-active");
+    });
+
+    // On click event for overview
+    $(".btnTips").click(function() {
+      hideAllContent();
+      removeActiveClass();
+
+      $("#tips").show();
+      $(".liTips").addClass("is-active");
+    });
+
+    // Triggers click on Overview tabs
+    $(".btnOverview").trigger("click");
+  }
 
   render() {
     return (
@@ -60,9 +107,43 @@ class DirectedSituations extends React.Component {
 
         <div className="columns">
           <div className="column">
-            <div className="box">
-              <Overview />
+            {/* Navigation */}
+            <nav className="tabs">
+              <ul>
+                <li className="liOverview is-active">
+                  <a className="btnOverview">Overview</a>
+                </li>
+                <li className="liExamples">
+                  <a class="btnExamples">Examples</a>
+                </li>
+              </ul>
+            </nav>
+
+            {/* Content */}
+            <div id="content" className="box">
+              <div id="overview">
+                <Overview />
+              </div>
+              <div id="examples">
+                <Examples />
+              </div>
             </div>
+
+            {/* Navigation */}
+            <nav className="tabs is-hidden-desktop">
+              <ul>
+                <li className="liOverview is-active">
+                  <a className="btnOverview">Overview</a>
+                </li>
+                <li className="liExamples">
+                  <a class="btnExamples">Examples</a>
+                </li>
+
+                <li className="liResources">
+                  <a className="btnResources">Resources</a>
+                </li>
+              </ul>
+            </nav>
           </div>
           <div className="column is-one-third">
             <TryThese />

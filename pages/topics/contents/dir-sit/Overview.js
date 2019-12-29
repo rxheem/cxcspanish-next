@@ -40,8 +40,7 @@ const Overview = props => (
     <p>Let's try another example.</p>
     <br />
     <Quote text="You have to stay back at school this afternoon. Write the text that you send to your mother explaining why." />
-    <br />
-    <p>In thsi example, we are only </p>
+
     <br />
     <h1 className="has-text-danger title is-6">Suggested Responses</h1>
 
