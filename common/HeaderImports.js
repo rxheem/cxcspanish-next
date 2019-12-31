@@ -38,7 +38,10 @@ const HeaderImports = props => (
       type="text/javascript"
       src="/node_modules/bulma-accordion/dist/js/bulma-accordion.min.js"
     ></script>
-
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-4-grid@3.2.0/css/grid.css"
+    />
     <style>{`
     .badge {
     	display: inline-block;

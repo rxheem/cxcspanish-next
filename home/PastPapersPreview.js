@@ -32,6 +32,42 @@ const PastPapersPreview = props => (
         href="https://drive.google.com/drive/folders/16nrq6jlNy_0s4dJ0njavs15Ps3PylTDS?usp=sharing"
         src="https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482234_5.jpg"
       />
+      <PaperView
+        href=""
+        src="https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482616_3.jpg"
+      />
+      <PaperView
+        href=""
+        src="https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230481855_4.jpg"
+      />
+      <PaperView
+        href=""
+        src="https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230481879_2.jpg"
+      />
+      <PaperView
+        href=""
+        src="https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230481824_3.jpg"
+      />
+      <PaperView
+        href=""
+        src="https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482302_4.jpg"
+      />
+      <PaperView
+        href=""
+        src="https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230481930_3.jpg"
+      />
+      <PaperView
+        href=""
+        src="https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482067_4.jpg"
+      />
+      <PaperView
+        href=""
+        src="https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482142_3.jpg"
+      />
+      <PaperView
+        href=""
+        src="https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482371_3.jpg"
+      />
     </div>
     <div className="col-sm-6 col-md-4 col-lg-4"></div>
   </div>

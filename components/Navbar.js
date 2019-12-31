@@ -27,13 +27,11 @@ class Navbar extends React.Component {
         ariaLabel="main navigation"
       >
         <div className="navbar-brand">
-          <Link href="/">
-            <a className="navbar-item">
-              <h1 className="title is-5" style={{ paddingBottom: "1px" }}>
-                <span style={{ color: "white" }}>{this.state.title}</span>
-              </h1>
-            </a>
-          </Link>
+          <a href="/" className="navbar-item">
+            <h1 className="title is-5" style={{ paddingBottom: "1px" }}>
+              <span style={{ color: "white" }}>{this.state.title}</span>
+            </h1>
+          </a>
 
           <a
             role="button"
@@ -54,7 +52,9 @@ class Navbar extends React.Component {
 
             <a className="navbar-item has-dropdown is-hoverable">
               <Link href="exam-topics">
-                <a className="navbar-link">Exam Topics</a>
+                <a href="exam-topics" className="navbar-link">
+                  Exam Topics
+                </a>
               </Link>
 
               <div className="navbar-dropdown">

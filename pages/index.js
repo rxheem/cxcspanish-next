@@ -6,12 +6,13 @@ import BreadcrumbItem from "../common/BreadcrumbItem";
 import LazyLoad from "react-lazyload";
 import uuidv4 from "uuid/v4";
 import Link from "next/link";
+import Swal from "sweetalert2";
 
 // Home Viwes
 import PastPapersPreview from "../home/PastPapersPreview";
 import TopUpVocabulary from "../home/TopUpVocabulary";
 
-const Index = props => {
+function Index({}) {
   return (
     <Layout>
       <Head>
@@ -38,20 +39,11 @@ const Index = props => {
       </Breadcrumb>
 
       <PastPapersPreview />
-
-      <div className="columns">
-        <div className="column">
-          <div className="box"></div>
-        </div>
-        <div className="column is-one-third">
-          <TopUpVocabulary />
-        </div>
-      </div>
     </Layout>
   );
-};
+}
 
-Index.getInitialProps = async () => {
+Index.getInitialProps = () => {
   return {};
 };
 

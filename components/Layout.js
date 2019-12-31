@@ -4,9 +4,11 @@ import Footer from "./Footer";
 import ReactGA from "react-ga";
 import Head from "next/head";
 import LazyLoad from "react-lazyload";
+import Swal from "sweetalert2";
 
 // CSS imports
 import CSS from "../assets/bulma.css";
+
 import BulmaAccordianCSS from "../assets/bulma-accordian.css";
 import "../assets/fontawesome.js";
 
@@ -19,11 +21,12 @@ class Layout extends React.Component {
     };
   }
 
-  componentWillMount() {}
-
   componentDidMount() {
     ReactGA.initialize("UA-146229442-1");
     ReactGA.pageview(window.location.pathname + window.location.search);
+
+    // Clears the console
+    console.clear();
   }
 
   render() {

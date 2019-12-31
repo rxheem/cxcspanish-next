@@ -1,4 +1,5 @@
 import uuid4 from "uuid";
+import LazyLoad from "react-lazyload";
 
 const PaperView = props => (
   <li>
@@ -19,7 +20,9 @@ const PaperView = props => (
     }
     `}</style>
 
-      <img className="preview-image" alt="past paper" src={props.src} />
+      <LazyLoad>
+        <img className="preview-image" alt="past paper" src={props.src} />
+      </LazyLoad>
     </a>
   </li>
 );

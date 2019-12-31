@@ -409,6 +409,9 @@ var HeaderImports = function HeaderImports(props) {
   }), __jsx("script", {
     type: "text/javascript",
     src: "/node_modules/bulma-accordion/dist/js/bulma-accordion.min.js"
+  }), __jsx("link", {
+    rel: "stylesheet",
+    href: "https://cdn.jsdelivr.net/npm/bootstrap-4-grid@3.2.0/css/grid.css"
   }), __jsx("style", null, "\n    .badge {\n    \tdisplay: inline-block;\n    \tpadding: .25em .4em;\n    \tfont-size: 75%;\n    \tfont-weight: 700;\n    \tline-height: 1;\n    \ttext-align: center;\n    \twhite-space: nowrap;\n    \tvertical-align: baseline;\n    \tborder-radius: .25rem;\n    \ttransition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out\n    }\n\n    @media (prefers-reduced-motion:reduce) {\n    \t.badge {\n    \t\ttransition: none\n    \t}\n    }\n\n    a.badge:focus,\n    a.badge:hover {\n    \ttext-decoration: none\n    }\n\n    .badge:empty {\n    \tdisplay: none\n    }\n\n    .btn .badge {\n    \tposition: relative;\n    \ttop: -1px\n    }\n\n    .badge-pill {\n    \tpadding-right: .6em;\n    \tpadding-left: .6em;\n    \tborder-radius: 10rem\n    }\n\n    .badge-primary {\n    \tcolor: #fff;\n    \tbackground-color: #007bff\n    }\n\n    a.badge-primary:focus,\n    a.badge-primary:hover {\n    \tcolor: #fff;\n    \tbackground-color: #0062cc\n    }\n\n    a.badge-primary.focus,\n    a.badge-primary:focus {\n    \toutline: 0;\n    \tbox-shadow: 0 0 0 .2rem rgba(0, 123, 255, .5)\n    }\n\n    .badge-secondary {\n    \tcolor: #fff;\n    \tbackground-color: #6c757d\n    }\n\n    a.badge-secondary:focus,\n    a.badge-secondary:hover {\n    \tcolor: #fff;\n    \tbackground-color: #545b62\n    }\n\n    a.badge-secondary.focus,\n    a.badge-secondary:focus {\n    \toutline: 0;\n    \tbox-shadow: 0 0 0 .2rem rgba(108, 117, 125, .5)\n    }\n\n    .badge-success {\n    \tcolor: #fff;\n    \tbackground-color: #28a745\n    }\n\n    a.badge-success:focus,\n    a.badge-success:hover {\n    \tcolor: #fff;\n    \tbackground-color: #1e7e34\n    }\n\n    a.badge-success.focus,\n    a.badge-success:focus {\n    \toutline: 0;\n    \tbox-shadow: 0 0 0 .2rem rgba(40, 167, 69, .5)\n    }\n\n    .badge-info {\n    \tcolor: #fff;\n    \tbackground-color: #17a2b8\n    }\n\n    a.badge-info:focus,\n    a.badge-info:hover {\n    \tcolor: #fff;\n    \tbackground-color: #117a8b\n    }\n\n    a.badge-info.focus,\n    a.badge-info:focus {\n    \toutline: 0;\n    \tbox-shadow: 0 0 0 .2rem rgba(23, 162, 184, .5)\n    }\n\n    .badge-warning {\n    \tcolor: #212529;\n    \tbackground-color: #ffc107\n    }\n\n    a.badge-warning:focus,\n    a.badge-warning:hover {\n    \tcolor: #212529;\n    \tbackground-color: #d39e00\n    }\n\n    a.badge-warning.focus,\n    a.badge-warning:focus {\n    \toutline: 0;\n    \tbox-shadow: 0 0 0 .2rem rgba(255, 193, 7, .5)\n    }\n\n    .badge-danger {\n    \tcolor: #fff;\n    \tbackground-color: #dc3545\n    }\n\n    a.badge-danger:focus,\n    a.badge-danger:hover {\n    \tcolor: #fff;\n    \tbackground-color: #bd2130\n    }\n\n    a.badge-danger.focus,\n    a.badge-danger:focus {\n    \toutline: 0;\n    \tbox-shadow: 0 0 0 .2rem rgba(220, 53, 69, .5)\n    }\n\n    .badge-light {\n    \tcolor: #212529;\n    \tbackground-color: #f8f9fa\n    }\n\n    a.badge-light:focus,\n    a.badge-light:hover {\n    \tcolor: #212529;\n    \tbackground-color: #dae0e5\n    }\n\n    a.badge-light.focus,\n    a.badge-light:focus {\n    \toutline: 0;\n    \tbox-shadow: 0 0 0 .2rem rgba(248, 249, 250, .5)\n    }\n\n    .badge-dark {\n    \tcolor: #fff;\n    \tbackground-color: #343a40\n    }\n\n    a.badge-dark:focus,\n    a.badge-dark:hover {\n    \tcolor: #fff;\n    \tbackground-color: #1d2124\n    }\n\n    a.badge-dark.focus,\n    a.badge-dark:focus {\n    \toutline: 0;\n    \tbox-shadow: 0 0 0 .2rem rgba(52, 58, 64, .5)\n    }\n"));
 };
 
@@ -727,12 +730,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_11__);
 /* harmony import */ var react_lazyload__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react-lazyload */ "./node_modules/react-lazyload/lib/index.js");
 /* harmony import */ var react_lazyload__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(react_lazyload__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var _assets_bulma_css__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../assets/bulma.css */ "./assets/bulma.css");
-/* harmony import */ var _assets_bulma_css__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_assets_bulma_css__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var _assets_bulma_accordian_css__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../assets/bulma-accordian.css */ "./assets/bulma-accordian.css");
-/* harmony import */ var _assets_bulma_accordian_css__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_assets_bulma_accordian_css__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var _assets_fontawesome_js__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../assets/fontawesome.js */ "./assets/fontawesome.js");
-/* harmony import */ var _assets_fontawesome_js__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_assets_fontawesome_js__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _assets_bulma_css__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../assets/bulma.css */ "./assets/bulma.css");
+/* harmony import */ var _assets_bulma_css__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_assets_bulma_css__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _assets_bulma_accordian_css__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../assets/bulma-accordian.css */ "./assets/bulma-accordian.css");
+/* harmony import */ var _assets_bulma_accordian_css__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_assets_bulma_accordian_css__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var _assets_fontawesome_js__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../assets/fontawesome.js */ "./assets/fontawesome.js");
+/* harmony import */ var _assets_fontawesome_js__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_assets_fontawesome_js__WEBPACK_IMPORTED_MODULE_16__);
 
 
 
@@ -741,6 +746,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
+
 
 
 
@@ -770,13 +776,12 @@ function (_React$Component) {
   }
 
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Layout, [{
-    key: "componentWillMount",
-    value: function componentWillMount() {}
-  }, {
     key: "componentDidMount",
     value: function componentDidMount() {
       react_ga__WEBPACK_IMPORTED_MODULE_10__["default"].initialize("UA-146229442-1");
-      react_ga__WEBPACK_IMPORTED_MODULE_10__["default"].pageview(window.location.pathname + window.location.search);
+      react_ga__WEBPACK_IMPORTED_MODULE_10__["default"].pageview(window.location.pathname + window.location.search); // Clears the console
+
+      console.clear();
     }
   }, {
     key: "render",
@@ -795,7 +800,7 @@ function (_React$Component) {
         className: "jsx-692352764"
       }), __jsx(_Footer__WEBPACK_IMPORTED_MODULE_9__["default"], null), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a, {
         id: "692352764"
-      }, "*.jsx-692352764{box-sizing:border-box;}.slider.jsx-692352764{width:300px;text-align:center;overflow:hidden;}.slides.jsx-692352764{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;overflow-x:auto;-webkit-scroll-snap-type:x mandatory;-moz-scroll-snap-type:x mandatory;-ms-scroll-snap-type:x mandatory;scroll-snap-type:x mandatory;-webkit-scroll-behavior:smooth;-moz-scroll-behavior:smooth;-ms-scroll-behavior:smooth;scroll-behavior:smooth;-webkit-overflow-scrolling:touch;}.slides.jsx-692352764::-webkit-scrollbar{width:10px;height:10px;}.slides.jsx-692352764::-webkit-scrollbar-thumb{background:black;border-radius:10px;}.slides.jsx-692352764::-webkit-scrollbar-track{background:transparent;}.slides.jsx-692352764>div.jsx-692352764{-webkit-scroll-snap-align:start;-moz-scroll-snap-align:start;-ms-scroll-snap-align:start;scroll-snap-align:start;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;width:300px;height:300px;margin-right:50px;border-radius:10px;background:#eee;-webkit-transform-origin:center center;-ms-transform-origin:center center;transform-origin:center center;-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);-webkit-transition:-webkit-transform 0.5s;-webkit-transition:transform 0.5s;transition:transform 0.5s;position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-size:100px;}.author-info.jsx-692352764{background:rgba(0,0,0,0.75);color:white;padding:0.75rem;text-align:center;position:absolute;bottom:0;left:0;width:100%;margin:0;}.author-info.jsx-692352764 a.jsx-692352764{color:white;}img.jsx-692352764{object-fit:cover;position:absolute;top:0;left:0;width:100%;height:100%;}.slider.jsx-692352764>a.jsx-692352764{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;width:1.5rem;height:1.5rem;background:white;-webkit-text-decoration:none;text-decoration:none;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;border-radius:50%;margin:0 0 0.5rem 0;position:relative;}.slider.jsx-692352764>a.jsx-692352764:active{top:1px;}.slider.jsx-692352764>a.jsx-692352764:focus{background:#000;}@supports (-webkit-scroll-snap-type) or (-moz-scroll-snap-type) or (-ms-scroll-snap-type) or (scroll-snap-type){.slider.jsx-692352764>a.jsx-692352764{display:none;}}html.jsx-692352764,body.jsx-692352764{height:100%;overflow:hidden;}body.jsx-692352764{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;background:linear-gradient(to bottom,#74abe2,#5563de);font-family:\"Ropa Sans\",sans-serif;}*.jsx-692352764{background-color:#f6f8fa;}.black.jsx-692352764{color:black !important;}.styled-ul.jsx-692352764 li.jsx-692352764{list-style:disc !important;padding-bottom:1.5em;}.container.jsx-692352764{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;}@media (min-width:576px){.container.jsx-692352764{max-width:540px;}}@media (min-width:768px){.container.jsx-692352764{max-width:720px;}}@media (min-width:992px){.container.jsx-692352764{max-width:960px;}}@media (min-width:1200px){.container.jsx-692352764{max-width:1140px;}}.rounded.jsx-692352764{border-radius:15px;border:1px solid #eee;padding-left:20px;padding-top:20px;}.hidden.jsx-692352764{display:none !important;}.hidden.jsx-692352764 *.jsx-692352764{display:none !important;}.underline.jsx-692352764:hover{-webkit-text-decoration:underline !important;text-decoration:underline !important;}caption.jsx-692352764{padding-top:0.75rem;padding-bottom:0.75rem;color:#6c757d;text-align:left;caption-side:bottom;}.scrollable.jsx-692352764{overflow:auto !important;height:100px !important;}.rainbow-text.jsx-692352764{background-image:linear-gradient( to left, violet, indigo, blue, green, yellow, orange, red );-webkit-background-clip:text;-webkit-text-fill-color:transparent;}.shadow-sm.jsx-692352764{box-shadow:0 0.125rem 0.25rem rgba(0,0,0,0.075) !important;}.shadow.jsx-692352764{box-shadow:0 0.5rem 1rem rgba(0,0,0,0.15) !important;}.shadow-lg.jsx-692352764{box-shadow:0 1rem 3rem rgba(0,0,0,0.175) !important;}.shadow-none.jsx-692352764{box-shadow:none !important;}.list-unstyled.jsx-692352764{padding-top:10px;list-style:none !important;margin:0px !important;}.list-unstyled.jsx-692352764 li.jsx-692352764{margin-bottom:13px;}.nav-icon-1.jsx-692352764{padding-right:1px;}.nav-icon-2.jsx-692352764{padding-right:2px;}.nav-icon-3.jsx-692352764{padding-right:3px;}.nav-icon-4.jsx-692352764{padding-right:4px;}.nav-icon-5.jsx-692352764{padding-right:5px;}.nav-icon-6.jsx-692352764{padding-right:6px;}.nav-icon-7.jsx-692352764{padding-right:7px;}.nav-icon-8.jsx-692352764{padding-right:8px;}.nav-icon-9.jsx-692352764{padding-right:9px;}.nav-icon-10.jsx-692352764{padding-right:10px;}.nav-icon-11.jsx-692352764{padding-right:11px;}.nav-icon-12.jsx-692352764{padding-right:12px;}.nav-icon-13.jsx-692352764{padding-right:13px;}.nav-icon-14.jsx-692352764{padding-right:14px;}.nav-icon-15.jsx-692352764{padding-right:15px;}.nav-icon-17.jsx-692352764{padding-right:17px;}.fa-linkedin-in.jsx-692352764{display:none !important;}p.jsx-692352764,span.jsx-692352764,li.jsx-692352764{line-height:20px;}.sticky.jsx-692352764{position:fixed;top:0;width:100%;}.sticky.jsx-692352764+.content.jsx-692352764{padding-top:102px;}.inline-icon.jsx-692352764{margin-right:8px;}.nav-icon.jsx-692352764{margin-right:5px;}.breadcrumb.jsx-692352764{background:transparent !important;}.nav-tabs.jsx-692352764>li.active.jsx-692352764>a.jsx-692352764,.nav-tabs.jsx-692352764>li.active.jsx-692352764>a.jsx-692352764:focus,.nav-tabs.jsx-692352764>li.active.jsx-692352764>a.jsx-692352764:hover{border:0 !important;}.navbar-item.is-mega.jsx-692352764{position:static;}.is-mega-menu-title.jsx-692352764{margin-bottom:0;padding:0.375rem 1rem;}.push-down.jsx-692352764{margin-top:5px;}.translation.jsx-692352764{color:#0d0314;background-color:#eeeeee;width:100%;padding:10px;margin:5px;}.menu-link.jsx-692352764:hover{color:#8a3ab9;}.menu-link.jsx-692352764{color:#209cee !important;}.my-blue.jsx-692352764{color:#209cee !important;}.my-blue.jsx-692352764:hover{-webkit-text-decoration:none;text-decoration:none;color:#00d8ff !important;}.my-blue-on-hover.jsx-692352764:hover{color:#209cee !important;}.support-text.jsx-692352764{color:grey;}.facebook-blue.jsx-692352764{color:#3b5998 !important;}.blink.jsx-692352764{-webkit-animation-duration:4000ms;animation-duration:4000ms;-webkit-animation-name:blink-jsx-692352764;animation-name:blink-jsx-692352764;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-direction:alternate;animation-direction:alternate;}@-webkit-keyframes blink-jsx-692352764{from{opacity:1;}to{opacity:0;}}@keyframes blink-jsx-692352764{from{opacity:1;}to{opacity:0;}}.loader.jsx-692352764,.loader.jsx-692352764:before,.loader.jsx-692352764:after{border-radius:50%;width:2.5em;height:2.5em;-webkit-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation:load7-jsx-692352764 1.8s infinite ease-in-out;animation:load7-jsx-692352764 1.8s infinite ease-in-out;}.loader.jsx-692352764{color:#ffffff;font-size:10px;margin:80px auto;position:relative;text-indent:-9999em;-webkit-transform:translateZ(0);-ms-transform:translateZ(0);transform:translateZ(0);-webkit-animation-delay:-0.16s;animation-delay:-0.16s;}.loader.jsx-692352764:before,.loader.jsx-692352764:after{content:\"\";position:absolute;top:0;}.loader.jsx-692352764:before{left:-3.5em;-webkit-animation-delay:-0.32s;animation-delay:-0.32s;}.loader.jsx-692352764:after{left:3.5em;}@-webkit-keyframes load7-jsx-692352764{0%,80%,100%{box-shadow:0 2.5em 0 -1.3em;}40%{box-shadow:0 2.5em 0 0;}}@keyframes load7-jsx-692352764{0%,80%,100%{box-shadow:0 2.5em 0 -1.3em;}40%{box-shadow:0 2.5em 0 0;}}.midnight-blue.jsx-692352764{color:#003366;}.zoom.jsx-692352764{padding:50px;background-color:green;-webkit-transition:-webkit-transform 0.2s;-webkit-transition:transform 0.2s;transition:transform 0.2s;width:200px;height:200px;margin:0 auto;}.zoom.jsx-692352764:hover{-webkit-transform:scale(1.5);-ms-transform:scale(1.5);transform:scale(1.5);}.video-container.jsx-692352764{position:relative;padding-bottom:56.25%;padding-top:30px;height:0;overflow:hidden;}.video-container.jsx-692352764 iframe.jsx-692352764,.video-container.jsx-692352764 object.jsx-692352764,.video-container.jsx-692352764 embed.jsx-692352764{position:absolute;top:0;left:0;width:100%;height:100%;}@media (max-width:767px){.text-sm-center.jsx-692352764{text-align:center !important;}}.remove-btn.jsx-692352764{padding:0px !important;border:none !important;background:none !important;}.spin.jsx-692352764{-webkit-animation:spin 4s infinite linear;}@-webkit-keyframes spin{0%.jsx-692352764{-webkit-transform:rotate(0deg);}100%.jsx-692352764{-webkit-transform:rotate(360deg);}}footer.jsx-692352764{color:#c9c9c9 !important;}footer.jsx-692352764 a.jsx-692352764{color:#c9c9c9 !important;}footer.jsx-692352764 a.jsx-692352764:hover{color:white !important;}.u-navbar.jsx-692352764{border-bottom:1px solid #bbbbbb;}.u-nav-link.jsx-692352764{-webkit-text-decoration:none;text-decoration:none;padding:10px 0px;margin:0px 10px;display:inline-block;position:relative;opacity:0.75;}.u-nav-link.jsx-692352764:hover{opacity:1;}.u-nav-link.jsx-692352764::before{-webkit-transition:300ms;transition:300ms;height:5px;content:\"\";position:absolute;background-color:#031d44;}.u-nav-link-ltr.jsx-692352764::before{width:0%;bottom:10px;}.u-nav-link-ltr.jsx-692352764:hover.jsx-692352764::before{width:100%;}.u-nav-link-fade-up.jsx-692352764::before{width:100%;bottom:5px;opacity:0;}.u-nav-link-fade-up.jsx-692352764:hover.jsx-692352764::before{bottom:10px;opacity:1;}.u-nav-link-grow-up.jsx-692352764::before{height:0%;width:100%;bottom:0px;}.u-nav-link-grow-up.jsx-692352764:hover.jsx-692352764::before{height:5px;}.is-mobile-only.jsx-692352764{visibility:hidden !important;padding-left:5px;}@media screen and (max-width:600px) and (max-width:840px){.is-centered-on-small.jsx-692352764{text-align:center !important;}.white-on-small.jsx-692352764{color:white !important;}.is-mobile-only.jsx-692352764{visibility:visible !important;padding-left:5px;}main.jsx-692352764{margin:0px 10px !important;}.scrollable.jsx-692352764{height:auto;}}footer.jsx-692352764 li.jsx-692352764{line-height:25px !important;}.field.jsx-692352764{padding:5px 0px;}a.jsx-692352764:hover{-webkit-text-decoration:none !important;text-decoration:none !important;}.pre-scrollable.jsx-692352764{max-height:340px;overflow-y:scroll;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9yYWhlZW1tY2RvbmFsZC9EZXNrdG9wL2N4Y3NwYW5pc2gtbmV4dC9jb21wb25lbnRzL0xheW91dC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUEyQ29CLEFBR21DLEFBSVYsQUFNQyxBQVNGLEFBSU0sQUFJTSxBQUdDLEFBcUJPLEFBV25CLEFBR0ssQUFTRyxBQVlaLEFBR1EsQUFNRCxBQU1ILEFBSUMsQUFRWSxBQUlGLEFBSUksQUFLaEIsQUFTTyxBQU1BLEFBTUEsQUFNQyxBQUtBLEFBT0ssQUFJQSxBQUlhLEFBSWpCLEFBUUssQUFjeEIsQUFNNkQsQUFJTixBQUlELEFBSTVCLEFBSVYsQUFNRSxBQUtELEFBSUEsQUFJQSxBQUlBLEFBSUEsQUFJQSxBQUlBLEFBSUEsQUFJQSxBQUlDLEFBSUEsQUFJQSxBQUlBLEFBSUEsQUFJQSxBQUlBLEFBTUssQUFNUCxBQUlGLEFBT0csQUFJRCxBQUlBLEFBSWlCLEFBUWQsQUFJSixBQUlBLEFBS0QsQUFJRCxBQVFBLEFBSVcsQUFJQSxBQUlKLEFBS0ksQUFJZCxBQUljLEFBSUMsQUFRZCxBQUlBLEFBT00sQUFRSixBQVdILEFBTUMsQUFLRCxBQU9tQixBQUlMLEFBS1gsQUFLRCxBQVVRLEFBTUgsQUFVQSxBQVNhLEFBT1IsQUFNbUIsQUFLVCxBQUlFLEFBS1YsQUFJQSxBQUlGLEFBSVMsQUFJWCxBQVNYLEFBSU8sQUFRUixBQUtFLEFBSUEsQUFNQyxBQUtGLEFBTUMsQUFJa0IsQUFNRSxBQUlOLEFBSU8sQUFLSCxBQUlmLEFBS2MsQUFJWixBQUlnQixBQUlmLFFBN2hCbkIsQ0F3ZGMsQ0FqS1osQUFJQSxBQWlKRixBQWdDYSxDQS9pQkMsQUEyR08sQUErUHJCLEFBOENvQixBQVdwQixBQTZIQSxBQUlhLEFBaUJiLENBcGtCb0IsQUEwRHBCLEFBdUNrQixBQTRVTyxBQTRJYixBQXNDVixDQXBnQkEsQUE0V3VCLENBM0dFLEFBUTNCLEFBd0RpQixBQXNDakIsQ0FsSlEsQUF3Q1IsQ0FuUUEsQUE4Q0UsQUFNQSxBQU1BLEFBZ01GLEFBSXdCLEFBcVJ4QixDQXJsQnFCLEFBMENELEFBd0ZsQixBQW9FMkIsQUFtRjdCLEFBZUEsQUFJQSxBQWlUb0IsQ0E1WXBCLEFBSUEsQUFJQSxBQUlBLEFBSUEsQUFJQSxBQUlBLEFBSUEsQUFJQSxBQW1EQSxBQTZGYyxBQW1FVSxBQVVoQixDQXZVZ0IsQUFxRXhCLEFBeUNBLEFBSUEsQUFJQSxBQUlBLEFBSUEsQUFJQSxBQUlBLENBbkh5QixBQThKekIsQ0ExQmEsQUEwUGIsQUFvQmEsQ0Fua0JiLEFBd2pCWSxBQU1aLENBMWlCQSxBQU9BLEFBMEZBLEFBNFVFLEFBb0R1QixBQTRCekIsQUFxRUUsQ0FqYkYsQUFJQSxBQWlJQSxBQTRMUyxDQXJYVCxBQXdFMEIsQUFtTDFCLEFBSUEsQUFTQSxBQVFBLEFBd0lBLEFBSUEsRUFwWnVCLEFBZ0d2QixBQXNZRSxDQTVpQlksQUFtRGQsQUF1VkUsQUEyS0YsQ0F2TW1CLEFBV1gsQUFrRU4sQUE4RmlCLEFBTWpCLENBN2tCZ0IsQUEwSEUsQUEwUkwsQUFpTU0sQ0FuSFIsQUF5QlgsQ0ExTUYsQUErTkEsQUFvQ0EsQUFXQSxDQWhFRSxDQTdMRixDQXJRUSxBQTJXUixBQXdNQSxDQTdsQkEsQUFvYjRCLEVBcEg1QixDQVNhLENBN1NLLEFBd2FDLENBelpWLEFBNEZXLENBeVVOLEFBbUJkLEFBMkNhLENBcFhHLEFBd09XLENBNUxILEVBeE54QixBQTRab0IsQUFvRlMsQUF1RjdCLENBY0UsQ0F2aEJXLEFBc0RiLEFBTW9CLENBMERwQixDQXdLZSxBQWtCWSxBQXFLUixFQXBVbkIsQ0FKQSxBQXNWYSxDQTlEYixFQXBib0IsQ0E4SEYsQUEwU1AsRUF4WkcsQUEyRkssQUE2Q25CLENBd0x1QixHQWxDVixDQWdFUyxBQXFJRixFQXZhRCxBQThGbkIsQUFtTkEsQUE0Q2tCLENBNERBLElBcGRsQixDQTBpQkEsQ0E1YnNCLEFBbVV0QixDQTVla0IsQUEyQ0UsQUFtREMsQUEyUHJCLENBaUJBLEFBaUdBLENBclRBLE1BWUEsQUFrVEEsQUEwRTJCLENBdmEzQixBQXladUIsQ0F2SEcsTUF4WkssRUEyQ3BCLENBOEhYLENBa0IrQixPQS9JdEIsQUFtV21DLENBalY3QixFQWtkSyxHQWNwQixDQWpmYSxLQTNCRyxFQTZDQSxJQWpCTCxHQW1lSSxDQXJWdUIsS0E3SXRDLENBaUJtQixNQWtkbkIsR0F4SnFDLEFBd0V2QixRQWpZUyxJQWtZUixTQXRRZixJQXVRZ0IsSUF0V1MsQ0EyVEEsQ0F0WVgsUUFrYmQsSUFqYmUsYUFDSyxFQTZDQyxnQkE1Q0EsSUFxV1csS0FxQmhDLENBVUEsQ0F4WnlCLFFBcUJQLGdCQUNlLG1CQXVFeUIsa0JBNlIxRCxLQXpUeUIsK0JBNkJhLFlBN0ZILG9CQXNCZCxHQXdFckIsVUE3RkEsdUJBZ0VvQixrQkFDRSxlQTNDTSxLQTRDUixrQkFDcEIsK0VBNUNvQixrQkFFTCwwRUFDVSxtR0FDSiw2RkFDSCxnQkFDbEIiLCJmaWxlIjoiL1VzZXJzL3JhaGVlbW1jZG9uYWxkL0Rlc2t0b3AvY3hjc3BhbmlzaC1uZXh0L2NvbXBvbmVudHMvTGF5b3V0LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEhlYWRlckltcG9ydHMgZnJvbSBcIi4uL2NvbW1vbi9IZWFkZXJJbXBvcnRzXCI7XG5pbXBvcnQgTmF2YmFyIGZyb20gXCIuL05hdmJhclwiO1xuaW1wb3J0IEZvb3RlciBmcm9tIFwiLi9Gb290ZXJcIjtcbmltcG9ydCBSZWFjdEdBIGZyb20gXCJyZWFjdC1nYVwiO1xuaW1wb3J0IEhlYWQgZnJvbSBcIm5leHQvaGVhZFwiO1xuaW1wb3J0IExhenlMb2FkIGZyb20gXCJyZWFjdC1sYXp5bG9hZFwiO1xuXG4vLyBDU1MgaW1wb3J0c1xuaW1wb3J0IENTUyBmcm9tIFwiLi4vYXNzZXRzL2J1bG1hLmNzc1wiO1xuaW1wb3J0IEJ1bG1hQWNjb3JkaWFuQ1NTIGZyb20gXCIuLi9hc3NldHMvYnVsbWEtYWNjb3JkaWFuLmNzc1wiO1xuaW1wb3J0IFwiLi4vYXNzZXRzL2ZvbnRhd2Vzb21lLmpzXCI7XG5cbmNsYXNzIExheW91dCBleHRlbmRzIFJlYWN0LkNvbXBvbmVudCB7XG4gIGNvbnN0cnVjdG9yKHByb3BzKSB7XG4gICAgc3VwZXIocHJvcHMpO1xuXG4gICAgdGhpcy5zdGF0ZSA9IHtcbiAgICAgIGlzTW9iaWxlOiBmYWxzZVxuICAgIH07XG4gIH1cblxuICBjb21wb25lbnRXaWxsTW91bnQoKSB7fVxuXG4gIGNvbXBvbmVudERpZE1vdW50KCkge1xuICAgIFJlYWN0R0EuaW5pdGlhbGl6ZShcIlVBLTE0NjIyOTQ0Mi0xXCIpO1xuICAgIFJlYWN0R0EucGFnZXZpZXcod2luZG93LmxvY2F0aW9uLnBhdGhuYW1lICsgd2luZG93LmxvY2F0aW9uLnNlYXJjaCk7XG4gIH1cblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiYXBwXCI+XG4gICAgICAgIDxIZWFkZXJJbXBvcnRzIC8+XG4gICAgICAgIDxOYXZiYXIgLz5cblxuICAgICAgICA8YnIgLz5cbiAgICAgICAgPG1haW4gcm9sZT1cIm1haW5cIiBpZD1cIm1haW5cIj5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17dGhpcy5wcm9wcy5mdWxsID8gXCJjb250YWluZXItZmx1aWRcIiA6IFwiY29udGFpbmVyXCJ9PlxuICAgICAgICAgICAge3RoaXMucHJvcHMuY2hpbGRyZW59XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvbWFpbj5cbiAgICAgICAgPGJyIC8+XG4gICAgICAgIDxGb290ZXIgLz5cblxuICAgICAgICA8c3R5bGUganN4PntgXG4gICAgICAgICAgKiB7XG4gICAgICAgICAgICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5zbGlkZXIge1xuICAgICAgICAgICAgd2lkdGg6IDMwMHB4O1xuICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgICAgICAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAuc2xpZGVzIHtcbiAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XG5cbiAgICAgICAgICAgIG92ZXJmbG93LXg6IGF1dG87XG4gICAgICAgICAgICBzY3JvbGwtc25hcC10eXBlOiB4IG1hbmRhdG9yeTtcblxuICAgICAgICAgICAgc2Nyb2xsLWJlaGF2aW9yOiBzbW9vdGg7XG4gICAgICAgICAgICAtd2Via2l0LW92ZXJmbG93LXNjcm9sbGluZzogdG91Y2g7XG4gICAgICAgICAgfVxuICAgICAgICAgIC5zbGlkZXM6Oi13ZWJraXQtc2Nyb2xsYmFyIHtcbiAgICAgICAgICAgIHdpZHRoOiAxMHB4O1xuICAgICAgICAgICAgaGVpZ2h0OiAxMHB4O1xuICAgICAgICAgIH1cbiAgICAgICAgICAuc2xpZGVzOjotd2Via2l0LXNjcm9sbGJhci10aHVtYiB7XG4gICAgICAgICAgICBiYWNrZ3JvdW5kOiBibGFjaztcbiAgICAgICAgICAgIGJvcmRlci1yYWRpdXM6IDEwcHg7XG4gICAgICAgICAgfVxuICAgICAgICAgIC5zbGlkZXM6Oi13ZWJraXQtc2Nyb2xsYmFyLXRyYWNrIHtcbiAgICAgICAgICAgIGJhY2tncm91bmQ6IHRyYW5zcGFyZW50O1xuICAgICAgICAgIH1cbiAgICAgICAgICAuc2xpZGVzID4gZGl2IHtcbiAgICAgICAgICAgIHNjcm9sbC1zbmFwLWFsaWduOiBzdGFydDtcbiAgICAgICAgICAgIGZsZXgtc2hyaW5rOiAwO1xuICAgICAgICAgICAgd2lkdGg6IDMwMHB4O1xuICAgICAgICAgICAgaGVpZ2h0OiAzMDBweDtcbiAgICAgICAgICAgIG1hcmdpbi1yaWdodDogNTBweDtcbiAgICAgICAgICAgIGJvcmRlci1yYWRpdXM6IDEwcHg7XG4gICAgICAgICAgICBiYWNrZ3JvdW5kOiAjZWVlO1xuICAgICAgICAgICAgdHJhbnNmb3JtLW9yaWdpbjogY2VudGVyIGNlbnRlcjtcbiAgICAgICAgICAgIHRyYW5zZm9ybTogc2NhbGUoMSk7XG4gICAgICAgICAgICB0cmFuc2l0aW9uOiB0cmFuc2Zvcm0gMC41cztcbiAgICAgICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcblxuICAgICAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAgICAgIGZvbnQtc2l6ZTogMTAwcHg7XG4gICAgICAgICAgfVxuICAgICAgICAgIC5zbGlkZXMgPiBkaXY6dGFyZ2V0IHtcbiAgICAgICAgICAgIC8qICAgdHJhbnNmb3JtOiBzY2FsZSgwLjgpOyAqL1xuICAgICAgICAgIH1cbiAgICAgICAgICAuYXV0aG9yLWluZm8ge1xuICAgICAgICAgICAgYmFja2dyb3VuZDogcmdiYSgwLCAwLCAwLCAwLjc1KTtcbiAgICAgICAgICAgIGNvbG9yOiB3aGl0ZTtcbiAgICAgICAgICAgIHBhZGRpbmc6IDAuNzVyZW07XG4gICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICAgICAgICBib3R0b206IDA7XG4gICAgICAgICAgICBsZWZ0OiAwO1xuICAgICAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgICAgfVxuICAgICAgICAgIC5hdXRob3ItaW5mbyBhIHtcbiAgICAgICAgICAgIGNvbG9yOiB3aGl0ZTtcbiAgICAgICAgICB9XG4gICAgICAgICAgaW1nIHtcbiAgICAgICAgICAgIG9iamVjdC1maXQ6IGNvdmVyO1xuICAgICAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgICAgICAgdG9wOiAwO1xuICAgICAgICAgICAgbGVmdDogMDtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgICAgaGVpZ2h0OiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5zbGlkZXIgPiBhIHtcbiAgICAgICAgICAgIGRpc3BsYXk6IGlubGluZS1mbGV4O1xuICAgICAgICAgICAgd2lkdGg6IDEuNXJlbTtcbiAgICAgICAgICAgIGhlaWdodDogMS41cmVtO1xuICAgICAgICAgICAgYmFja2dyb3VuZDogd2hpdGU7XG4gICAgICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG4gICAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgICAgICAgICBib3JkZXItcmFkaXVzOiA1MCU7XG4gICAgICAgICAgICBtYXJnaW46IDAgMCAwLjVyZW0gMDtcbiAgICAgICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgICAgICB9XG4gICAgICAgICAgLnNsaWRlciA+IGE6YWN0aXZlIHtcbiAgICAgICAgICAgIHRvcDogMXB4O1xuICAgICAgICAgIH1cbiAgICAgICAgICAuc2xpZGVyID4gYTpmb2N1cyB7XG4gICAgICAgICAgICBiYWNrZ3JvdW5kOiAjMDAwO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC8qIERvbid0IG5lZWQgYnV0dG9uIG5hdmlnYXRpb24gKi9cbiAgICAgICAgICBAc3VwcG9ydHMgKHNjcm9sbC1zbmFwLXR5cGUpIHtcbiAgICAgICAgICAgIC5zbGlkZXIgPiBhIHtcbiAgICAgICAgICAgICAgZGlzcGxheTogbm9uZTtcbiAgICAgICAgICAgIH1cbiAgICAgICAgICB9XG5cbiAgICAgICAgICBodG1sLFxuICAgICAgICAgIGJvZHkge1xuICAgICAgICAgICAgaGVpZ2h0OiAxMDAlO1xuICAgICAgICAgICAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgICAgICAgICB9XG4gICAgICAgICAgYm9keSB7XG4gICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICAgICAgYmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KHRvIGJvdHRvbSwgIzc0YWJlMiwgIzU1NjNkZSk7XG4gICAgICAgICAgICBmb250LWZhbWlseTogXCJSb3BhIFNhbnNcIiwgc2Fucy1zZXJpZjtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAqIHtcbiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNmNmY4ZmE7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmJsYWNrIHtcbiAgICAgICAgICAgIGNvbG9yOiBibGFjayAhaW1wb3J0YW50O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5zdHlsZWQtdWwgbGkge1xuICAgICAgICAgICAgbGlzdC1zdHlsZTogZGlzYyAhaW1wb3J0YW50O1xuICAgICAgICAgICAgcGFkZGluZy1ib3R0b206IDEuNWVtO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5jb250YWluZXIge1xuICAgICAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgICAgICBwYWRkaW5nLXJpZ2h0OiAxNXB4O1xuICAgICAgICAgICAgcGFkZGluZy1sZWZ0OiAxNXB4O1xuICAgICAgICAgICAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xuICAgICAgICAgICAgbWFyZ2luLWxlZnQ6IGF1dG87XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgQG1lZGlhIChtaW4td2lkdGg6IDU3NnB4KSB7XG4gICAgICAgICAgICAuY29udGFpbmVyIHtcbiAgICAgICAgICAgICAgbWF4LXdpZHRoOiA1NDBweDtcbiAgICAgICAgICAgIH1cbiAgICAgICAgICB9XG5cbiAgICAgICAgICBAbWVkaWEgKG1pbi13aWR0aDogNzY4cHgpIHtcbiAgICAgICAgICAgIC5jb250YWluZXIge1xuICAgICAgICAgICAgICBtYXgtd2lkdGg6IDcyMHB4O1xuICAgICAgICAgICAgfVxuICAgICAgICAgIH1cblxuICAgICAgICAgIEBtZWRpYSAobWluLXdpZHRoOiA5OTJweCkge1xuICAgICAgICAgICAgLmNvbnRhaW5lciB7XG4gICAgICAgICAgICAgIG1heC13aWR0aDogOTYwcHg7XG4gICAgICAgICAgICB9XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgQG1lZGlhIChtaW4td2lkdGg6IDEyMDBweCkge1xuICAgICAgICAgICAgLmNvbnRhaW5lciB7XG4gICAgICAgICAgICAgIG1heC13aWR0aDogMTE0MHB4O1xuICAgICAgICAgICAgfVxuICAgICAgICAgIH1cblxuICAgICAgICAgIC5yb3VuZGVkIHtcbiAgICAgICAgICAgIGJvcmRlci1yYWRpdXM6IDE1cHg7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAjZWVlO1xuICAgICAgICAgICAgcGFkZGluZy1sZWZ0OiAyMHB4O1xuICAgICAgICAgICAgcGFkZGluZy10b3A6IDIwcHg7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmhpZGRlbiB7XG4gICAgICAgICAgICBkaXNwbGF5OiBub25lICFpbXBvcnRhbnQ7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmhpZGRlbiAqIHtcbiAgICAgICAgICAgIGRpc3BsYXk6IG5vbmUgIWltcG9ydGFudDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAudW5kZXJsaW5lOmhvdmVyIHtcbiAgICAgICAgICAgIHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lICFpbXBvcnRhbnQ7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgY2FwdGlvbiB7XG4gICAgICAgICAgICBwYWRkaW5nLXRvcDogMC43NXJlbTtcbiAgICAgICAgICAgIHBhZGRpbmctYm90dG9tOiAwLjc1cmVtO1xuICAgICAgICAgICAgY29sb3I6ICM2Yzc1N2Q7XG4gICAgICAgICAgICB0ZXh0LWFsaWduOiBsZWZ0O1xuICAgICAgICAgICAgY2FwdGlvbi1zaWRlOiBib3R0b207XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnNjcm9sbGFibGUge1xuICAgICAgICAgICAgb3ZlcmZsb3c6IGF1dG8gIWltcG9ydGFudDtcbiAgICAgICAgICAgIGhlaWdodDogMTAwcHggIWltcG9ydGFudDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucmFpbmJvdy10ZXh0IHtcbiAgICAgICAgICAgIGJhY2tncm91bmQtaW1hZ2U6IGxpbmVhci1ncmFkaWVudChcbiAgICAgICAgICAgICAgdG8gbGVmdCxcbiAgICAgICAgICAgICAgdmlvbGV0LFxuICAgICAgICAgICAgICBpbmRpZ28sXG4gICAgICAgICAgICAgIGJsdWUsXG4gICAgICAgICAgICAgIGdyZWVuLFxuICAgICAgICAgICAgICB5ZWxsb3csXG4gICAgICAgICAgICAgIG9yYW5nZSxcbiAgICAgICAgICAgICAgcmVkXG4gICAgICAgICAgICApO1xuICAgICAgICAgICAgLXdlYmtpdC1iYWNrZ3JvdW5kLWNsaXA6IHRleHQ7XG4gICAgICAgICAgICAtd2Via2l0LXRleHQtZmlsbC1jb2xvcjogdHJhbnNwYXJlbnQ7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnNoYWRvdy1zbSB7XG4gICAgICAgICAgICBib3gtc2hhZG93OiAwIDAuMTI1cmVtIDAuMjVyZW0gcmdiYSgwLCAwLCAwLCAwLjA3NSkgIWltcG9ydGFudDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAuc2hhZG93IHtcbiAgICAgICAgICAgIGJveC1zaGFkb3c6IDAgMC41cmVtIDFyZW0gcmdiYSgwLCAwLCAwLCAwLjE1KSAhaW1wb3J0YW50O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5zaGFkb3ctbGcge1xuICAgICAgICAgICAgYm94LXNoYWRvdzogMCAxcmVtIDNyZW0gcmdiYSgwLCAwLCAwLCAwLjE3NSkgIWltcG9ydGFudDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAuc2hhZG93LW5vbmUge1xuICAgICAgICAgICAgYm94LXNoYWRvdzogbm9uZSAhaW1wb3J0YW50O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5saXN0LXVuc3R5bGVkIHtcbiAgICAgICAgICAgIHBhZGRpbmctdG9wOiAxMHB4O1xuICAgICAgICAgICAgbGlzdC1zdHlsZTogbm9uZSAhaW1wb3J0YW50O1xuICAgICAgICAgICAgbWFyZ2luOiAwcHggIWltcG9ydGFudDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAubGlzdC11bnN0eWxlZCBsaSB7XG4gICAgICAgICAgICBtYXJnaW4tYm90dG9tOiAxM3B4O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC8qIE5hdmlnYXRpb24gaWNvbiBwYWRkaW5nICovXG4gICAgICAgICAgLm5hdi1pY29uLTEge1xuICAgICAgICAgICAgcGFkZGluZy1yaWdodDogMXB4O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5uYXYtaWNvbi0yIHtcbiAgICAgICAgICAgIHBhZGRpbmctcmlnaHQ6IDJweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAubmF2LWljb24tMyB7XG4gICAgICAgICAgICBwYWRkaW5nLXJpZ2h0OiAzcHg7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLm5hdi1pY29uLTQge1xuICAgICAgICAgICAgcGFkZGluZy1yaWdodDogNHB4O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5uYXYtaWNvbi01IHtcbiAgICAgICAgICAgIHBhZGRpbmctcmlnaHQ6IDVweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAubmF2LWljb24tNiB7XG4gICAgICAgICAgICBwYWRkaW5nLXJpZ2h0OiA2cHg7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLm5hdi1pY29uLTcge1xuICAgICAgICAgICAgcGFkZGluZy1yaWdodDogN3B4O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5uYXYtaWNvbi04IHtcbiAgICAgICAgICAgIHBhZGRpbmctcmlnaHQ6IDhweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAubmF2LWljb24tOSB7XG4gICAgICAgICAgICBwYWRkaW5nLXJpZ2h0OiA5cHg7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLm5hdi1pY29uLTEwIHtcbiAgICAgICAgICAgIHBhZGRpbmctcmlnaHQ6IDEwcHg7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLm5hdi1pY29uLTExIHtcbiAgICAgICAgICAgIHBhZGRpbmctcmlnaHQ6IDExcHg7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLm5hdi1pY29uLTEyIHtcbiAgICAgICAgICAgIHBhZGRpbmctcmlnaHQ6IDEycHg7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLm5hdi1pY29uLTEzIHtcbiAgICAgICAgICAgIHBhZGRpbmctcmlnaHQ6IDEzcHg7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLm5hdi1pY29uLTE0IHtcbiAgICAgICAgICAgIHBhZGRpbmctcmlnaHQ6IDE0cHg7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLm5hdi1pY29uLTE1IHtcbiAgICAgICAgICAgIHBhZGRpbmctcmlnaHQ6IDE1cHg7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLm5hdi1pY29uLTE3IHtcbiAgICAgICAgICAgIHBhZGRpbmctcmlnaHQ6IDE3cHg7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLyogTWFzdGVyLmNzcyAqL1xuXG4gICAgICAgICAgLmZhLWxpbmtlZGluLWluIHtcbiAgICAgICAgICAgIGRpc3BsYXk6IG5vbmUgIWltcG9ydGFudDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICBwLFxuICAgICAgICAgIHNwYW4sXG4gICAgICAgICAgbGkge1xuICAgICAgICAgICAgbGluZS1oZWlnaHQ6IDIwcHg7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnN0aWNreSB7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICB0b3A6IDA7XG4gICAgICAgICAgICB3aWR0aDogMTAwJTtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAvKiBBZGQgc29tZSB0b3AgcGFkZGluZyB0byB0aGUgcGFnZSBjb250ZW50IHRvIHByZXZlbnQgc3VkZGVuIHF1aWNrIG1vdmVtZW50IChhcyB0aGUgaGVhZGVyIGdldHMgYSBuZXcgcG9zaXRpb24gYXQgdGhlIHRvcCBvZiB0aGUgcGFnZSAocG9zaXRpb246Zml4ZWQgYW5kIHRvcDowKSAqL1xuICAgICAgICAgIC5zdGlja3kgKyAuY29udGVudCB7XG4gICAgICAgICAgICBwYWRkaW5nLXRvcDogMTAycHg7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmlubGluZS1pY29uIHtcbiAgICAgICAgICAgIG1hcmdpbi1yaWdodDogOHB4O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5uYXYtaWNvbiB7XG4gICAgICAgICAgICBtYXJnaW4tcmlnaHQ6IDVweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAuYnJlYWRjcnVtYiB7XG4gICAgICAgICAgICBiYWNrZ3JvdW5kOiB0cmFuc3BhcmVudCAhaW1wb3J0YW50O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC8qIEluZGV4LmNzcyAqL1xuXG4gICAgICAgICAgLm5hdi10YWJzID4gbGkuYWN0aXZlID4gYSxcbiAgICAgICAgICAubmF2LXRhYnMgPiBsaS5hY3RpdmUgPiBhOmZvY3VzLFxuICAgICAgICAgIC5uYXYtdGFicyA+IGxpLmFjdGl2ZSA+IGE6aG92ZXIge1xuICAgICAgICAgICAgYm9yZGVyOiAwICFpbXBvcnRhbnQ7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLm5hdmJhci1pdGVtLmlzLW1lZ2Ege1xuICAgICAgICAgICAgcG9zaXRpb246IHN0YXRpYztcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAuaXMtbWVnYS1tZW51LXRpdGxlIHtcbiAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDA7XG4gICAgICAgICAgICBwYWRkaW5nOiAwLjM3NXJlbSAxcmVtO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wdXNoLWRvd24ge1xuICAgICAgICAgICAgbWFyZ2luLXRvcDogNXB4O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC50cmFuc2xhdGlvbiB7XG4gICAgICAgICAgICBjb2xvcjogIzBkMDMxNDtcbiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNlZWVlZWU7XG4gICAgICAgICAgICB3aWR0aDogMTAwJTtcbiAgICAgICAgICAgIHBhZGRpbmc6IDEwcHg7XG4gICAgICAgICAgICBtYXJnaW46IDVweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAubWVudS1saW5rOmhvdmVyIHtcbiAgICAgICAgICAgIGNvbG9yOiAjOGEzYWI5O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5tZW51LWxpbmsge1xuICAgICAgICAgICAgY29sb3I6ICMyMDljZWUgIWltcG9ydGFudDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAubXktYmx1ZSB7XG4gICAgICAgICAgICBjb2xvcjogIzIwOWNlZSAhaW1wb3J0YW50O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5teS1ibHVlOmhvdmVyIHtcbiAgICAgICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICAgICAgICAgIGNvbG9yOiAjMDBkOGZmICFpbXBvcnRhbnQ7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLm15LWJsdWUtb24taG92ZXI6aG92ZXIge1xuICAgICAgICAgICAgY29sb3I6ICMyMDljZWUgIWltcG9ydGFudDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAuc3VwcG9ydC10ZXh0IHtcbiAgICAgICAgICAgIGNvbG9yOiBncmV5O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5mYWNlYm9vay1ibHVlIHtcbiAgICAgICAgICAgIGNvbG9yOiAjM2I1OTk4ICFpbXBvcnRhbnQ7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmJsaW5rIHtcbiAgICAgICAgICAgIGFuaW1hdGlvbi1kdXJhdGlvbjogNDAwMG1zO1xuICAgICAgICAgICAgYW5pbWF0aW9uLW5hbWU6IGJsaW5rO1xuICAgICAgICAgICAgYW5pbWF0aW9uLWl0ZXJhdGlvbi1jb3VudDogaW5maW5pdGU7XG4gICAgICAgICAgICBhbmltYXRpb24tZGlyZWN0aW9uOiBhbHRlcm5hdGU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgQGtleWZyYW1lcyBibGluayB7XG4gICAgICAgICAgICBmcm9tIHtcbiAgICAgICAgICAgICAgb3BhY2l0eTogMTtcbiAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgdG8ge1xuICAgICAgICAgICAgICBvcGFjaXR5OiAwO1xuICAgICAgICAgICAgfVxuICAgICAgICAgIH1cblxuICAgICAgICAgIC5sb2FkZXIsXG4gICAgICAgICAgLmxvYWRlcjpiZWZvcmUsXG4gICAgICAgICAgLmxvYWRlcjphZnRlciB7XG4gICAgICAgICAgICBib3JkZXItcmFkaXVzOiA1MCU7XG4gICAgICAgICAgICB3aWR0aDogMi41ZW07XG4gICAgICAgICAgICBoZWlnaHQ6IDIuNWVtO1xuICAgICAgICAgICAgYW5pbWF0aW9uLWZpbGwtbW9kZTogYm90aDtcbiAgICAgICAgICAgIGFuaW1hdGlvbjogbG9hZDcgMS44cyBpbmZpbml0ZSBlYXNlLWluLW91dDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAubG9hZGVyIHtcbiAgICAgICAgICAgIGNvbG9yOiAjZmZmZmZmO1xuICAgICAgICAgICAgZm9udC1zaXplOiAxMHB4O1xuICAgICAgICAgICAgbWFyZ2luOiA4MHB4IGF1dG87XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgICB0ZXh0LWluZGVudDogLTk5OTllbTtcbiAgICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWigwKTtcbiAgICAgICAgICAgIGFuaW1hdGlvbi1kZWxheTogLTAuMTZzO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5sb2FkZXI6YmVmb3JlLFxuICAgICAgICAgIC5sb2FkZXI6YWZ0ZXIge1xuICAgICAgICAgICAgY29udGVudDogXCJcIjtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAubG9hZGVyOmJlZm9yZSB7XG4gICAgICAgICAgICBsZWZ0OiAtMy41ZW07XG4gICAgICAgICAgICBhbmltYXRpb24tZGVsYXk6IC0wLjMycztcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAubG9hZGVyOmFmdGVyIHtcbiAgICAgICAgICAgIGxlZnQ6IDMuNWVtO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIEBrZXlmcmFtZXMgbG9hZDcge1xuICAgICAgICAgICAgMCUsXG4gICAgICAgICAgICA4MCUsXG4gICAgICAgICAgICAxMDAlIHtcbiAgICAgICAgICAgICAgYm94LXNoYWRvdzogMCAyLjVlbSAwIC0xLjNlbTtcbiAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgNDAlIHtcbiAgICAgICAgICAgICAgYm94LXNoYWRvdzogMCAyLjVlbSAwIDA7XG4gICAgICAgICAgICB9XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLm1pZG5pZ2h0LWJsdWUge1xuICAgICAgICAgICAgY29sb3I6ICMwMDMzNjY7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLyogaHR0cHM6Ly93d3cudzNzY2hvb2xzLmNvbS9ob3d0by9ob3d0b19jc3Nfem9vbV9ob3Zlci5hc3AgKi9cbiAgICAgICAgICAuem9vbSB7XG4gICAgICAgICAgICBwYWRkaW5nOiA1MHB4O1xuICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogZ3JlZW47XG4gICAgICAgICAgICB0cmFuc2l0aW9uOiB0cmFuc2Zvcm0gMC4ycztcbiAgICAgICAgICAgIC8qIEFuaW1hdGlvbiAqL1xuICAgICAgICAgICAgd2lkdGg6IDIwMHB4O1xuICAgICAgICAgICAgaGVpZ2h0OiAyMDBweDtcbiAgICAgICAgICAgIG1hcmdpbjogMCBhdXRvO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC56b29tOmhvdmVyIHtcbiAgICAgICAgICAgIHRyYW5zZm9ybTogc2NhbGUoMS41KTtcbiAgICAgICAgICAgIC8qICgxNTAlIHpvb20gLSBOb3RlOiBpZiB0aGUgem9vbSBpcyB0b28gbGFyZ2UsIGl0IHdpbGwgZ28gb3V0c2lkZSBvZiB0aGUgdmlld3BvcnQpICovXG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLyogTUFLRSBZT1VUVUJFIFZJREVPUyBSRVNQT05TSVZFIC0gaHR0cHM6Ly9hdmV4ZGVzaWducy5jb20vcmVzcG9uc2l2ZS15b3V0dWJlLWVtYmVkLyAgKi9cbiAgICAgICAgICAudmlkZW8tY29udGFpbmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgICAgICAgIHBhZGRpbmctYm90dG9tOiA1Ni4yNSU7XG4gICAgICAgICAgICBwYWRkaW5nLXRvcDogMzBweDtcbiAgICAgICAgICAgIGhlaWdodDogMDtcbiAgICAgICAgICAgIG92ZXJmbG93OiBoaWRkZW47XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnZpZGVvLWNvbnRhaW5lciBpZnJhbWUsXG4gICAgICAgICAgLnZpZGVvLWNvbnRhaW5lciBvYmplY3QsXG4gICAgICAgICAgLnZpZGVvLWNvbnRhaW5lciBlbWJlZCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICAgICAgICB0b3A6IDA7XG4gICAgICAgICAgICBsZWZ0OiAwO1xuICAgICAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgICAgICBoZWlnaHQ6IDEwMCU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgQG1lZGlhIChtYXgtd2lkdGg6IDc2N3B4KSB7XG4gICAgICAgICAgICAudGV4dC1zbS1jZW50ZXIge1xuICAgICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXIgIWltcG9ydGFudDtcbiAgICAgICAgICAgIH1cbiAgICAgICAgICB9XG5cbiAgICAgICAgICAvKiA2ZmI5ZjUgaXMgYSB2ZXJ5IG5pY2UgY29sb3IgKi9cblxuICAgICAgICAgIC5yZW1vdmUtYnRuIHtcbiAgICAgICAgICAgIHBhZGRpbmc6IDBweCAhaW1wb3J0YW50O1xuICAgICAgICAgICAgYm9yZGVyOiBub25lICFpbXBvcnRhbnQ7XG4gICAgICAgICAgICBiYWNrZ3JvdW5kOiBub25lICFpbXBvcnRhbnQ7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnNwaW4ge1xuICAgICAgICAgICAgLXdlYmtpdC1hbmltYXRpb246IHNwaW4gNHMgaW5maW5pdGUgbGluZWFyO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIEAtd2Via2l0LWtleWZyYW1lcyBzcGluIHtcbiAgICAgICAgICAgIDAlIHtcbiAgICAgICAgICAgICAgLXdlYmtpdC10cmFuc2Zvcm06IHJvdGF0ZSgwZGVnKTtcbiAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgMTAwJSB7XG4gICAgICAgICAgICAgIC13ZWJraXQtdHJhbnNmb3JtOiByb3RhdGUoMzYwZGVnKTtcbiAgICAgICAgICAgIH1cbiAgICAgICAgICB9XG5cbiAgICAgICAgICBmb290ZXIge1xuICAgICAgICAgICAgY29sb3I6ICNjOWM5YzkgIWltcG9ydGFudDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICBmb290ZXIgYSB7XG4gICAgICAgICAgICBjb2xvcjogI2M5YzljOSAhaW1wb3J0YW50O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIGZvb3RlciBhOmhvdmVyIHtcbiAgICAgICAgICAgIGNvbG9yOiB3aGl0ZSAhaW1wb3J0YW50O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC51LW5hdmJhciB7XG4gICAgICAgICAgICBib3JkZXItYm90dG9tOiAxcHggc29saWQgI2JiYmJiYjtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAudS1uYXYtbGluayB7XG4gICAgICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG4gICAgICAgICAgICBwYWRkaW5nOiAxMHB4IDBweDtcbiAgICAgICAgICAgIG1hcmdpbjogMHB4IDEwcHg7XG4gICAgICAgICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgICBvcGFjaXR5OiAwLjc1O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC51LW5hdi1saW5rOmhvdmVyIHtcbiAgICAgICAgICAgIG9wYWNpdHk6IDE7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnUtbmF2LWxpbms6OmJlZm9yZSB7XG4gICAgICAgICAgICB0cmFuc2l0aW9uOiAzMDBtcztcbiAgICAgICAgICAgIGhlaWdodDogNXB4O1xuICAgICAgICAgICAgY29udGVudDogXCJcIjtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICMwMzFkNDQ7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnUtbmF2LWxpbmstbHRyOjpiZWZvcmUge1xuICAgICAgICAgICAgd2lkdGg6IDAlO1xuICAgICAgICAgICAgYm90dG9tOiAxMHB4O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC51LW5hdi1saW5rLWx0cjpob3Zlcjo6YmVmb3JlIHtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC51LW5hdi1saW5rLWZhZGUtdXA6OmJlZm9yZSB7XG4gICAgICAgICAgICB3aWR0aDogMTAwJTtcbiAgICAgICAgICAgIGJvdHRvbTogNXB4O1xuICAgICAgICAgICAgb3BhY2l0eTogMDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAudS1uYXYtbGluay1mYWRlLXVwOmhvdmVyOjpiZWZvcmUge1xuICAgICAgICAgICAgYm90dG9tOiAxMHB4O1xuICAgICAgICAgICAgb3BhY2l0eTogMTtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAudS1uYXYtbGluay1ncm93LXVwOjpiZWZvcmUge1xuICAgICAgICAgICAgaGVpZ2h0OiAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgICAgYm90dG9tOiAwcHg7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnUtbmF2LWxpbmstZ3Jvdy11cDpob3Zlcjo6YmVmb3JlIHtcbiAgICAgICAgICAgIGhlaWdodDogNXB4O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5pcy1tb2JpbGUtb25seSB7XG4gICAgICAgICAgICB2aXNpYmlsaXR5OiBoaWRkZW4gIWltcG9ydGFudDtcbiAgICAgICAgICAgIHBhZGRpbmctbGVmdDogNXB4O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIEBtZWRpYSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDYwMHB4KSBhbmQgKG1heC13aWR0aDogODQwcHgpIHtcbiAgICAgICAgICAgIC5pcy1jZW50ZXJlZC1vbi1zbWFsbCB7XG4gICAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlciAhaW1wb3J0YW50O1xuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAud2hpdGUtb24tc21hbGwge1xuICAgICAgICAgICAgICBjb2xvcjogd2hpdGUgIWltcG9ydGFudDtcbiAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgLmlzLW1vYmlsZS1vbmx5IHtcbiAgICAgICAgICAgICAgdmlzaWJpbGl0eTogdmlzaWJsZSAhaW1wb3J0YW50O1xuICAgICAgICAgICAgICBwYWRkaW5nLWxlZnQ6IDVweDtcbiAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgbWFpbiB7XG4gICAgICAgICAgICAgIG1hcmdpbjogMHB4IDEwcHggIWltcG9ydGFudDtcbiAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgLnNjcm9sbGFibGUge1xuICAgICAgICAgICAgICBoZWlnaHQ6IGF1dG87XG4gICAgICAgICAgICB9XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgZm9vdGVyIGxpIHtcbiAgICAgICAgICAgIGxpbmUtaGVpZ2h0OiAyNXB4ICFpbXBvcnRhbnQ7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmZpZWxkIHtcbiAgICAgICAgICAgIHBhZGRpbmc6IDVweCAwcHg7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgYTpob3ZlciB7XG4gICAgICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmUgIWltcG9ydGFudDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucHJlLXNjcm9sbGFibGUge1xuICAgICAgICAgICAgbWF4LWhlaWdodDogMzQwcHg7XG4gICAgICAgICAgICBvdmVyZmxvdy15OiBzY3JvbGw7XG4gICAgICAgICAgfVxuICAgICAgICBgfTwvc3R5bGU+XG4gICAgICAgIDxzY3JpcHRcbiAgICAgICAgICBzcmM9XCJodHRwczovL2FqYXguY2xvdWRmbGFyZS5jb20vY2RuLWNnaS9zY3JpcHRzLzcwODljNDNlL2Nsb3VkZmxhcmUtc3RhdGljL3JvY2tldC1sb2FkZXIubWluLmpzXCJcbiAgICAgICAgICBkYXRhLWNmLXNldHRpbmdzPVwiNWU2Y2FjZDNhNTI3N2Q0ZTU1Y2ZlNjRiLXw0OVwiXG4gICAgICAgICAgZGVmZXI9XCJcIlxuICAgICAgICA+PC9zY3JpcHQ+XG4gICAgICA8L2Rpdj5cbiAgICApO1xuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IExheW91dDtcbiJdfQ== */\n/*@ sourceURL=/Users/raheemmcdonald/Desktop/cxcspanish-next/components/Layout.js */"), __jsx("script", {
+      }, "*.jsx-692352764{box-sizing:border-box;}.slider.jsx-692352764{width:300px;text-align:center;overflow:hidden;}.slides.jsx-692352764{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;overflow-x:auto;-webkit-scroll-snap-type:x mandatory;-moz-scroll-snap-type:x mandatory;-ms-scroll-snap-type:x mandatory;scroll-snap-type:x mandatory;-webkit-scroll-behavior:smooth;-moz-scroll-behavior:smooth;-ms-scroll-behavior:smooth;scroll-behavior:smooth;-webkit-overflow-scrolling:touch;}.slides.jsx-692352764::-webkit-scrollbar{width:10px;height:10px;}.slides.jsx-692352764::-webkit-scrollbar-thumb{background:black;border-radius:10px;}.slides.jsx-692352764::-webkit-scrollbar-track{background:transparent;}.slides.jsx-692352764>div.jsx-692352764{-webkit-scroll-snap-align:start;-moz-scroll-snap-align:start;-ms-scroll-snap-align:start;scroll-snap-align:start;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;width:300px;height:300px;margin-right:50px;border-radius:10px;background:#eee;-webkit-transform-origin:center center;-ms-transform-origin:center center;transform-origin:center center;-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);-webkit-transition:-webkit-transform 0.5s;-webkit-transition:transform 0.5s;transition:transform 0.5s;position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-size:100px;}.author-info.jsx-692352764{background:rgba(0,0,0,0.75);color:white;padding:0.75rem;text-align:center;position:absolute;bottom:0;left:0;width:100%;margin:0;}.author-info.jsx-692352764 a.jsx-692352764{color:white;}img.jsx-692352764{object-fit:cover;position:absolute;top:0;left:0;width:100%;height:100%;}.slider.jsx-692352764>a.jsx-692352764{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;width:1.5rem;height:1.5rem;background:white;-webkit-text-decoration:none;text-decoration:none;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;border-radius:50%;margin:0 0 0.5rem 0;position:relative;}.slider.jsx-692352764>a.jsx-692352764:active{top:1px;}.slider.jsx-692352764>a.jsx-692352764:focus{background:#000;}@supports (-webkit-scroll-snap-type) or (-moz-scroll-snap-type) or (-ms-scroll-snap-type) or (scroll-snap-type){.slider.jsx-692352764>a.jsx-692352764{display:none;}}html.jsx-692352764,body.jsx-692352764{height:100%;overflow:hidden;}body.jsx-692352764{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;background:linear-gradient(to bottom,#74abe2,#5563de);font-family:\"Ropa Sans\",sans-serif;}*.jsx-692352764{background-color:#f6f8fa;}.black.jsx-692352764{color:black !important;}.styled-ul.jsx-692352764 li.jsx-692352764{list-style:disc !important;padding-bottom:1.5em;}.container.jsx-692352764{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;}@media (min-width:576px){.container.jsx-692352764{max-width:540px;}}@media (min-width:768px){.container.jsx-692352764{max-width:720px;}}@media (min-width:992px){.container.jsx-692352764{max-width:960px;}}@media (min-width:1200px){.container.jsx-692352764{max-width:1140px;}}.rounded.jsx-692352764{border-radius:15px;border:1px solid #eee;padding-left:20px;padding-top:20px;}.hidden.jsx-692352764{display:none !important;}.hidden.jsx-692352764 *.jsx-692352764{display:none !important;}.underline.jsx-692352764:hover{-webkit-text-decoration:underline !important;text-decoration:underline !important;}caption.jsx-692352764{padding-top:0.75rem;padding-bottom:0.75rem;color:#6c757d;text-align:left;caption-side:bottom;}.scrollable.jsx-692352764{overflow:auto !important;height:100px !important;}.rainbow-text.jsx-692352764{background-image:linear-gradient( to left, violet, indigo, blue, green, yellow, orange, red );-webkit-background-clip:text;-webkit-text-fill-color:transparent;}.shadow-sm.jsx-692352764{box-shadow:0 0.125rem 0.25rem rgba(0,0,0,0.075) !important;}.shadow.jsx-692352764{box-shadow:0 0.5rem 1rem rgba(0,0,0,0.15) !important;}.shadow-lg.jsx-692352764{box-shadow:0 1rem 3rem rgba(0,0,0,0.175) !important;}.shadow-none.jsx-692352764{box-shadow:none !important;}.list-unstyled.jsx-692352764{padding-top:10px;list-style:none !important;margin:0px !important;}.list-unstyled.jsx-692352764 li.jsx-692352764{margin-bottom:13px;}.nav-icon-1.jsx-692352764{padding-right:1px;}.nav-icon-2.jsx-692352764{padding-right:2px;}.nav-icon-3.jsx-692352764{padding-right:3px;}.nav-icon-4.jsx-692352764{padding-right:4px;}.nav-icon-5.jsx-692352764{padding-right:5px;}.nav-icon-6.jsx-692352764{padding-right:6px;}.nav-icon-7.jsx-692352764{padding-right:7px;}.nav-icon-8.jsx-692352764{padding-right:8px;}.nav-icon-9.jsx-692352764{padding-right:9px;}.nav-icon-10.jsx-692352764{padding-right:10px;}.nav-icon-11.jsx-692352764{padding-right:11px;}.nav-icon-12.jsx-692352764{padding-right:12px;}.nav-icon-13.jsx-692352764{padding-right:13px;}.nav-icon-14.jsx-692352764{padding-right:14px;}.nav-icon-15.jsx-692352764{padding-right:15px;}.nav-icon-17.jsx-692352764{padding-right:17px;}.fa-linkedin-in.jsx-692352764{display:none !important;}p.jsx-692352764,span.jsx-692352764,li.jsx-692352764{line-height:20px;}.sticky.jsx-692352764{position:fixed;top:0;width:100%;}.sticky.jsx-692352764+.content.jsx-692352764{padding-top:102px;}.inline-icon.jsx-692352764{margin-right:8px;}.nav-icon.jsx-692352764{margin-right:5px;}.breadcrumb.jsx-692352764{background:transparent !important;}.nav-tabs.jsx-692352764>li.active.jsx-692352764>a.jsx-692352764,.nav-tabs.jsx-692352764>li.active.jsx-692352764>a.jsx-692352764:focus,.nav-tabs.jsx-692352764>li.active.jsx-692352764>a.jsx-692352764:hover{border:0 !important;}.navbar-item.is-mega.jsx-692352764{position:static;}.is-mega-menu-title.jsx-692352764{margin-bottom:0;padding:0.375rem 1rem;}.push-down.jsx-692352764{margin-top:5px;}.translation.jsx-692352764{color:#0d0314;background-color:#eeeeee;width:100%;padding:10px;margin:5px;}.menu-link.jsx-692352764:hover{color:#8a3ab9;}.menu-link.jsx-692352764{color:#209cee !important;}.my-blue.jsx-692352764{color:#209cee !important;}.my-blue.jsx-692352764:hover{-webkit-text-decoration:none;text-decoration:none;color:#00d8ff !important;}.my-blue-on-hover.jsx-692352764:hover{color:#209cee !important;}.support-text.jsx-692352764{color:grey;}.facebook-blue.jsx-692352764{color:#3b5998 !important;}.blink.jsx-692352764{-webkit-animation-duration:4000ms;animation-duration:4000ms;-webkit-animation-name:blink-jsx-692352764;animation-name:blink-jsx-692352764;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-direction:alternate;animation-direction:alternate;}@-webkit-keyframes blink-jsx-692352764{from{opacity:1;}to{opacity:0;}}@keyframes blink-jsx-692352764{from{opacity:1;}to{opacity:0;}}.loader.jsx-692352764,.loader.jsx-692352764:before,.loader.jsx-692352764:after{border-radius:50%;width:2.5em;height:2.5em;-webkit-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation:load7-jsx-692352764 1.8s infinite ease-in-out;animation:load7-jsx-692352764 1.8s infinite ease-in-out;}.loader.jsx-692352764{color:#ffffff;font-size:10px;margin:80px auto;position:relative;text-indent:-9999em;-webkit-transform:translateZ(0);-ms-transform:translateZ(0);transform:translateZ(0);-webkit-animation-delay:-0.16s;animation-delay:-0.16s;}.loader.jsx-692352764:before,.loader.jsx-692352764:after{content:\"\";position:absolute;top:0;}.loader.jsx-692352764:before{left:-3.5em;-webkit-animation-delay:-0.32s;animation-delay:-0.32s;}.loader.jsx-692352764:after{left:3.5em;}@-webkit-keyframes load7-jsx-692352764{0%,80%,100%{box-shadow:0 2.5em 0 -1.3em;}40%{box-shadow:0 2.5em 0 0;}}@keyframes load7-jsx-692352764{0%,80%,100%{box-shadow:0 2.5em 0 -1.3em;}40%{box-shadow:0 2.5em 0 0;}}.midnight-blue.jsx-692352764{color:#003366;}.zoom.jsx-692352764{padding:50px;background-color:green;-webkit-transition:-webkit-transform 0.2s;-webkit-transition:transform 0.2s;transition:transform 0.2s;width:200px;height:200px;margin:0 auto;}.zoom.jsx-692352764:hover{-webkit-transform:scale(1.5);-ms-transform:scale(1.5);transform:scale(1.5);}.video-container.jsx-692352764{position:relative;padding-bottom:56.25%;padding-top:30px;height:0;overflow:hidden;}.video-container.jsx-692352764 iframe.jsx-692352764,.video-container.jsx-692352764 object.jsx-692352764,.video-container.jsx-692352764 embed.jsx-692352764{position:absolute;top:0;left:0;width:100%;height:100%;}@media (max-width:767px){.text-sm-center.jsx-692352764{text-align:center !important;}}.remove-btn.jsx-692352764{padding:0px !important;border:none !important;background:none !important;}.spin.jsx-692352764{-webkit-animation:spin 4s infinite linear;}@-webkit-keyframes spin{0%.jsx-692352764{-webkit-transform:rotate(0deg);}100%.jsx-692352764{-webkit-transform:rotate(360deg);}}footer.jsx-692352764{color:#c9c9c9 !important;}footer.jsx-692352764 a.jsx-692352764{color:#c9c9c9 !important;}footer.jsx-692352764 a.jsx-692352764:hover{color:white !important;}.u-navbar.jsx-692352764{border-bottom:1px solid #bbbbbb;}.u-nav-link.jsx-692352764{-webkit-text-decoration:none;text-decoration:none;padding:10px 0px;margin:0px 10px;display:inline-block;position:relative;opacity:0.75;}.u-nav-link.jsx-692352764:hover{opacity:1;}.u-nav-link.jsx-692352764::before{-webkit-transition:300ms;transition:300ms;height:5px;content:\"\";position:absolute;background-color:#031d44;}.u-nav-link-ltr.jsx-692352764::before{width:0%;bottom:10px;}.u-nav-link-ltr.jsx-692352764:hover.jsx-692352764::before{width:100%;}.u-nav-link-fade-up.jsx-692352764::before{width:100%;bottom:5px;opacity:0;}.u-nav-link-fade-up.jsx-692352764:hover.jsx-692352764::before{bottom:10px;opacity:1;}.u-nav-link-grow-up.jsx-692352764::before{height:0%;width:100%;bottom:0px;}.u-nav-link-grow-up.jsx-692352764:hover.jsx-692352764::before{height:5px;}.is-mobile-only.jsx-692352764{visibility:hidden !important;padding-left:5px;}@media screen and (max-width:600px) and (max-width:840px){.is-centered-on-small.jsx-692352764{text-align:center !important;}.white-on-small.jsx-692352764{color:white !important;}.is-mobile-only.jsx-692352764{visibility:visible !important;padding-left:5px;}main.jsx-692352764{margin:0px 10px !important;}.scrollable.jsx-692352764{height:auto;}}footer.jsx-692352764 li.jsx-692352764{line-height:25px !important;}.field.jsx-692352764{padding:5px 0px;}a.jsx-692352764:hover{-webkit-text-decoration:none !important;text-decoration:none !important;}.pre-scrollable.jsx-692352764{max-height:340px;overflow-y:scroll;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9yYWhlZW1tY2RvbmFsZC9EZXNrdG9wL2N4Y3NwYW5pc2gtbmV4dC9jb21wb25lbnRzL0xheW91dC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUE4Q29CLEFBR21DLEFBSVYsQUFNQyxBQVNGLEFBSU0sQUFJTSxBQUdDLEFBcUJPLEFBV25CLEFBR0ssQUFTRyxBQVlaLEFBR1EsQUFNRCxBQU1ILEFBSUMsQUFRWSxBQUlGLEFBSUksQUFLaEIsQUFTTyxBQU1BLEFBTUEsQUFNQyxBQUtBLEFBT0ssQUFJQSxBQUlhLEFBSWpCLEFBUUssQUFjeEIsQUFNNkQsQUFJTixBQUlELEFBSTVCLEFBSVYsQUFNRSxBQUtELEFBSUEsQUFJQSxBQUlBLEFBSUEsQUFJQSxBQUlBLEFBSUEsQUFJQSxBQUlDLEFBSUEsQUFJQSxBQUlBLEFBSUEsQUFJQSxBQUlBLEFBTUssQUFNUCxBQUlGLEFBT0csQUFJRCxBQUlBLEFBSWlCLEFBUWQsQUFJSixBQUlBLEFBS0QsQUFJRCxBQVFBLEFBSVcsQUFJQSxBQUlKLEFBS0ksQUFJZCxBQUljLEFBSUMsQUFRZCxBQUlBLEFBT00sQUFRSixBQVdILEFBTUMsQUFLRCxBQU9tQixBQUlMLEFBS1gsQUFLRCxBQVVRLEFBTUgsQUFVQSxBQVNhLEFBT1IsQUFNbUIsQUFLVCxBQUlFLEFBS1YsQUFJQSxBQUlGLEFBSVMsQUFJWCxBQVNYLEFBSU8sQUFRUixBQUtFLEFBSUEsQUFNQyxBQUtGLEFBTUMsQUFJa0IsQUFNRSxBQUlOLEFBSU8sQUFLSCxBQUlmLEFBS2MsQUFJWixBQUlnQixBQUlmLFFBN2hCbkIsQ0F3ZGMsQ0FqS1osQUFJQSxBQWlKRixBQWdDYSxDQS9pQkMsQUEyR08sQUErUHJCLEFBOENvQixBQVdwQixBQTZIQSxBQUlhLEFBaUJiLENBcGtCb0IsQUEwRHBCLEFBdUNrQixBQTRVTyxBQTRJYixBQXNDVixDQXBnQkEsQUE0V3VCLENBM0dFLEFBUTNCLEFBd0RpQixBQXNDakIsQ0FsSlEsQUF3Q1IsQ0FuUUEsQUE4Q0UsQUFNQSxBQU1BLEFBZ01GLEFBSXdCLEFBcVJ4QixDQXJsQnFCLEFBMENELEFBd0ZsQixBQW9FMkIsQUFtRjdCLEFBZUEsQUFJQSxBQWlUb0IsQ0E1WXBCLEFBSUEsQUFJQSxBQUlBLEFBSUEsQUFJQSxBQUlBLEFBSUEsQUFJQSxBQW1EQSxBQTZGYyxBQW1FVSxBQVVoQixDQXZVZ0IsQUFxRXhCLEFBeUNBLEFBSUEsQUFJQSxBQUlBLEFBSUEsQUFJQSxBQUlBLENBbkh5QixBQThKekIsQ0ExQmEsQUEwUGIsQUFvQmEsQ0Fua0JiLEFBd2pCWSxBQU1aLENBMWlCQSxBQU9BLEFBMEZBLEFBNFVFLEFBb0R1QixBQTRCekIsQUFxRUUsQ0FqYkYsQUFJQSxBQWlJQSxBQTRMUyxDQXJYVCxBQXdFMEIsQUFtTDFCLEFBSUEsQUFTQSxBQVFBLEFBd0lBLEFBSUEsRUFwWnVCLEFBZ0d2QixBQXNZRSxDQTVpQlksQUFtRGQsQUF1VkUsQUEyS0YsQ0F2TW1CLEFBV1gsQUFrRU4sQUE4RmlCLEFBTWpCLENBN2tCZ0IsQUEwSEUsQUEwUkwsQUFpTU0sQ0FuSFIsQUF5QlgsQ0ExTUYsQUErTkEsQUFvQ0EsQUFXQSxDQWhFRSxDQTdMRixDQXJRUSxBQTJXUixBQXdNQSxDQTdsQkEsQUFvYjRCLEVBcEg1QixDQVNhLENBN1NLLEFBd2FDLENBelpWLEFBNEZXLENBeVVOLEFBbUJkLEFBMkNhLENBcFhHLEFBd09XLENBNUxILEVBeE54QixBQTRab0IsQUFvRlMsQUF1RjdCLENBY0UsQ0F2aEJXLEFBc0RiLEFBTW9CLENBMERwQixDQXdLZSxBQWtCWSxBQXFLUixFQXBVbkIsQ0FKQSxBQXNWYSxDQTlEYixFQXBib0IsQ0E4SEYsQUEwU1AsRUF4WkcsQUEyRkssQUE2Q25CLENBd0x1QixHQWxDVixDQWdFUyxBQXFJRixFQXZhRCxBQThGbkIsQUFtTkEsQUE0Q2tCLENBNERBLElBcGRsQixDQTBpQkEsQ0E1YnNCLEFBbVV0QixDQTVla0IsQUEyQ0UsQUFtREMsQUEyUHJCLENBaUJBLEFBaUdBLENBclRBLE1BWUEsQUFrVEEsQUEwRTJCLENBdmEzQixBQXladUIsQ0F2SEcsTUF4WkssRUEyQ3BCLENBOEhYLENBa0IrQixPQS9JdEIsQUFtV21DLENBalY3QixFQWtkSyxHQWNwQixDQWpmYSxLQTNCRyxFQTZDQSxJQWpCTCxHQW1lSSxDQXJWdUIsS0E3SXRDLENBaUJtQixNQWtkbkIsR0F4SnFDLEFBd0V2QixRQWpZUyxJQWtZUixTQXRRZixJQXVRZ0IsSUF0V1MsQ0EyVEEsQ0F0WVgsUUFrYmQsSUFqYmUsYUFDSyxFQTZDQyxnQkE1Q0EsSUFxV1csS0FxQmhDLENBVUEsQ0F4WnlCLFFBcUJQLGdCQUNlLG1CQXVFeUIsa0JBNlIxRCxLQXpUeUIsK0JBNkJhLFlBN0ZILG9CQXNCZCxHQXdFckIsVUE3RkEsdUJBZ0VvQixrQkFDRSxlQTNDTSxLQTRDUixrQkFDcEIsK0VBNUNvQixrQkFFTCwwRUFDVSxtR0FDSiw2RkFDSCxnQkFDbEIiLCJmaWxlIjoiL1VzZXJzL3JhaGVlbW1jZG9uYWxkL0Rlc2t0b3AvY3hjc3BhbmlzaC1uZXh0L2NvbXBvbmVudHMvTGF5b3V0LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEhlYWRlckltcG9ydHMgZnJvbSBcIi4uL2NvbW1vbi9IZWFkZXJJbXBvcnRzXCI7XG5pbXBvcnQgTmF2YmFyIGZyb20gXCIuL05hdmJhclwiO1xuaW1wb3J0IEZvb3RlciBmcm9tIFwiLi9Gb290ZXJcIjtcbmltcG9ydCBSZWFjdEdBIGZyb20gXCJyZWFjdC1nYVwiO1xuaW1wb3J0IEhlYWQgZnJvbSBcIm5leHQvaGVhZFwiO1xuaW1wb3J0IExhenlMb2FkIGZyb20gXCJyZWFjdC1sYXp5bG9hZFwiO1xuaW1wb3J0IFN3YWwgZnJvbSBcInN3ZWV0YWxlcnQyXCI7XG5cbi8vIENTUyBpbXBvcnRzXG5pbXBvcnQgQ1NTIGZyb20gXCIuLi9hc3NldHMvYnVsbWEuY3NzXCI7XG5cbmltcG9ydCBCdWxtYUFjY29yZGlhbkNTUyBmcm9tIFwiLi4vYXNzZXRzL2J1bG1hLWFjY29yZGlhbi5jc3NcIjtcbmltcG9ydCBcIi4uL2Fzc2V0cy9mb250YXdlc29tZS5qc1wiO1xuXG5jbGFzcyBMYXlvdXQgZXh0ZW5kcyBSZWFjdC5Db21wb25lbnQge1xuICBjb25zdHJ1Y3Rvcihwcm9wcykge1xuICAgIHN1cGVyKHByb3BzKTtcblxuICAgIHRoaXMuc3RhdGUgPSB7XG4gICAgICBpc01vYmlsZTogZmFsc2VcbiAgICB9O1xuICB9XG5cbiAgY29tcG9uZW50RGlkTW91bnQoKSB7XG4gICAgUmVhY3RHQS5pbml0aWFsaXplKFwiVUEtMTQ2MjI5NDQyLTFcIik7XG4gICAgUmVhY3RHQS5wYWdldmlldyh3aW5kb3cubG9jYXRpb24ucGF0aG5hbWUgKyB3aW5kb3cubG9jYXRpb24uc2VhcmNoKTtcblxuICAgIC8vIENsZWFycyB0aGUgY29uc29sZVxuICAgIGNvbnNvbGUuY2xlYXIoKTtcbiAgfVxuXG4gIHJlbmRlcigpIHtcbiAgICByZXR1cm4gKFxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJhcHBcIj5cbiAgICAgICAgPEhlYWRlckltcG9ydHMgLz5cbiAgICAgICAgPE5hdmJhciAvPlxuXG4gICAgICAgIDxiciAvPlxuICAgICAgICA8bWFpbiByb2xlPVwibWFpblwiIGlkPVwibWFpblwiPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPXt0aGlzLnByb3BzLmZ1bGwgPyBcImNvbnRhaW5lci1mbHVpZFwiIDogXCJjb250YWluZXJcIn0+XG4gICAgICAgICAgICB7dGhpcy5wcm9wcy5jaGlsZHJlbn1cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9tYWluPlxuICAgICAgICA8YnIgLz5cbiAgICAgICAgPEZvb3RlciAvPlxuXG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICAqIHtcbiAgICAgICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnNsaWRlciB7XG4gICAgICAgICAgICB3aWR0aDogMzAwcHg7XG4gICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICAgICAgICBvdmVyZmxvdzogaGlkZGVuO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5zbGlkZXMge1xuICAgICAgICAgICAgZGlzcGxheTogZmxleDtcblxuICAgICAgICAgICAgb3ZlcmZsb3cteDogYXV0bztcbiAgICAgICAgICAgIHNjcm9sbC1zbmFwLXR5cGU6IHggbWFuZGF0b3J5O1xuXG4gICAgICAgICAgICBzY3JvbGwtYmVoYXZpb3I6IHNtb290aDtcbiAgICAgICAgICAgIC13ZWJraXQtb3ZlcmZsb3ctc2Nyb2xsaW5nOiB0b3VjaDtcbiAgICAgICAgICB9XG4gICAgICAgICAgLnNsaWRlczo6LXdlYmtpdC1zY3JvbGxiYXIge1xuICAgICAgICAgICAgd2lkdGg6IDEwcHg7XG4gICAgICAgICAgICBoZWlnaHQ6IDEwcHg7XG4gICAgICAgICAgfVxuICAgICAgICAgIC5zbGlkZXM6Oi13ZWJraXQtc2Nyb2xsYmFyLXRodW1iIHtcbiAgICAgICAgICAgIGJhY2tncm91bmQ6IGJsYWNrO1xuICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogMTBweDtcbiAgICAgICAgICB9XG4gICAgICAgICAgLnNsaWRlczo6LXdlYmtpdC1zY3JvbGxiYXItdHJhY2sge1xuICAgICAgICAgICAgYmFja2dyb3VuZDogdHJhbnNwYXJlbnQ7XG4gICAgICAgICAgfVxuICAgICAgICAgIC5zbGlkZXMgPiBkaXYge1xuICAgICAgICAgICAgc2Nyb2xsLXNuYXAtYWxpZ246IHN0YXJ0O1xuICAgICAgICAgICAgZmxleC1zaHJpbms6IDA7XG4gICAgICAgICAgICB3aWR0aDogMzAwcHg7XG4gICAgICAgICAgICBoZWlnaHQ6IDMwMHB4O1xuICAgICAgICAgICAgbWFyZ2luLXJpZ2h0OiA1MHB4O1xuICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogMTBweDtcbiAgICAgICAgICAgIGJhY2tncm91bmQ6ICNlZWU7XG4gICAgICAgICAgICB0cmFuc2Zvcm0tb3JpZ2luOiBjZW50ZXIgY2VudGVyO1xuICAgICAgICAgICAgdHJhbnNmb3JtOiBzY2FsZSgxKTtcbiAgICAgICAgICAgIHRyYW5zaXRpb246IHRyYW5zZm9ybSAwLjVzO1xuICAgICAgICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuXG4gICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICAgICAgZm9udC1zaXplOiAxMDBweDtcbiAgICAgICAgICB9XG4gICAgICAgICAgLnNsaWRlcyA+IGRpdjp0YXJnZXQge1xuICAgICAgICAgICAgLyogICB0cmFuc2Zvcm06IHNjYWxlKDAuOCk7ICovXG4gICAgICAgICAgfVxuICAgICAgICAgIC5hdXRob3ItaW5mbyB7XG4gICAgICAgICAgICBiYWNrZ3JvdW5kOiByZ2JhKDAsIDAsIDAsIDAuNzUpO1xuICAgICAgICAgICAgY29sb3I6IHdoaXRlO1xuICAgICAgICAgICAgcGFkZGluZzogMC43NXJlbTtcbiAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICB3aWR0aDogMTAwJTtcbiAgICAgICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgICB9XG4gICAgICAgICAgLmF1dGhvci1pbmZvIGEge1xuICAgICAgICAgICAgY29sb3I6IHdoaXRlO1xuICAgICAgICAgIH1cbiAgICAgICAgICBpbWcge1xuICAgICAgICAgICAgb2JqZWN0LWZpdDogY292ZXI7XG4gICAgICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICAgICAgICB0b3A6IDA7XG4gICAgICAgICAgICBsZWZ0OiAwO1xuICAgICAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgICAgICBoZWlnaHQ6IDEwMCU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnNsaWRlciA+IGEge1xuICAgICAgICAgICAgZGlzcGxheTogaW5saW5lLWZsZXg7XG4gICAgICAgICAgICB3aWR0aDogMS41cmVtO1xuICAgICAgICAgICAgaGVpZ2h0OiAxLjVyZW07XG4gICAgICAgICAgICBiYWNrZ3JvdW5kOiB3aGl0ZTtcbiAgICAgICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgICAgIGJvcmRlci1yYWRpdXM6IDUwJTtcbiAgICAgICAgICAgIG1hcmdpbjogMCAwIDAuNXJlbSAwO1xuICAgICAgICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgICAgIH1cbiAgICAgICAgICAuc2xpZGVyID4gYTphY3RpdmUge1xuICAgICAgICAgICAgdG9wOiAxcHg7XG4gICAgICAgICAgfVxuICAgICAgICAgIC5zbGlkZXIgPiBhOmZvY3VzIHtcbiAgICAgICAgICAgIGJhY2tncm91bmQ6ICMwMDA7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLyogRG9uJ3QgbmVlZCBidXR0b24gbmF2aWdhdGlvbiAqL1xuICAgICAgICAgIEBzdXBwb3J0cyAoc2Nyb2xsLXNuYXAtdHlwZSkge1xuICAgICAgICAgICAgLnNsaWRlciA+IGEge1xuICAgICAgICAgICAgICBkaXNwbGF5OiBub25lO1xuICAgICAgICAgICAgfVxuICAgICAgICAgIH1cblxuICAgICAgICAgIGh0bWwsXG4gICAgICAgICAgYm9keSB7XG4gICAgICAgICAgICBoZWlnaHQ6IDEwMCU7XG4gICAgICAgICAgICBvdmVyZmxvdzogaGlkZGVuO1xuICAgICAgICAgIH1cbiAgICAgICAgICBib2R5IHtcbiAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgICAgICAgICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQodG8gYm90dG9tLCAjNzRhYmUyLCAjNTU2M2RlKTtcbiAgICAgICAgICAgIGZvbnQtZmFtaWx5OiBcIlJvcGEgU2Fuc1wiLCBzYW5zLXNlcmlmO1xuICAgICAgICAgIH1cblxuICAgICAgICAgICoge1xuICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogI2Y2ZjhmYTtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAuYmxhY2sge1xuICAgICAgICAgICAgY29sb3I6IGJsYWNrICFpbXBvcnRhbnQ7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnN0eWxlZC11bCBsaSB7XG4gICAgICAgICAgICBsaXN0LXN0eWxlOiBkaXNjICFpbXBvcnRhbnQ7XG4gICAgICAgICAgICBwYWRkaW5nLWJvdHRvbTogMS41ZW07XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvbnRhaW5lciB7XG4gICAgICAgICAgICB3aWR0aDogMTAwJTtcbiAgICAgICAgICAgIHBhZGRpbmctcmlnaHQ6IDE1cHg7XG4gICAgICAgICAgICBwYWRkaW5nLWxlZnQ6IDE1cHg7XG4gICAgICAgICAgICBtYXJnaW4tcmlnaHQ6IGF1dG87XG4gICAgICAgICAgICBtYXJnaW4tbGVmdDogYXV0bztcbiAgICAgICAgICB9XG5cbiAgICAgICAgICBAbWVkaWEgKG1pbi13aWR0aDogNTc2cHgpIHtcbiAgICAgICAgICAgIC5jb250YWluZXIge1xuICAgICAgICAgICAgICBtYXgtd2lkdGg6IDU0MHB4O1xuICAgICAgICAgICAgfVxuICAgICAgICAgIH1cblxuICAgICAgICAgIEBtZWRpYSAobWluLXdpZHRoOiA3NjhweCkge1xuICAgICAgICAgICAgLmNvbnRhaW5lciB7XG4gICAgICAgICAgICAgIG1heC13aWR0aDogNzIwcHg7XG4gICAgICAgICAgICB9XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgQG1lZGlhIChtaW4td2lkdGg6IDk5MnB4KSB7XG4gICAgICAgICAgICAuY29udGFpbmVyIHtcbiAgICAgICAgICAgICAgbWF4LXdpZHRoOiA5NjBweDtcbiAgICAgICAgICAgIH1cbiAgICAgICAgICB9XG5cbiAgICAgICAgICBAbWVkaWEgKG1pbi13aWR0aDogMTIwMHB4KSB7XG4gICAgICAgICAgICAuY29udGFpbmVyIHtcbiAgICAgICAgICAgICAgbWF4LXdpZHRoOiAxMTQwcHg7XG4gICAgICAgICAgICB9XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnJvdW5kZWQge1xuICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogMTVweDtcbiAgICAgICAgICAgIGJvcmRlcjogMXB4IHNvbGlkICNlZWU7XG4gICAgICAgICAgICBwYWRkaW5nLWxlZnQ6IDIwcHg7XG4gICAgICAgICAgICBwYWRkaW5nLXRvcDogMjBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAuaGlkZGVuIHtcbiAgICAgICAgICAgIGRpc3BsYXk6IG5vbmUgIWltcG9ydGFudDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAuaGlkZGVuICoge1xuICAgICAgICAgICAgZGlzcGxheTogbm9uZSAhaW1wb3J0YW50O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC51bmRlcmxpbmU6aG92ZXIge1xuICAgICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmUgIWltcG9ydGFudDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICBjYXB0aW9uIHtcbiAgICAgICAgICAgIHBhZGRpbmctdG9wOiAwLjc1cmVtO1xuICAgICAgICAgICAgcGFkZGluZy1ib3R0b206IDAuNzVyZW07XG4gICAgICAgICAgICBjb2xvcjogIzZjNzU3ZDtcbiAgICAgICAgICAgIHRleHQtYWxpZ246IGxlZnQ7XG4gICAgICAgICAgICBjYXB0aW9uLXNpZGU6IGJvdHRvbTtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAuc2Nyb2xsYWJsZSB7XG4gICAgICAgICAgICBvdmVyZmxvdzogYXV0byAhaW1wb3J0YW50O1xuICAgICAgICAgICAgaGVpZ2h0OiAxMDBweCAhaW1wb3J0YW50O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5yYWluYm93LXRleHQge1xuICAgICAgICAgICAgYmFja2dyb3VuZC1pbWFnZTogbGluZWFyLWdyYWRpZW50KFxuICAgICAgICAgICAgICB0byBsZWZ0LFxuICAgICAgICAgICAgICB2aW9sZXQsXG4gICAgICAgICAgICAgIGluZGlnbyxcbiAgICAgICAgICAgICAgYmx1ZSxcbiAgICAgICAgICAgICAgZ3JlZW4sXG4gICAgICAgICAgICAgIHllbGxvdyxcbiAgICAgICAgICAgICAgb3JhbmdlLFxuICAgICAgICAgICAgICByZWRcbiAgICAgICAgICAgICk7XG4gICAgICAgICAgICAtd2Via2l0LWJhY2tncm91bmQtY2xpcDogdGV4dDtcbiAgICAgICAgICAgIC13ZWJraXQtdGV4dC1maWxsLWNvbG9yOiB0cmFuc3BhcmVudDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAuc2hhZG93LXNtIHtcbiAgICAgICAgICAgIGJveC1zaGFkb3c6IDAgMC4xMjVyZW0gMC4yNXJlbSByZ2JhKDAsIDAsIDAsIDAuMDc1KSAhaW1wb3J0YW50O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5zaGFkb3cge1xuICAgICAgICAgICAgYm94LXNoYWRvdzogMCAwLjVyZW0gMXJlbSByZ2JhKDAsIDAsIDAsIDAuMTUpICFpbXBvcnRhbnQ7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnNoYWRvdy1sZyB7XG4gICAgICAgICAgICBib3gtc2hhZG93OiAwIDFyZW0gM3JlbSByZ2JhKDAsIDAsIDAsIDAuMTc1KSAhaW1wb3J0YW50O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5zaGFkb3ctbm9uZSB7XG4gICAgICAgICAgICBib3gtc2hhZG93OiBub25lICFpbXBvcnRhbnQ7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmxpc3QtdW5zdHlsZWQge1xuICAgICAgICAgICAgcGFkZGluZy10b3A6IDEwcHg7XG4gICAgICAgICAgICBsaXN0LXN0eWxlOiBub25lICFpbXBvcnRhbnQ7XG4gICAgICAgICAgICBtYXJnaW46IDBweCAhaW1wb3J0YW50O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5saXN0LXVuc3R5bGVkIGxpIHtcbiAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDEzcHg7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLyogTmF2aWdhdGlvbiBpY29uIHBhZGRpbmcgKi9cbiAgICAgICAgICAubmF2LWljb24tMSB7XG4gICAgICAgICAgICBwYWRkaW5nLXJpZ2h0OiAxcHg7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLm5hdi1pY29uLTIge1xuICAgICAgICAgICAgcGFkZGluZy1yaWdodDogMnB4O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5uYXYtaWNvbi0zIHtcbiAgICAgICAgICAgIHBhZGRpbmctcmlnaHQ6IDNweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAubmF2LWljb24tNCB7XG4gICAgICAgICAgICBwYWRkaW5nLXJpZ2h0OiA0cHg7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLm5hdi1pY29uLTUge1xuICAgICAgICAgICAgcGFkZGluZy1yaWdodDogNXB4O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5uYXYtaWNvbi02IHtcbiAgICAgICAgICAgIHBhZGRpbmctcmlnaHQ6IDZweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAubmF2LWljb24tNyB7XG4gICAgICAgICAgICBwYWRkaW5nLXJpZ2h0OiA3cHg7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLm5hdi1pY29uLTgge1xuICAgICAgICAgICAgcGFkZGluZy1yaWdodDogOHB4O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5uYXYtaWNvbi05IHtcbiAgICAgICAgICAgIHBhZGRpbmctcmlnaHQ6IDlweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAubmF2LWljb24tMTAge1xuICAgICAgICAgICAgcGFkZGluZy1yaWdodDogMTBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAubmF2LWljb24tMTEge1xuICAgICAgICAgICAgcGFkZGluZy1yaWdodDogMTFweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAubmF2LWljb24tMTIge1xuICAgICAgICAgICAgcGFkZGluZy1yaWdodDogMTJweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAubmF2LWljb24tMTMge1xuICAgICAgICAgICAgcGFkZGluZy1yaWdodDogMTNweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAubmF2LWljb24tMTQge1xuICAgICAgICAgICAgcGFkZGluZy1yaWdodDogMTRweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAubmF2LWljb24tMTUge1xuICAgICAgICAgICAgcGFkZGluZy1yaWdodDogMTVweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAubmF2LWljb24tMTcge1xuICAgICAgICAgICAgcGFkZGluZy1yaWdodDogMTdweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAvKiBNYXN0ZXIuY3NzICovXG5cbiAgICAgICAgICAuZmEtbGlua2VkaW4taW4ge1xuICAgICAgICAgICAgZGlzcGxheTogbm9uZSAhaW1wb3J0YW50O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIHAsXG4gICAgICAgICAgc3BhbixcbiAgICAgICAgICBsaSB7XG4gICAgICAgICAgICBsaW5lLWhlaWdodDogMjBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAuc3RpY2t5IHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC8qIEFkZCBzb21lIHRvcCBwYWRkaW5nIHRvIHRoZSBwYWdlIGNvbnRlbnQgdG8gcHJldmVudCBzdWRkZW4gcXVpY2sgbW92ZW1lbnQgKGFzIHRoZSBoZWFkZXIgZ2V0cyBhIG5ldyBwb3NpdGlvbiBhdCB0aGUgdG9wIG9mIHRoZSBwYWdlIChwb3NpdGlvbjpmaXhlZCBhbmQgdG9wOjApICovXG4gICAgICAgICAgLnN0aWNreSArIC5jb250ZW50IHtcbiAgICAgICAgICAgIHBhZGRpbmctdG9wOiAxMDJweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAuaW5saW5lLWljb24ge1xuICAgICAgICAgICAgbWFyZ2luLXJpZ2h0OiA4cHg7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLm5hdi1pY29uIHtcbiAgICAgICAgICAgIG1hcmdpbi1yaWdodDogNXB4O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5icmVhZGNydW1iIHtcbiAgICAgICAgICAgIGJhY2tncm91bmQ6IHRyYW5zcGFyZW50ICFpbXBvcnRhbnQ7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLyogSW5kZXguY3NzICovXG5cbiAgICAgICAgICAubmF2LXRhYnMgPiBsaS5hY3RpdmUgPiBhLFxuICAgICAgICAgIC5uYXYtdGFicyA+IGxpLmFjdGl2ZSA+IGE6Zm9jdXMsXG4gICAgICAgICAgLm5hdi10YWJzID4gbGkuYWN0aXZlID4gYTpob3ZlciB7XG4gICAgICAgICAgICBib3JkZXI6IDAgIWltcG9ydGFudDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAubmF2YmFyLWl0ZW0uaXMtbWVnYSB7XG4gICAgICAgICAgICBwb3NpdGlvbjogc3RhdGljO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5pcy1tZWdhLW1lbnUtdGl0bGUge1xuICAgICAgICAgICAgbWFyZ2luLWJvdHRvbTogMDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDAuMzc1cmVtIDFyZW07XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnB1c2gtZG93biB7XG4gICAgICAgICAgICBtYXJnaW4tdG9wOiA1cHg7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnRyYW5zbGF0aW9uIHtcbiAgICAgICAgICAgIGNvbG9yOiAjMGQwMzE0O1xuICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogI2VlZWVlZTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgICAgcGFkZGluZzogMTBweDtcbiAgICAgICAgICAgIG1hcmdpbjogNXB4O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5tZW51LWxpbms6aG92ZXIge1xuICAgICAgICAgICAgY29sb3I6ICM4YTNhYjk7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLm1lbnUtbGluayB7XG4gICAgICAgICAgICBjb2xvcjogIzIwOWNlZSAhaW1wb3J0YW50O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5teS1ibHVlIHtcbiAgICAgICAgICAgIGNvbG9yOiAjMjA5Y2VlICFpbXBvcnRhbnQ7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLm15LWJsdWU6aG92ZXIge1xuICAgICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICAgICAgICAgICAgY29sb3I6ICMwMGQ4ZmYgIWltcG9ydGFudDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAubXktYmx1ZS1vbi1ob3Zlcjpob3ZlciB7XG4gICAgICAgICAgICBjb2xvcjogIzIwOWNlZSAhaW1wb3J0YW50O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5zdXBwb3J0LXRleHQge1xuICAgICAgICAgICAgY29sb3I6IGdyZXk7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmZhY2Vib29rLWJsdWUge1xuICAgICAgICAgICAgY29sb3I6ICMzYjU5OTggIWltcG9ydGFudDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAuYmxpbmsge1xuICAgICAgICAgICAgYW5pbWF0aW9uLWR1cmF0aW9uOiA0MDAwbXM7XG4gICAgICAgICAgICBhbmltYXRpb24tbmFtZTogYmxpbms7XG4gICAgICAgICAgICBhbmltYXRpb24taXRlcmF0aW9uLWNvdW50OiBpbmZpbml0ZTtcbiAgICAgICAgICAgIGFuaW1hdGlvbi1kaXJlY3Rpb246IGFsdGVybmF0ZTtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICBAa2V5ZnJhbWVzIGJsaW5rIHtcbiAgICAgICAgICAgIGZyb20ge1xuICAgICAgICAgICAgICBvcGFjaXR5OiAxO1xuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICB0byB7XG4gICAgICAgICAgICAgIG9wYWNpdHk6IDA7XG4gICAgICAgICAgICB9XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmxvYWRlcixcbiAgICAgICAgICAubG9hZGVyOmJlZm9yZSxcbiAgICAgICAgICAubG9hZGVyOmFmdGVyIHtcbiAgICAgICAgICAgIGJvcmRlci1yYWRpdXM6IDUwJTtcbiAgICAgICAgICAgIHdpZHRoOiAyLjVlbTtcbiAgICAgICAgICAgIGhlaWdodDogMi41ZW07XG4gICAgICAgICAgICBhbmltYXRpb24tZmlsbC1tb2RlOiBib3RoO1xuICAgICAgICAgICAgYW5pbWF0aW9uOiBsb2FkNyAxLjhzIGluZmluaXRlIGVhc2UtaW4tb3V0O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5sb2FkZXIge1xuICAgICAgICAgICAgY29sb3I6ICNmZmZmZmY7XG4gICAgICAgICAgICBmb250LXNpemU6IDEwcHg7XG4gICAgICAgICAgICBtYXJnaW46IDgwcHggYXV0bztcbiAgICAgICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgICAgICAgIHRleHQtaW5kZW50OiAtOTk5OWVtO1xuICAgICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVaKDApO1xuICAgICAgICAgICAgYW5pbWF0aW9uLWRlbGF5OiAtMC4xNnM7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmxvYWRlcjpiZWZvcmUsXG4gICAgICAgICAgLmxvYWRlcjphZnRlciB7XG4gICAgICAgICAgICBjb250ZW50OiBcIlwiO1xuICAgICAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgICAgICAgdG9wOiAwO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5sb2FkZXI6YmVmb3JlIHtcbiAgICAgICAgICAgIGxlZnQ6IC0zLjVlbTtcbiAgICAgICAgICAgIGFuaW1hdGlvbi1kZWxheTogLTAuMzJzO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5sb2FkZXI6YWZ0ZXIge1xuICAgICAgICAgICAgbGVmdDogMy41ZW07XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgQGtleWZyYW1lcyBsb2FkNyB7XG4gICAgICAgICAgICAwJSxcbiAgICAgICAgICAgIDgwJSxcbiAgICAgICAgICAgIDEwMCUge1xuICAgICAgICAgICAgICBib3gtc2hhZG93OiAwIDIuNWVtIDAgLTEuM2VtO1xuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICA0MCUge1xuICAgICAgICAgICAgICBib3gtc2hhZG93OiAwIDIuNWVtIDAgMDtcbiAgICAgICAgICAgIH1cbiAgICAgICAgICB9XG5cbiAgICAgICAgICAubWlkbmlnaHQtYmx1ZSB7XG4gICAgICAgICAgICBjb2xvcjogIzAwMzM2NjtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAvKiBodHRwczovL3d3dy53M3NjaG9vbHMuY29tL2hvd3RvL2hvd3RvX2Nzc196b29tX2hvdmVyLmFzcCAqL1xuICAgICAgICAgIC56b29tIHtcbiAgICAgICAgICAgIHBhZGRpbmc6IDUwcHg7XG4gICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiBncmVlbjtcbiAgICAgICAgICAgIHRyYW5zaXRpb246IHRyYW5zZm9ybSAwLjJzO1xuICAgICAgICAgICAgLyogQW5pbWF0aW9uICovXG4gICAgICAgICAgICB3aWR0aDogMjAwcHg7XG4gICAgICAgICAgICBoZWlnaHQ6IDIwMHB4O1xuICAgICAgICAgICAgbWFyZ2luOiAwIGF1dG87XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnpvb206aG92ZXIge1xuICAgICAgICAgICAgdHJhbnNmb3JtOiBzY2FsZSgxLjUpO1xuICAgICAgICAgICAgLyogKDE1MCUgem9vbSAtIE5vdGU6IGlmIHRoZSB6b29tIGlzIHRvbyBsYXJnZSwgaXQgd2lsbCBnbyBvdXRzaWRlIG9mIHRoZSB2aWV3cG9ydCkgKi9cbiAgICAgICAgICB9XG5cbiAgICAgICAgICAvKiBNQUtFIFlPVVRVQkUgVklERU9TIFJFU1BPTlNJVkUgLSBodHRwczovL2F2ZXhkZXNpZ25zLmNvbS9yZXNwb25zaXZlLXlvdXR1YmUtZW1iZWQvICAqL1xuICAgICAgICAgIC52aWRlby1jb250YWluZXIge1xuICAgICAgICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgICAgICAgcGFkZGluZy1ib3R0b206IDU2LjI1JTtcbiAgICAgICAgICAgIHBhZGRpbmctdG9wOiAzMHB4O1xuICAgICAgICAgICAgaGVpZ2h0OiAwO1xuICAgICAgICAgICAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAudmlkZW8tY29udGFpbmVyIGlmcmFtZSxcbiAgICAgICAgICAudmlkZW8tY29udGFpbmVyIG9iamVjdCxcbiAgICAgICAgICAudmlkZW8tY29udGFpbmVyIGVtYmVkIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICB3aWR0aDogMTAwJTtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICBAbWVkaWEgKG1heC13aWR0aDogNzY3cHgpIHtcbiAgICAgICAgICAgIC50ZXh0LXNtLWNlbnRlciB7XG4gICAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlciAhaW1wb3J0YW50O1xuICAgICAgICAgICAgfVxuICAgICAgICAgIH1cblxuICAgICAgICAgIC8qIDZmYjlmNSBpcyBhIHZlcnkgbmljZSBjb2xvciAqL1xuXG4gICAgICAgICAgLnJlbW92ZS1idG4ge1xuICAgICAgICAgICAgcGFkZGluZzogMHB4ICFpbXBvcnRhbnQ7XG4gICAgICAgICAgICBib3JkZXI6IG5vbmUgIWltcG9ydGFudDtcbiAgICAgICAgICAgIGJhY2tncm91bmQ6IG5vbmUgIWltcG9ydGFudDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAuc3BpbiB7XG4gICAgICAgICAgICAtd2Via2l0LWFuaW1hdGlvbjogc3BpbiA0cyBpbmZpbml0ZSBsaW5lYXI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgQC13ZWJraXQta2V5ZnJhbWVzIHNwaW4ge1xuICAgICAgICAgICAgMCUge1xuICAgICAgICAgICAgICAtd2Via2l0LXRyYW5zZm9ybTogcm90YXRlKDBkZWcpO1xuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAxMDAlIHtcbiAgICAgICAgICAgICAgLXdlYmtpdC10cmFuc2Zvcm06IHJvdGF0ZSgzNjBkZWcpO1xuICAgICAgICAgICAgfVxuICAgICAgICAgIH1cblxuICAgICAgICAgIGZvb3RlciB7XG4gICAgICAgICAgICBjb2xvcjogI2M5YzljOSAhaW1wb3J0YW50O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIGZvb3RlciBhIHtcbiAgICAgICAgICAgIGNvbG9yOiAjYzljOWM5ICFpbXBvcnRhbnQ7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgZm9vdGVyIGE6aG92ZXIge1xuICAgICAgICAgICAgY29sb3I6IHdoaXRlICFpbXBvcnRhbnQ7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnUtbmF2YmFyIHtcbiAgICAgICAgICAgIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjYmJiYmJiO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC51LW5hdi1saW5rIHtcbiAgICAgICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICAgICAgICAgIHBhZGRpbmc6IDEwcHggMHB4O1xuICAgICAgICAgICAgbWFyZ2luOiAwcHggMTBweDtcbiAgICAgICAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgICAgICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgICAgICAgIG9wYWNpdHk6IDAuNzU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnUtbmF2LWxpbms6aG92ZXIge1xuICAgICAgICAgICAgb3BhY2l0eTogMTtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAudS1uYXYtbGluazo6YmVmb3JlIHtcbiAgICAgICAgICAgIHRyYW5zaXRpb246IDMwMG1zO1xuICAgICAgICAgICAgaGVpZ2h0OiA1cHg7XG4gICAgICAgICAgICBjb250ZW50OiBcIlwiO1xuICAgICAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogIzAzMWQ0NDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAudS1uYXYtbGluay1sdHI6OmJlZm9yZSB7XG4gICAgICAgICAgICB3aWR0aDogMCU7XG4gICAgICAgICAgICBib3R0b206IDEwcHg7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnUtbmF2LWxpbmstbHRyOmhvdmVyOjpiZWZvcmUge1xuICAgICAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnUtbmF2LWxpbmstZmFkZS11cDo6YmVmb3JlIHtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgICAgYm90dG9tOiA1cHg7XG4gICAgICAgICAgICBvcGFjaXR5OiAwO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC51LW5hdi1saW5rLWZhZGUtdXA6aG92ZXI6OmJlZm9yZSB7XG4gICAgICAgICAgICBib3R0b206IDEwcHg7XG4gICAgICAgICAgICBvcGFjaXR5OiAxO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC51LW5hdi1saW5rLWdyb3ctdXA6OmJlZm9yZSB7XG4gICAgICAgICAgICBoZWlnaHQ6IDAlO1xuICAgICAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgICAgICBib3R0b206IDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAudS1uYXYtbGluay1ncm93LXVwOmhvdmVyOjpiZWZvcmUge1xuICAgICAgICAgICAgaGVpZ2h0OiA1cHg7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmlzLW1vYmlsZS1vbmx5IHtcbiAgICAgICAgICAgIHZpc2liaWxpdHk6IGhpZGRlbiAhaW1wb3J0YW50O1xuICAgICAgICAgICAgcGFkZGluZy1sZWZ0OiA1cHg7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgQG1lZGlhIHNjcmVlbiBhbmQgKG1heC13aWR0aDogNjAwcHgpIGFuZCAobWF4LXdpZHRoOiA4NDBweCkge1xuICAgICAgICAgICAgLmlzLWNlbnRlcmVkLW9uLXNtYWxsIHtcbiAgICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyICFpbXBvcnRhbnQ7XG4gICAgICAgICAgICB9XG5cbiAgICAgICAgICAgIC53aGl0ZS1vbi1zbWFsbCB7XG4gICAgICAgICAgICAgIGNvbG9yOiB3aGl0ZSAhaW1wb3J0YW50O1xuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAuaXMtbW9iaWxlLW9ubHkge1xuICAgICAgICAgICAgICB2aXNpYmlsaXR5OiB2aXNpYmxlICFpbXBvcnRhbnQ7XG4gICAgICAgICAgICAgIHBhZGRpbmctbGVmdDogNXB4O1xuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICBtYWluIHtcbiAgICAgICAgICAgICAgbWFyZ2luOiAwcHggMTBweCAhaW1wb3J0YW50O1xuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAuc2Nyb2xsYWJsZSB7XG4gICAgICAgICAgICAgIGhlaWdodDogYXV0bztcbiAgICAgICAgICAgIH1cbiAgICAgICAgICB9XG5cbiAgICAgICAgICBmb290ZXIgbGkge1xuICAgICAgICAgICAgbGluZS1oZWlnaHQ6IDI1cHggIWltcG9ydGFudDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAuZmllbGQge1xuICAgICAgICAgICAgcGFkZGluZzogNXB4IDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICBhOmhvdmVyIHtcbiAgICAgICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZSAhaW1wb3J0YW50O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wcmUtc2Nyb2xsYWJsZSB7XG4gICAgICAgICAgICBtYXgtaGVpZ2h0OiAzNDBweDtcbiAgICAgICAgICAgIG92ZXJmbG93LXk6IHNjcm9sbDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgICAgPHNjcmlwdFxuICAgICAgICAgIHNyYz1cImh0dHBzOi8vYWpheC5jbG91ZGZsYXJlLmNvbS9jZG4tY2dpL3NjcmlwdHMvNzA4OWM0M2UvY2xvdWRmbGFyZS1zdGF0aWMvcm9ja2V0LWxvYWRlci5taW4uanNcIlxuICAgICAgICAgIGRhdGEtY2Ytc2V0dGluZ3M9XCI1ZTZjYWNkM2E1Mjc3ZDRlNTVjZmU2NGItfDQ5XCJcbiAgICAgICAgICBkZWZlcj1cIlwiXG4gICAgICAgID48L3NjcmlwdD5cbiAgICAgIDwvZGl2PlxuICAgICk7XG4gIH1cbn1cblxuZXhwb3J0IGRlZmF1bHQgTGF5b3V0O1xuIl19 */\n/*@ sourceURL=/Users/raheemmcdonald/Desktop/cxcspanish-next/components/Layout.js */"), __jsx("script", {
         src: "https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js",
         "data-cf-settings": "5e6cacd3a5277d4e55cfe64b-|49",
         defer: "",
@@ -880,9 +885,8 @@ function (_React$Component) {
         ariaLabel: "main navigation"
       }, __jsx("div", {
         className: "navbar-brand"
-      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        href: "/"
       }, __jsx("a", {
+        href: "/",
         className: "navbar-item"
       }, __jsx("h1", {
         className: "title is-5",
@@ -893,7 +897,7 @@ function (_React$Component) {
         style: {
           color: "white"
         }
-      }, this.state.title)))), __jsx("a", {
+      }, this.state.title))), __jsx("a", {
         role: "button",
         className: "navbar-burger burger",
         ariaLabel: "menu",
@@ -918,6 +922,7 @@ function (_React$Component) {
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
         href: "exam-topics"
       }, __jsx("a", {
+        href: "exam-topics",
         className: "navbar-link"
       }, "Exam Topics")), __jsx("div", {
         className: "navbar-dropdown"
@@ -24157,6 +24162,3023 @@ module.exports = __webpack_require__(/*! ./dist/style */ "./node_modules/styled-
 
 /***/ }),
 
+/***/ "./node_modules/sweetalert2/dist/sweetalert2.all.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/sweetalert2/dist/sweetalert2.all.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*!
+* sweetalert2 v9.5.4
+* Released under the MIT License.
+*/
+(function (global, factory) {
+	 true ? module.exports = factory() :
+	undefined;
+}(this, (function () { 'use strict';
+
+function _typeof(obj) {
+  if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") {
+    _typeof = function (obj) {
+      return typeof obj;
+    };
+  } else {
+    _typeof = function (obj) {
+      return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
+    };
+  }
+
+  return _typeof(obj);
+}
+
+function _classCallCheck(instance, Constructor) {
+  if (!(instance instanceof Constructor)) {
+    throw new TypeError("Cannot call a class as a function");
+  }
+}
+
+function _defineProperties(target, props) {
+  for (var i = 0; i < props.length; i++) {
+    var descriptor = props[i];
+    descriptor.enumerable = descriptor.enumerable || false;
+    descriptor.configurable = true;
+    if ("value" in descriptor) descriptor.writable = true;
+    Object.defineProperty(target, descriptor.key, descriptor);
+  }
+}
+
+function _createClass(Constructor, protoProps, staticProps) {
+  if (protoProps) _defineProperties(Constructor.prototype, protoProps);
+  if (staticProps) _defineProperties(Constructor, staticProps);
+  return Constructor;
+}
+
+function _extends() {
+  _extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
+
+function _inherits(subClass, superClass) {
+  if (typeof superClass !== "function" && superClass !== null) {
+    throw new TypeError("Super expression must either be null or a function");
+  }
+
+  subClass.prototype = Object.create(superClass && superClass.prototype, {
+    constructor: {
+      value: subClass,
+      writable: true,
+      configurable: true
+    }
+  });
+  if (superClass) _setPrototypeOf(subClass, superClass);
+}
+
+function _getPrototypeOf(o) {
+  _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) {
+    return o.__proto__ || Object.getPrototypeOf(o);
+  };
+  return _getPrototypeOf(o);
+}
+
+function _setPrototypeOf(o, p) {
+  _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
+    o.__proto__ = p;
+    return o;
+  };
+
+  return _setPrototypeOf(o, p);
+}
+
+function isNativeReflectConstruct() {
+  if (typeof Reflect === "undefined" || !Reflect.construct) return false;
+  if (Reflect.construct.sham) return false;
+  if (typeof Proxy === "function") return true;
+
+  try {
+    Date.prototype.toString.call(Reflect.construct(Date, [], function () {}));
+    return true;
+  } catch (e) {
+    return false;
+  }
+}
+
+function _construct(Parent, args, Class) {
+  if (isNativeReflectConstruct()) {
+    _construct = Reflect.construct;
+  } else {
+    _construct = function _construct(Parent, args, Class) {
+      var a = [null];
+      a.push.apply(a, args);
+      var Constructor = Function.bind.apply(Parent, a);
+      var instance = new Constructor();
+      if (Class) _setPrototypeOf(instance, Class.prototype);
+      return instance;
+    };
+  }
+
+  return _construct.apply(null, arguments);
+}
+
+function _assertThisInitialized(self) {
+  if (self === void 0) {
+    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  }
+
+  return self;
+}
+
+function _possibleConstructorReturn(self, call) {
+  if (call && (typeof call === "object" || typeof call === "function")) {
+    return call;
+  }
+
+  return _assertThisInitialized(self);
+}
+
+function _superPropBase(object, property) {
+  while (!Object.prototype.hasOwnProperty.call(object, property)) {
+    object = _getPrototypeOf(object);
+    if (object === null) break;
+  }
+
+  return object;
+}
+
+function _get(target, property, receiver) {
+  if (typeof Reflect !== "undefined" && Reflect.get) {
+    _get = Reflect.get;
+  } else {
+    _get = function _get(target, property, receiver) {
+      var base = _superPropBase(target, property);
+
+      if (!base) return;
+      var desc = Object.getOwnPropertyDescriptor(base, property);
+
+      if (desc.get) {
+        return desc.get.call(receiver);
+      }
+
+      return desc.value;
+    };
+  }
+
+  return _get(target, property, receiver || target);
+}
+
+var consolePrefix = 'SweetAlert2:';
+/**
+ * Filter the unique values into a new array
+ * @param arr
+ */
+
+var uniqueArray = function uniqueArray(arr) {
+  var result = [];
+
+  for (var i = 0; i < arr.length; i++) {
+    if (result.indexOf(arr[i]) === -1) {
+      result.push(arr[i]);
+    }
+  }
+
+  return result;
+};
+/**
+ * Capitalize the first letter of a string
+ * @param str
+ */
+
+var capitalizeFirstLetter = function capitalizeFirstLetter(str) {
+  return str.charAt(0).toUpperCase() + str.slice(1);
+};
+/**
+ * Returns the array ob object values (Object.values isn't supported in IE11)
+ * @param obj
+ */
+
+var objectValues = function objectValues(obj) {
+  return Object.keys(obj).map(function (key) {
+    return obj[key];
+  });
+};
+/**
+ * Convert NodeList to Array
+ * @param nodeList
+ */
+
+var toArray = function toArray(nodeList) {
+  return Array.prototype.slice.call(nodeList);
+};
+/**
+ * Standardise console warnings
+ * @param message
+ */
+
+var warn = function warn(message) {
+  console.warn("".concat(consolePrefix, " ").concat(message));
+};
+/**
+ * Standardise console errors
+ * @param message
+ */
+
+var error = function error(message) {
+  console.error("".concat(consolePrefix, " ").concat(message));
+};
+/**
+ * Private global state for `warnOnce`
+ * @type {Array}
+ * @private
+ */
+
+var previousWarnOnceMessages = [];
+/**
+ * Show a console warning, but only if it hasn't already been shown
+ * @param message
+ */
+
+var warnOnce = function warnOnce(message) {
+  if (!(previousWarnOnceMessages.indexOf(message) !== -1)) {
+    previousWarnOnceMessages.push(message);
+    warn(message);
+  }
+};
+/**
+ * Show a one-time console warning about deprecated params/methods
+ */
+
+var warnAboutDepreation = function warnAboutDepreation(deprecatedParam, useInstead) {
+  warnOnce("\"".concat(deprecatedParam, "\" is deprecated and will be removed in the next major release. Please use \"").concat(useInstead, "\" instead."));
+};
+/**
+ * If `arg` is a function, call it (with no arguments or context) and return the result.
+ * Otherwise, just pass the value through
+ * @param arg
+ */
+
+var callIfFunction = function callIfFunction(arg) {
+  return typeof arg === 'function' ? arg() : arg;
+};
+var isPromise = function isPromise(arg) {
+  return arg && Promise.resolve(arg) === arg;
+};
+
+var DismissReason = Object.freeze({
+  cancel: 'cancel',
+  backdrop: 'backdrop',
+  close: 'close',
+  esc: 'esc',
+  timer: 'timer'
+});
+
+var isJqueryElement = function isJqueryElement(elem) {
+  return _typeof(elem) === 'object' && elem.jquery;
+};
+
+var isElement = function isElement(elem) {
+  return elem instanceof Element || isJqueryElement(elem);
+};
+
+var argsToParams = function argsToParams(args) {
+  var params = {};
+
+  if (_typeof(args[0]) === 'object' && !isElement(args[0])) {
+    _extends(params, args[0]);
+  } else {
+    ['title', 'html', 'icon'].forEach(function (name, index) {
+      var arg = args[index];
+
+      if (typeof arg === 'string' || isElement(arg)) {
+        params[name] = arg;
+      } else if (arg !== undefined) {
+        error("Unexpected type of ".concat(name, "! Expected \"string\" or \"Element\", got ").concat(_typeof(arg)));
+      }
+    });
+  }
+
+  return params;
+};
+
+var swalPrefix = 'swal2-';
+var prefix = function prefix(items) {
+  var result = {};
+
+  for (var i in items) {
+    result[items[i]] = swalPrefix + items[i];
+  }
+
+  return result;
+};
+var swalClasses = prefix(['container', 'shown', 'height-auto', 'iosfix', 'popup', 'modal', 'no-backdrop', 'toast', 'toast-shown', 'toast-column', 'show', 'hide', 'close', 'title', 'header', 'content', 'html-container', 'actions', 'confirm', 'cancel', 'footer', 'icon', 'icon-content', 'image', 'input', 'file', 'range', 'select', 'radio', 'checkbox', 'label', 'textarea', 'inputerror', 'validation-message', 'progress-steps', 'active-progress-step', 'progress-step', 'progress-step-line', 'loading', 'styled', 'top', 'top-start', 'top-end', 'top-left', 'top-right', 'center', 'center-start', 'center-end', 'center-left', 'center-right', 'bottom', 'bottom-start', 'bottom-end', 'bottom-left', 'bottom-right', 'grow-row', 'grow-column', 'grow-fullscreen', 'rtl', 'timer-progress-bar', 'scrollbar-measure', 'icon-success', 'icon-warning', 'icon-info', 'icon-question', 'icon-error']);
+var iconTypes = prefix(['success', 'warning', 'info', 'question', 'error']);
+
+var getContainer = function getContainer() {
+  return document.body.querySelector(".".concat(swalClasses.container));
+};
+var elementBySelector = function elementBySelector(selectorString) {
+  var container = getContainer();
+  return container ? container.querySelector(selectorString) : null;
+};
+
+var elementByClass = function elementByClass(className) {
+  return elementBySelector(".".concat(className));
+};
+
+var getPopup = function getPopup() {
+  return elementByClass(swalClasses.popup);
+};
+var getIcons = function getIcons() {
+  var popup = getPopup();
+  return toArray(popup.querySelectorAll(".".concat(swalClasses.icon)));
+};
+var getIcon = function getIcon() {
+  var visibleIcon = getIcons().filter(function (icon) {
+    return isVisible(icon);
+  });
+  return visibleIcon.length ? visibleIcon[0] : null;
+};
+var getTitle = function getTitle() {
+  return elementByClass(swalClasses.title);
+};
+var getContent = function getContent() {
+  return elementByClass(swalClasses.content);
+};
+var getHtmlContainer = function getHtmlContainer() {
+  return elementByClass(swalClasses['html-container']);
+};
+var getImage = function getImage() {
+  return elementByClass(swalClasses.image);
+};
+var getProgressSteps = function getProgressSteps() {
+  return elementByClass(swalClasses['progress-steps']);
+};
+var getValidationMessage = function getValidationMessage() {
+  return elementByClass(swalClasses['validation-message']);
+};
+var getConfirmButton = function getConfirmButton() {
+  return elementBySelector(".".concat(swalClasses.actions, " .").concat(swalClasses.confirm));
+};
+var getCancelButton = function getCancelButton() {
+  return elementBySelector(".".concat(swalClasses.actions, " .").concat(swalClasses.cancel));
+};
+var getActions = function getActions() {
+  return elementByClass(swalClasses.actions);
+};
+var getHeader = function getHeader() {
+  return elementByClass(swalClasses.header);
+};
+var getFooter = function getFooter() {
+  return elementByClass(swalClasses.footer);
+};
+var getTimerProgressBar = function getTimerProgressBar() {
+  return elementByClass(swalClasses['timer-progress-bar']);
+};
+var getCloseButton = function getCloseButton() {
+  return elementByClass(swalClasses.close);
+}; // https://github.com/jkup/focusable/blob/master/index.js
+
+var focusable = "\n  a[href],\n  area[href],\n  input:not([disabled]),\n  select:not([disabled]),\n  textarea:not([disabled]),\n  button:not([disabled]),\n  iframe,\n  object,\n  embed,\n  [tabindex=\"0\"],\n  [contenteditable],\n  audio[controls],\n  video[controls],\n  summary\n";
+var getFocusableElements = function getFocusableElements() {
+  var focusableElementsWithTabindex = toArray(getPopup().querySelectorAll('[tabindex]:not([tabindex="-1"]):not([tabindex="0"])')) // sort according to tabindex
+  .sort(function (a, b) {
+    a = parseInt(a.getAttribute('tabindex'));
+    b = parseInt(b.getAttribute('tabindex'));
+
+    if (a > b) {
+      return 1;
+    } else if (a < b) {
+      return -1;
+    }
+
+    return 0;
+  });
+  var otherFocusableElements = toArray(getPopup().querySelectorAll(focusable)).filter(function (el) {
+    return el.getAttribute('tabindex') !== '-1';
+  });
+  return uniqueArray(focusableElementsWithTabindex.concat(otherFocusableElements)).filter(function (el) {
+    return isVisible(el);
+  });
+};
+var isModal = function isModal() {
+  return !isToast() && !document.body.classList.contains(swalClasses['no-backdrop']);
+};
+var isToast = function isToast() {
+  return document.body.classList.contains(swalClasses['toast-shown']);
+};
+var isLoading = function isLoading() {
+  return getPopup().hasAttribute('data-loading');
+};
+
+var states = {
+  previousBodyPadding: null
+};
+var hasClass = function hasClass(elem, className) {
+  if (!className) {
+    return false;
+  }
+
+  var classList = className.split(/\s+/);
+
+  for (var i = 0; i < classList.length; i++) {
+    if (!elem.classList.contains(classList[i])) {
+      return false;
+    }
+  }
+
+  return true;
+};
+
+var removeCustomClasses = function removeCustomClasses(elem, params) {
+  toArray(elem.classList).forEach(function (className) {
+    if (!(objectValues(swalClasses).indexOf(className) !== -1) && !(objectValues(iconTypes).indexOf(className) !== -1) && !(objectValues(params.showClass).indexOf(className) !== -1)) {
+      elem.classList.remove(className);
+    }
+  });
+};
+
+var applyCustomClass = function applyCustomClass(elem, params, className) {
+  removeCustomClasses(elem, params);
+
+  if (params.customClass && params.customClass[className]) {
+    if (typeof params.customClass[className] !== 'string' && !params.customClass[className].forEach) {
+      return warn("Invalid type of customClass.".concat(className, "! Expected string or iterable object, got \"").concat(_typeof(params.customClass[className]), "\""));
+    }
+
+    addClass(elem, params.customClass[className]);
+  }
+};
+function getInput(content, inputType) {
+  if (!inputType) {
+    return null;
+  }
+
+  switch (inputType) {
+    case 'select':
+    case 'textarea':
+    case 'file':
+      return getChildByClass(content, swalClasses[inputType]);
+
+    case 'checkbox':
+      return content.querySelector(".".concat(swalClasses.checkbox, " input"));
+
+    case 'radio':
+      return content.querySelector(".".concat(swalClasses.radio, " input:checked")) || content.querySelector(".".concat(swalClasses.radio, " input:first-child"));
+
+    case 'range':
+      return content.querySelector(".".concat(swalClasses.range, " input"));
+
+    default:
+      return getChildByClass(content, swalClasses.input);
+  }
+}
+var focusInput = function focusInput(input) {
+  input.focus(); // place cursor at end of text in text input
+
+  if (input.type !== 'file') {
+    // http://stackoverflow.com/a/2345915
+    var val = input.value;
+    input.value = '';
+    input.value = val;
+  }
+};
+var toggleClass = function toggleClass(target, classList, condition) {
+  if (!target || !classList) {
+    return;
+  }
+
+  if (typeof classList === 'string') {
+    classList = classList.split(/\s+/).filter(Boolean);
+  }
+
+  classList.forEach(function (className) {
+    if (target.forEach) {
+      target.forEach(function (elem) {
+        condition ? elem.classList.add(className) : elem.classList.remove(className);
+      });
+    } else {
+      condition ? target.classList.add(className) : target.classList.remove(className);
+    }
+  });
+};
+var addClass = function addClass(target, classList) {
+  toggleClass(target, classList, true);
+};
+var removeClass = function removeClass(target, classList) {
+  toggleClass(target, classList, false);
+};
+var getChildByClass = function getChildByClass(elem, className) {
+  for (var i = 0; i < elem.childNodes.length; i++) {
+    if (hasClass(elem.childNodes[i], className)) {
+      return elem.childNodes[i];
+    }
+  }
+};
+var applyNumericalStyle = function applyNumericalStyle(elem, property, value) {
+  if (value || parseInt(value) === 0) {
+    elem.style[property] = typeof value === 'number' ? "".concat(value, "px") : value;
+  } else {
+    elem.style.removeProperty(property);
+  }
+};
+var show = function show(elem) {
+  var display = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'flex';
+  elem.style.opacity = '';
+  elem.style.display = display;
+};
+var hide = function hide(elem) {
+  elem.style.opacity = '';
+  elem.style.display = 'none';
+};
+var toggle = function toggle(elem, condition, display) {
+  condition ? show(elem, display) : hide(elem);
+}; // borrowed from jquery $(elem).is(':visible') implementation
+
+var isVisible = function isVisible(elem) {
+  return !!(elem && (elem.offsetWidth || elem.offsetHeight || elem.getClientRects().length));
+};
+/* istanbul ignore next */
+
+var isScrollable = function isScrollable(elem) {
+  return !!(elem.scrollHeight > elem.clientHeight);
+}; // borrowed from https://stackoverflow.com/a/46352119
+
+var hasCssAnimation = function hasCssAnimation(elem) {
+  var style = window.getComputedStyle(elem);
+  var animDuration = parseFloat(style.getPropertyValue('animation-duration') || '0');
+  var transDuration = parseFloat(style.getPropertyValue('transition-duration') || '0');
+  return animDuration > 0 || transDuration > 0;
+};
+var contains = function contains(haystack, needle) {
+  if (typeof haystack.contains === 'function') {
+    return haystack.contains(needle);
+  }
+};
+var animateTimerProgressBar = function animateTimerProgressBar(timer) {
+  var reset = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
+  var timerProgressBar = getTimerProgressBar();
+
+  if (isVisible(timerProgressBar)) {
+    if (reset) {
+      timerProgressBar.style.transition = 'none';
+      timerProgressBar.style.width = '100%';
+    }
+
+    setTimeout(function () {
+      timerProgressBar.style.transition = "width ".concat(timer / 1000, "s linear");
+      timerProgressBar.style.width = '0%';
+    }, 10);
+  }
+};
+var stopTimerProgressBar = function stopTimerProgressBar() {
+  var timerProgressBar = getTimerProgressBar();
+  var timerProgressBarWidth = parseInt(window.getComputedStyle(timerProgressBar).width);
+  timerProgressBar.style.removeProperty('transition');
+  timerProgressBar.style.width = '100%';
+  var timerProgressBarFullWidth = parseInt(window.getComputedStyle(timerProgressBar).width);
+  var timerProgressBarPercent = parseInt(timerProgressBarWidth / timerProgressBarFullWidth * 100);
+  timerProgressBar.style.removeProperty('transition');
+  timerProgressBar.style.width = "".concat(timerProgressBarPercent, "%");
+};
+
+// Detect Node env
+var isNodeEnv = function isNodeEnv() {
+  return typeof window === 'undefined' || typeof document === 'undefined';
+};
+
+var sweetHTML = "\n <div aria-labelledby=\"".concat(swalClasses.title, "\" aria-describedby=\"").concat(swalClasses.content, "\" class=\"").concat(swalClasses.popup, "\" tabindex=\"-1\">\n   <div class=\"").concat(swalClasses.header, "\">\n     <ul class=\"").concat(swalClasses['progress-steps'], "\"></ul>\n     <div class=\"").concat(swalClasses.icon, " ").concat(iconTypes.error, "\"></div>\n     <div class=\"").concat(swalClasses.icon, " ").concat(iconTypes.question, "\"></div>\n     <div class=\"").concat(swalClasses.icon, " ").concat(iconTypes.warning, "\"></div>\n     <div class=\"").concat(swalClasses.icon, " ").concat(iconTypes.info, "\"></div>\n     <div class=\"").concat(swalClasses.icon, " ").concat(iconTypes.success, "\"></div>\n     <img class=\"").concat(swalClasses.image, "\" />\n     <h2 class=\"").concat(swalClasses.title, "\" id=\"").concat(swalClasses.title, "\"></h2>\n     <button type=\"button\" class=\"").concat(swalClasses.close, "\"></button>\n   </div>\n   <div class=\"").concat(swalClasses.content, "\">\n     <div id=\"").concat(swalClasses.content, "\" class=\"").concat(swalClasses['html-container'], "\"></div>\n     <input class=\"").concat(swalClasses.input, "\" />\n     <input type=\"file\" class=\"").concat(swalClasses.file, "\" />\n     <div class=\"").concat(swalClasses.range, "\">\n       <input type=\"range\" />\n       <output></output>\n     </div>\n     <select class=\"").concat(swalClasses.select, "\"></select>\n     <div class=\"").concat(swalClasses.radio, "\"></div>\n     <label for=\"").concat(swalClasses.checkbox, "\" class=\"").concat(swalClasses.checkbox, "\">\n       <input type=\"checkbox\" />\n       <span class=\"").concat(swalClasses.label, "\"></span>\n     </label>\n     <textarea class=\"").concat(swalClasses.textarea, "\"></textarea>\n     <div class=\"").concat(swalClasses['validation-message'], "\" id=\"").concat(swalClasses['validation-message'], "\"></div>\n   </div>\n   <div class=\"").concat(swalClasses.actions, "\">\n     <button type=\"button\" class=\"").concat(swalClasses.confirm, "\">OK</button>\n     <button type=\"button\" class=\"").concat(swalClasses.cancel, "\">Cancel</button>\n   </div>\n   <div class=\"").concat(swalClasses.footer, "\"></div>\n   <div class=\"").concat(swalClasses['timer-progress-bar'], "\"></div>\n </div>\n").replace(/(^|\n)\s*/g, '');
+
+var resetOldContainer = function resetOldContainer() {
+  var oldContainer = getContainer();
+
+  if (!oldContainer) {
+    return;
+  }
+
+  oldContainer.parentNode.removeChild(oldContainer);
+  removeClass([document.documentElement, document.body], [swalClasses['no-backdrop'], swalClasses['toast-shown'], swalClasses['has-column']]);
+};
+
+var oldInputVal; // IE11 workaround, see #1109 for details
+
+var resetValidationMessage = function resetValidationMessage(e) {
+  if (Swal.isVisible() && oldInputVal !== e.target.value) {
+    Swal.resetValidationMessage();
+  }
+
+  oldInputVal = e.target.value;
+};
+
+var addInputChangeListeners = function addInputChangeListeners() {
+  var content = getContent();
+  var input = getChildByClass(content, swalClasses.input);
+  var file = getChildByClass(content, swalClasses.file);
+  var range = content.querySelector(".".concat(swalClasses.range, " input"));
+  var rangeOutput = content.querySelector(".".concat(swalClasses.range, " output"));
+  var select = getChildByClass(content, swalClasses.select);
+  var checkbox = content.querySelector(".".concat(swalClasses.checkbox, " input"));
+  var textarea = getChildByClass(content, swalClasses.textarea);
+  input.oninput = resetValidationMessage;
+  file.onchange = resetValidationMessage;
+  select.onchange = resetValidationMessage;
+  checkbox.onchange = resetValidationMessage;
+  textarea.oninput = resetValidationMessage;
+
+  range.oninput = function (e) {
+    resetValidationMessage(e);
+    rangeOutput.value = range.value;
+  };
+
+  range.onchange = function (e) {
+    resetValidationMessage(e);
+    range.nextSibling.value = range.value;
+  };
+};
+
+var getTarget = function getTarget(target) {
+  return typeof target === 'string' ? document.querySelector(target) : target;
+};
+
+var setupAccessibility = function setupAccessibility(params) {
+  var popup = getPopup();
+  popup.setAttribute('role', params.toast ? 'alert' : 'dialog');
+  popup.setAttribute('aria-live', params.toast ? 'polite' : 'assertive');
+
+  if (!params.toast) {
+    popup.setAttribute('aria-modal', 'true');
+  }
+};
+
+var setupRTL = function setupRTL(targetElement) {
+  if (window.getComputedStyle(targetElement).direction === 'rtl') {
+    addClass(getContainer(), swalClasses.rtl);
+  }
+};
+/*
+ * Add modal + backdrop to DOM
+ */
+
+
+var init = function init(params) {
+  // Clean up the old popup container if it exists
+  resetOldContainer();
+  /* istanbul ignore if */
+
+  if (isNodeEnv()) {
+    error('SweetAlert2 requires document to initialize');
+    return;
+  }
+
+  var container = document.createElement('div');
+  container.className = swalClasses.container;
+  container.innerHTML = sweetHTML;
+  var targetElement = getTarget(params.target);
+  targetElement.appendChild(container);
+  setupAccessibility(params);
+  setupRTL(targetElement);
+  addInputChangeListeners();
+};
+
+var parseHtmlToContainer = function parseHtmlToContainer(param, target) {
+  // DOM element
+  if (param instanceof HTMLElement) {
+    target.appendChild(param); // JQuery element(s)
+  } else if (_typeof(param) === 'object') {
+    handleJqueryElem(target, param); // Plain string
+  } else if (param) {
+    target.innerHTML = param;
+  }
+};
+
+var handleJqueryElem = function handleJqueryElem(target, elem) {
+  target.innerHTML = '';
+
+  if (0 in elem) {
+    for (var i = 0; i in elem; i++) {
+      target.appendChild(elem[i].cloneNode(true));
+    }
+  } else {
+    target.appendChild(elem.cloneNode(true));
+  }
+};
+
+var animationEndEvent = function () {
+  // Prevent run in Node env
+
+  /* istanbul ignore if */
+  if (isNodeEnv()) {
+    return false;
+  }
+
+  var testEl = document.createElement('div');
+  var transEndEventNames = {
+    WebkitAnimation: 'webkitAnimationEnd',
+    OAnimation: 'oAnimationEnd oanimationend',
+    animation: 'animationend'
+  };
+
+  for (var i in transEndEventNames) {
+    if (Object.prototype.hasOwnProperty.call(transEndEventNames, i) && typeof testEl.style[i] !== 'undefined') {
+      return transEndEventNames[i];
+    }
+  }
+
+  return false;
+}();
+
+// https://github.com/twbs/bootstrap/blob/master/js/src/modal.js
+
+var measureScrollbar = function measureScrollbar() {
+  var scrollDiv = document.createElement('div');
+  scrollDiv.className = swalClasses['scrollbar-measure'];
+  document.body.appendChild(scrollDiv);
+  var scrollbarWidth = scrollDiv.getBoundingClientRect().width - scrollDiv.clientWidth;
+  document.body.removeChild(scrollDiv);
+  return scrollbarWidth;
+};
+
+var renderActions = function renderActions(instance, params) {
+  var actions = getActions();
+  var confirmButton = getConfirmButton();
+  var cancelButton = getCancelButton(); // Actions (buttons) wrapper
+
+  if (!params.showConfirmButton && !params.showCancelButton) {
+    hide(actions);
+  } // Custom class
+
+
+  applyCustomClass(actions, params, 'actions'); // Render confirm button
+
+  renderButton(confirmButton, 'confirm', params); // render Cancel Button
+
+  renderButton(cancelButton, 'cancel', params);
+
+  if (params.buttonsStyling) {
+    handleButtonsStyling(confirmButton, cancelButton, params);
+  } else {
+    removeClass([confirmButton, cancelButton], swalClasses.styled);
+    confirmButton.style.backgroundColor = confirmButton.style.borderLeftColor = confirmButton.style.borderRightColor = '';
+    cancelButton.style.backgroundColor = cancelButton.style.borderLeftColor = cancelButton.style.borderRightColor = '';
+  }
+
+  if (params.reverseButtons) {
+    confirmButton.parentNode.insertBefore(cancelButton, confirmButton);
+  }
+};
+
+function handleButtonsStyling(confirmButton, cancelButton, params) {
+  addClass([confirmButton, cancelButton], swalClasses.styled); // Buttons background colors
+
+  if (params.confirmButtonColor) {
+    confirmButton.style.backgroundColor = params.confirmButtonColor;
+  }
+
+  if (params.cancelButtonColor) {
+    cancelButton.style.backgroundColor = params.cancelButtonColor;
+  } // Loading state
+
+
+  var confirmButtonBackgroundColor = window.getComputedStyle(confirmButton).getPropertyValue('background-color');
+  confirmButton.style.borderLeftColor = confirmButtonBackgroundColor;
+  confirmButton.style.borderRightColor = confirmButtonBackgroundColor;
+}
+
+function renderButton(button, buttonType, params) {
+  toggle(button, params["show".concat(capitalizeFirstLetter(buttonType), "Button")], 'inline-block');
+  button.innerHTML = params["".concat(buttonType, "ButtonText")]; // Set caption text
+
+  button.setAttribute('aria-label', params["".concat(buttonType, "ButtonAriaLabel")]); // ARIA label
+  // Add buttons custom classes
+
+  button.className = swalClasses[buttonType];
+  applyCustomClass(button, params, "".concat(buttonType, "Button"));
+  addClass(button, params["".concat(buttonType, "ButtonClass")]);
+}
+
+function handleBackdropParam(container, backdrop) {
+  if (typeof backdrop === 'string') {
+    container.style.background = backdrop;
+  } else if (!backdrop) {
+    addClass([document.documentElement, document.body], swalClasses['no-backdrop']);
+  }
+}
+
+function handlePositionParam(container, position) {
+  if (position in swalClasses) {
+    addClass(container, swalClasses[position]);
+  } else {
+    warn('The "position" parameter is not valid, defaulting to "center"');
+    addClass(container, swalClasses.center);
+  }
+}
+
+function handleGrowParam(container, grow) {
+  if (grow && typeof grow === 'string') {
+    var growClass = "grow-".concat(grow);
+
+    if (growClass in swalClasses) {
+      addClass(container, swalClasses[growClass]);
+    }
+  }
+}
+
+var renderContainer = function renderContainer(instance, params) {
+  var container = getContainer();
+
+  if (!container) {
+    return;
+  }
+
+  handleBackdropParam(container, params.backdrop);
+
+  if (!params.backdrop && params.allowOutsideClick) {
+    warn('"allowOutsideClick" parameter requires `backdrop` parameter to be set to `true`');
+  }
+
+  handlePositionParam(container, params.position);
+  handleGrowParam(container, params.grow); // Custom class
+
+  applyCustomClass(container, params, 'container'); // Set queue step attribute for getQueueStep() method
+
+  var queueStep = document.body.getAttribute('data-swal2-queue-step');
+
+  if (queueStep) {
+    container.setAttribute('data-queue-step', queueStep);
+    document.body.removeAttribute('data-swal2-queue-step');
+  }
+};
+
+/**
+ * This module containts `WeakMap`s for each effectively-"private  property" that a `Swal` has.
+ * For example, to set the private property "foo" of `this` to "bar", you can `privateProps.foo.set(this, 'bar')`
+ * This is the approach that Babel will probably take to implement private methods/fields
+ *   https://github.com/tc39/proposal-private-methods
+ *   https://github.com/babel/babel/pull/7555
+ * Once we have the changes from that PR in Babel, and our core class fits reasonable in *one module*
+ *   then we can use that language feature.
+ */
+var privateProps = {
+  promise: new WeakMap(),
+  innerParams: new WeakMap(),
+  domCache: new WeakMap()
+};
+
+var inputTypes = ['input', 'file', 'range', 'select', 'radio', 'checkbox', 'textarea'];
+var renderInput = function renderInput(instance, params) {
+  var content = getContent();
+  var innerParams = privateProps.innerParams.get(instance);
+  var rerender = !innerParams || params.input !== innerParams.input;
+  inputTypes.forEach(function (inputType) {
+    var inputClass = swalClasses[inputType];
+    var inputContainer = getChildByClass(content, inputClass); // set attributes
+
+    setAttributes(inputType, params.inputAttributes); // set class
+
+    inputContainer.className = inputClass;
+
+    if (rerender) {
+      hide(inputContainer);
+    }
+  });
+
+  if (params.input) {
+    if (rerender) {
+      showInput(params);
+    } // set custom class
+
+
+    setCustomClass(params);
+  }
+};
+
+var showInput = function showInput(params) {
+  if (!renderInputType[params.input]) {
+    return error("Unexpected type of input! Expected \"text\", \"email\", \"password\", \"number\", \"tel\", \"select\", \"radio\", \"checkbox\", \"textarea\", \"file\" or \"url\", got \"".concat(params.input, "\""));
+  }
+
+  var inputContainer = getInputContainer(params.input);
+  var input = renderInputType[params.input](inputContainer, params);
+  show(input); // input autofocus
+
+  setTimeout(function () {
+    focusInput(input);
+  });
+};
+
+var removeAttributes = function removeAttributes(input) {
+  for (var i = 0; i < input.attributes.length; i++) {
+    var attrName = input.attributes[i].name;
+
+    if (!(['type', 'value', 'style'].indexOf(attrName) !== -1)) {
+      input.removeAttribute(attrName);
+    }
+  }
+};
+
+var setAttributes = function setAttributes(inputType, inputAttributes) {
+  var input = getInput(getContent(), inputType);
+
+  if (!input) {
+    return;
+  }
+
+  removeAttributes(input);
+
+  for (var attr in inputAttributes) {
+    // Do not set a placeholder for <input type="range">
+    // it'll crash Edge, #1298
+    if (inputType === 'range' && attr === 'placeholder') {
+      continue;
+    }
+
+    input.setAttribute(attr, inputAttributes[attr]);
+  }
+};
+
+var setCustomClass = function setCustomClass(params) {
+  var inputContainer = getInputContainer(params.input);
+
+  if (params.customClass) {
+    addClass(inputContainer, params.customClass.input);
+  }
+};
+
+var setInputPlaceholder = function setInputPlaceholder(input, params) {
+  if (!input.placeholder || params.inputPlaceholder) {
+    input.placeholder = params.inputPlaceholder;
+  }
+};
+
+var getInputContainer = function getInputContainer(inputType) {
+  var inputClass = swalClasses[inputType] ? swalClasses[inputType] : swalClasses.input;
+  return getChildByClass(getContent(), inputClass);
+};
+
+var renderInputType = {};
+
+renderInputType.text = renderInputType.email = renderInputType.password = renderInputType.number = renderInputType.tel = renderInputType.url = function (input, params) {
+  if (typeof params.inputValue === 'string' || typeof params.inputValue === 'number') {
+    input.value = params.inputValue;
+  } else if (!isPromise(params.inputValue)) {
+    warn("Unexpected type of inputValue! Expected \"string\", \"number\" or \"Promise\", got \"".concat(_typeof(params.inputValue), "\""));
+  }
+
+  setInputPlaceholder(input, params);
+  input.type = params.input;
+  return input;
+};
+
+renderInputType.file = function (input, params) {
+  setInputPlaceholder(input, params);
+  return input;
+};
+
+renderInputType.range = function (range, params) {
+  var rangeInput = range.querySelector('input');
+  var rangeOutput = range.querySelector('output');
+  rangeInput.value = params.inputValue;
+  rangeInput.type = params.input;
+  rangeOutput.value = params.inputValue;
+  return range;
+};
+
+renderInputType.select = function (select, params) {
+  select.innerHTML = '';
+
+  if (params.inputPlaceholder) {
+    var placeholder = document.createElement('option');
+    placeholder.innerHTML = params.inputPlaceholder;
+    placeholder.value = '';
+    placeholder.disabled = true;
+    placeholder.selected = true;
+    select.appendChild(placeholder);
+  }
+
+  return select;
+};
+
+renderInputType.radio = function (radio) {
+  radio.innerHTML = '';
+  return radio;
+};
+
+renderInputType.checkbox = function (checkboxContainer, params) {
+  var checkbox = getInput(getContent(), 'checkbox');
+  checkbox.value = 1;
+  checkbox.id = swalClasses.checkbox;
+  checkbox.checked = Boolean(params.inputValue);
+  var label = checkboxContainer.querySelector('span');
+  label.innerHTML = params.inputPlaceholder;
+  return checkboxContainer;
+};
+
+renderInputType.textarea = function (textarea, params) {
+  textarea.value = params.inputValue;
+  setInputPlaceholder(textarea, params);
+
+  if ('MutationObserver' in window) {
+    // #1699
+    var initialPopupWidth = parseInt(window.getComputedStyle(getPopup()).width);
+    var popupPadding = parseInt(window.getComputedStyle(getPopup()).paddingLeft) + parseInt(window.getComputedStyle(getPopup()).paddingRight);
+
+    var outputsize = function outputsize() {
+      var contentWidth = textarea.offsetWidth + popupPadding;
+
+      if (contentWidth > initialPopupWidth) {
+        getPopup().style.width = "".concat(contentWidth, "px");
+      } else {
+        getPopup().style.width = null;
+      }
+    };
+
+    new MutationObserver(outputsize).observe(textarea, {
+      attributes: true,
+      attributeFilter: ['style']
+    });
+  }
+
+  return textarea;
+};
+
+var renderContent = function renderContent(instance, params) {
+  var content = getContent().querySelector("#".concat(swalClasses.content)); // Content as HTML
+
+  if (params.html) {
+    parseHtmlToContainer(params.html, content);
+    show(content, 'block'); // Content as plain text
+  } else if (params.text) {
+    content.textContent = params.text;
+    show(content, 'block'); // No content
+  } else {
+    hide(content);
+  }
+
+  renderInput(instance, params); // Custom class
+
+  applyCustomClass(getContent(), params, 'content');
+};
+
+var renderFooter = function renderFooter(instance, params) {
+  var footer = getFooter();
+  toggle(footer, params.footer);
+
+  if (params.footer) {
+    parseHtmlToContainer(params.footer, footer);
+  } // Custom class
+
+
+  applyCustomClass(footer, params, 'footer');
+};
+
+var renderCloseButton = function renderCloseButton(instance, params) {
+  var closeButton = getCloseButton();
+  closeButton.innerHTML = params.closeButtonHtml; // Custom class
+
+  applyCustomClass(closeButton, params, 'closeButton');
+  toggle(closeButton, params.showCloseButton);
+  closeButton.setAttribute('aria-label', params.closeButtonAriaLabel);
+};
+
+var renderIcon = function renderIcon(instance, params) {
+  var innerParams = privateProps.innerParams.get(instance); // if the give icon already rendered, apply the custom class without re-rendering the icon
+
+  if (innerParams && params.icon === innerParams.icon && getIcon()) {
+    applyCustomClass(getIcon(), params, 'icon');
+    return;
+  }
+
+  hideAllIcons();
+
+  if (!params.icon) {
+    return;
+  }
+
+  if (Object.keys(iconTypes).indexOf(params.icon) !== -1) {
+    var icon = elementBySelector(".".concat(swalClasses.icon, ".").concat(iconTypes[params.icon]));
+    show(icon); // Custom or default content
+
+    setContent(icon, params);
+    adjustSuccessIconBackgoundColor(); // Custom class
+
+    applyCustomClass(icon, params, 'icon'); // Animate icon
+
+    addClass(icon, params.showClass.icon);
+  } else {
+    error("Unknown icon! Expected \"success\", \"error\", \"warning\", \"info\" or \"question\", got \"".concat(params.icon, "\""));
+  }
+};
+
+var hideAllIcons = function hideAllIcons() {
+  var icons = getIcons();
+
+  for (var i = 0; i < icons.length; i++) {
+    hide(icons[i]);
+  }
+}; // Adjust success icon background color to match the popup background color
+
+
+var adjustSuccessIconBackgoundColor = function adjustSuccessIconBackgoundColor() {
+  var popup = getPopup();
+  var popupBackgroundColor = window.getComputedStyle(popup).getPropertyValue('background-color');
+  var successIconParts = popup.querySelectorAll('[class^=swal2-success-circular-line], .swal2-success-fix');
+
+  for (var i = 0; i < successIconParts.length; i++) {
+    successIconParts[i].style.backgroundColor = popupBackgroundColor;
+  }
+};
+
+var setContent = function setContent(icon, params) {
+  icon.innerHTML = '';
+
+  if (params.iconHtml) {
+    icon.innerHTML = iconContent(params.iconHtml);
+  } else if (params.icon === 'success') {
+    icon.innerHTML = "\n      <div class=\"swal2-success-circular-line-left\"></div>\n      <span class=\"swal2-success-line-tip\"></span> <span class=\"swal2-success-line-long\"></span>\n      <div class=\"swal2-success-ring\"></div> <div class=\"swal2-success-fix\"></div>\n      <div class=\"swal2-success-circular-line-right\"></div>\n    ";
+  } else if (params.icon === 'error') {
+    icon.innerHTML = "\n      <span class=\"swal2-x-mark\">\n        <span class=\"swal2-x-mark-line-left\"></span>\n        <span class=\"swal2-x-mark-line-right\"></span>\n      </span>\n    ";
+  } else {
+    var defaultIconHtml = {
+      question: '?',
+      warning: '!',
+      info: 'i'
+    };
+    icon.innerHTML = iconContent(defaultIconHtml[params.icon]);
+  }
+};
+
+var iconContent = function iconContent(content) {
+  return "<div class=\"".concat(swalClasses['icon-content'], "\">").concat(content, "</div>");
+};
+
+var renderImage = function renderImage(instance, params) {
+  var image = getImage();
+
+  if (!params.imageUrl) {
+    return hide(image);
+  }
+
+  show(image); // Src, alt
+
+  image.setAttribute('src', params.imageUrl);
+  image.setAttribute('alt', params.imageAlt); // Width, height
+
+  applyNumericalStyle(image, 'width', params.imageWidth);
+  applyNumericalStyle(image, 'height', params.imageHeight); // Class
+
+  image.className = swalClasses.image;
+  applyCustomClass(image, params, 'image');
+};
+
+var currentSteps = [];
+/*
+ * Global function for chaining sweetAlert popups
+ */
+
+var queue = function queue(steps) {
+  var Swal = this;
+  currentSteps = steps;
+
+  var resetAndResolve = function resetAndResolve(resolve, value) {
+    currentSteps = [];
+    resolve(value);
+  };
+
+  var queueResult = [];
+  return new Promise(function (resolve) {
+    (function step(i, callback) {
+      if (i < currentSteps.length) {
+        document.body.setAttribute('data-swal2-queue-step', i);
+        Swal.fire(currentSteps[i]).then(function (result) {
+          if (typeof result.value !== 'undefined') {
+            queueResult.push(result.value);
+            step(i + 1, callback);
+          } else {
+            resetAndResolve(resolve, {
+              dismiss: result.dismiss
+            });
+          }
+        });
+      } else {
+        resetAndResolve(resolve, {
+          value: queueResult
+        });
+      }
+    })(0);
+  });
+};
+/*
+ * Global function for getting the index of current popup in queue
+ */
+
+var getQueueStep = function getQueueStep() {
+  return getContainer().getAttribute('data-queue-step');
+};
+/*
+ * Global function for inserting a popup to the queue
+ */
+
+var insertQueueStep = function insertQueueStep(step, index) {
+  if (index && index < currentSteps.length) {
+    return currentSteps.splice(index, 0, step);
+  }
+
+  return currentSteps.push(step);
+};
+/*
+ * Global function for deleting a popup from the queue
+ */
+
+var deleteQueueStep = function deleteQueueStep(index) {
+  if (typeof currentSteps[index] !== 'undefined') {
+    currentSteps.splice(index, 1);
+  }
+};
+
+var createStepElement = function createStepElement(step) {
+  var stepEl = document.createElement('li');
+  addClass(stepEl, swalClasses['progress-step']);
+  stepEl.innerHTML = step;
+  return stepEl;
+};
+
+var createLineElement = function createLineElement(params) {
+  var lineEl = document.createElement('li');
+  addClass(lineEl, swalClasses['progress-step-line']);
+
+  if (params.progressStepsDistance) {
+    lineEl.style.width = params.progressStepsDistance;
+  }
+
+  return lineEl;
+};
+
+var renderProgressSteps = function renderProgressSteps(instance, params) {
+  var progressStepsContainer = getProgressSteps();
+
+  if (!params.progressSteps || params.progressSteps.length === 0) {
+    return hide(progressStepsContainer);
+  }
+
+  show(progressStepsContainer);
+  progressStepsContainer.innerHTML = '';
+  var currentProgressStep = parseInt(params.currentProgressStep === undefined ? getQueueStep() : params.currentProgressStep);
+
+  if (currentProgressStep >= params.progressSteps.length) {
+    warn('Invalid currentProgressStep parameter, it should be less than progressSteps.length ' + '(currentProgressStep like JS arrays starts from 0)');
+  }
+
+  params.progressSteps.forEach(function (step, index) {
+    var stepEl = createStepElement(step);
+    progressStepsContainer.appendChild(stepEl);
+
+    if (index === currentProgressStep) {
+      addClass(stepEl, swalClasses['active-progress-step']);
+    }
+
+    if (index !== params.progressSteps.length - 1) {
+      var lineEl = createLineElement(step);
+      progressStepsContainer.appendChild(lineEl);
+    }
+  });
+};
+
+var renderTitle = function renderTitle(instance, params) {
+  var title = getTitle();
+  toggle(title, params.title || params.titleText);
+
+  if (params.title) {
+    parseHtmlToContainer(params.title, title);
+  }
+
+  if (params.titleText) {
+    title.innerText = params.titleText;
+  } // Custom class
+
+
+  applyCustomClass(title, params, 'title');
+};
+
+var renderHeader = function renderHeader(instance, params) {
+  var header = getHeader(); // Custom class
+
+  applyCustomClass(header, params, 'header'); // Progress steps
+
+  renderProgressSteps(instance, params); // Icon
+
+  renderIcon(instance, params); // Image
+
+  renderImage(instance, params); // Title
+
+  renderTitle(instance, params); // Close button
+
+  renderCloseButton(instance, params);
+};
+
+var renderPopup = function renderPopup(instance, params) {
+  var popup = getPopup(); // Width
+
+  applyNumericalStyle(popup, 'width', params.width); // Padding
+
+  applyNumericalStyle(popup, 'padding', params.padding); // Background
+
+  if (params.background) {
+    popup.style.background = params.background;
+  } // Classes
+
+
+  addClasses(popup, params);
+};
+
+var addClasses = function addClasses(popup, params) {
+  // Default Class + showClass when updating Swal.update({})
+  popup.className = "".concat(swalClasses.popup, " ").concat(isVisible(popup) ? params.showClass.popup : '');
+
+  if (params.toast) {
+    addClass([document.documentElement, document.body], swalClasses['toast-shown']);
+    addClass(popup, swalClasses.toast);
+  } else {
+    addClass(popup, swalClasses.modal);
+  } // Custom class
+
+
+  applyCustomClass(popup, params, 'popup');
+
+  if (typeof params.customClass === 'string') {
+    addClass(popup, params.customClass);
+  } // Icon class (#1842)
+
+
+  if (params.icon) {
+    addClass(popup, swalClasses["icon-".concat(params.icon)]);
+  }
+};
+
+var render = function render(instance, params) {
+  renderPopup(instance, params);
+  renderContainer(instance, params);
+  renderHeader(instance, params);
+  renderContent(instance, params);
+  renderActions(instance, params);
+  renderFooter(instance, params);
+
+  if (typeof params.onRender === 'function') {
+    params.onRender(getPopup());
+  }
+};
+
+/*
+ * Global function to determine if SweetAlert2 popup is shown
+ */
+
+var isVisible$1 = function isVisible$$1() {
+  return isVisible(getPopup());
+};
+/*
+ * Global function to click 'Confirm' button
+ */
+
+var clickConfirm = function clickConfirm() {
+  return getConfirmButton() && getConfirmButton().click();
+};
+/*
+ * Global function to click 'Cancel' button
+ */
+
+var clickCancel = function clickCancel() {
+  return getCancelButton() && getCancelButton().click();
+};
+
+function fire() {
+  var Swal = this;
+
+  for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+    args[_key] = arguments[_key];
+  }
+
+  return _construct(Swal, args);
+}
+
+/**
+ * Returns an extended version of `Swal` containing `params` as defaults.
+ * Useful for reusing Swal configuration.
+ *
+ * For example:
+ *
+ * Before:
+ * const textPromptOptions = { input: 'text', showCancelButton: true }
+ * const {value: firstName} = await Swal.fire({ ...textPromptOptions, title: 'What is your first name?' })
+ * const {value: lastName} = await Swal.fire({ ...textPromptOptions, title: 'What is your last name?' })
+ *
+ * After:
+ * const TextPrompt = Swal.mixin({ input: 'text', showCancelButton: true })
+ * const {value: firstName} = await TextPrompt('What is your first name?')
+ * const {value: lastName} = await TextPrompt('What is your last name?')
+ *
+ * @param mixinParams
+ */
+function mixin(mixinParams) {
+  var MixinSwal =
+  /*#__PURE__*/
+  function (_this) {
+    _inherits(MixinSwal, _this);
+
+    function MixinSwal() {
+      _classCallCheck(this, MixinSwal);
+
+      return _possibleConstructorReturn(this, _getPrototypeOf(MixinSwal).apply(this, arguments));
+    }
+
+    _createClass(MixinSwal, [{
+      key: "_main",
+      value: function _main(params) {
+        return _get(_getPrototypeOf(MixinSwal.prototype), "_main", this).call(this, _extends({}, mixinParams, params));
+      }
+    }]);
+
+    return MixinSwal;
+  }(this);
+
+  return MixinSwal;
+}
+
+/**
+ * Show spinner instead of Confirm button
+ */
+
+var showLoading = function showLoading() {
+  var popup = getPopup();
+
+  if (!popup) {
+    Swal.fire();
+  }
+
+  popup = getPopup();
+  var actions = getActions();
+  var confirmButton = getConfirmButton();
+  show(actions);
+  show(confirmButton, 'inline-block');
+  addClass([popup, actions], swalClasses.loading);
+  confirmButton.disabled = true;
+  popup.setAttribute('data-loading', true);
+  popup.setAttribute('aria-busy', true);
+  popup.focus();
+};
+
+var RESTORE_FOCUS_TIMEOUT = 100;
+
+var globalState = {};
+var focusPreviousActiveElement = function focusPreviousActiveElement() {
+  if (globalState.previousActiveElement && globalState.previousActiveElement.focus) {
+    globalState.previousActiveElement.focus();
+    globalState.previousActiveElement = null;
+  } else if (document.body) {
+    document.body.focus();
+  }
+}; // Restore previous active (focused) element
+
+
+var restoreActiveElement = function restoreActiveElement() {
+  return new Promise(function (resolve) {
+    var x = window.scrollX;
+    var y = window.scrollY;
+    globalState.restoreFocusTimeout = setTimeout(function () {
+      focusPreviousActiveElement();
+      resolve();
+    }, RESTORE_FOCUS_TIMEOUT); // issues/900
+
+    if (typeof x !== 'undefined' && typeof y !== 'undefined') {
+      // IE doesn't have scrollX/scrollY support
+      window.scrollTo(x, y);
+    }
+  });
+};
+
+/**
+ * If `timer` parameter is set, returns number of milliseconds of timer remained.
+ * Otherwise, returns undefined.
+ */
+
+var getTimerLeft = function getTimerLeft() {
+  return globalState.timeout && globalState.timeout.getTimerLeft();
+};
+/**
+ * Stop timer. Returns number of milliseconds of timer remained.
+ * If `timer` parameter isn't set, returns undefined.
+ */
+
+var stopTimer = function stopTimer() {
+  if (globalState.timeout) {
+    stopTimerProgressBar();
+    return globalState.timeout.stop();
+  }
+};
+/**
+ * Resume timer. Returns number of milliseconds of timer remained.
+ * If `timer` parameter isn't set, returns undefined.
+ */
+
+var resumeTimer = function resumeTimer() {
+  if (globalState.timeout) {
+    var remaining = globalState.timeout.start();
+    animateTimerProgressBar(remaining);
+    return remaining;
+  }
+};
+/**
+ * Resume timer. Returns number of milliseconds of timer remained.
+ * If `timer` parameter isn't set, returns undefined.
+ */
+
+var toggleTimer = function toggleTimer() {
+  var timer = globalState.timeout;
+  return timer && (timer.running ? stopTimer() : resumeTimer());
+};
+/**
+ * Increase timer. Returns number of milliseconds of an updated timer.
+ * If `timer` parameter isn't set, returns undefined.
+ */
+
+var increaseTimer = function increaseTimer(n) {
+  if (globalState.timeout) {
+    var remaining = globalState.timeout.increase(n);
+    animateTimerProgressBar(remaining, true);
+    return remaining;
+  }
+};
+/**
+ * Check if timer is running. Returns true if timer is running
+ * or false if timer is paused or stopped.
+ * If `timer` parameter isn't set, returns undefined
+ */
+
+var isTimerRunning = function isTimerRunning() {
+  return globalState.timeout && globalState.timeout.isRunning();
+};
+
+var defaultParams = {
+  title: '',
+  titleText: '',
+  text: '',
+  html: '',
+  footer: '',
+  icon: undefined,
+  iconHtml: undefined,
+  toast: false,
+  animation: true,
+  showClass: {
+    popup: 'swal2-show',
+    backdrop: 'swal2-backdrop-show',
+    icon: 'swal2-icon-show'
+  },
+  hideClass: {
+    popup: 'swal2-hide',
+    backdrop: 'swal2-backdrop-hide',
+    icon: 'swal2-icon-hide'
+  },
+  customClass: undefined,
+  target: 'body',
+  backdrop: true,
+  heightAuto: true,
+  allowOutsideClick: true,
+  allowEscapeKey: true,
+  allowEnterKey: true,
+  stopKeydownPropagation: true,
+  keydownListenerCapture: false,
+  showConfirmButton: true,
+  showCancelButton: false,
+  preConfirm: undefined,
+  confirmButtonText: 'OK',
+  confirmButtonAriaLabel: '',
+  confirmButtonColor: undefined,
+  cancelButtonText: 'Cancel',
+  cancelButtonAriaLabel: '',
+  cancelButtonColor: undefined,
+  buttonsStyling: true,
+  reverseButtons: false,
+  focusConfirm: true,
+  focusCancel: false,
+  showCloseButton: false,
+  closeButtonHtml: '&times;',
+  closeButtonAriaLabel: 'Close this dialog',
+  showLoaderOnConfirm: false,
+  imageUrl: undefined,
+  imageWidth: undefined,
+  imageHeight: undefined,
+  imageAlt: '',
+  timer: undefined,
+  timerProgressBar: false,
+  width: undefined,
+  padding: undefined,
+  background: undefined,
+  input: undefined,
+  inputPlaceholder: '',
+  inputValue: '',
+  inputOptions: {},
+  inputAutoTrim: true,
+  inputAttributes: {},
+  inputValidator: undefined,
+  validationMessage: undefined,
+  grow: false,
+  position: 'center',
+  progressSteps: [],
+  currentProgressStep: undefined,
+  progressStepsDistance: undefined,
+  onBeforeOpen: undefined,
+  onOpen: undefined,
+  onRender: undefined,
+  onClose: undefined,
+  onAfterClose: undefined,
+  scrollbarPadding: true
+};
+var updatableParams = ['title', 'titleText', 'text', 'html', 'icon', 'customClass', 'showConfirmButton', 'showCancelButton', 'confirmButtonText', 'confirmButtonAriaLabel', 'confirmButtonColor', 'cancelButtonText', 'cancelButtonAriaLabel', 'cancelButtonColor', 'buttonsStyling', 'reverseButtons', 'imageUrl', 'imageWidth', 'imageHeight', 'imageAlt', 'progressSteps', 'currentProgressStep'];
+var deprecatedParams = {
+  animation: 'showClass" and "hideClass'
+};
+var toastIncompatibleParams = ['allowOutsideClick', 'allowEnterKey', 'backdrop', 'focusConfirm', 'focusCancel', 'heightAuto', 'keydownListenerCapture'];
+/**
+ * Is valid parameter
+ * @param {String} paramName
+ */
+
+var isValidParameter = function isValidParameter(paramName) {
+  return Object.prototype.hasOwnProperty.call(defaultParams, paramName);
+};
+/**
+ * Is valid parameter for Swal.update() method
+ * @param {String} paramName
+ */
+
+var isUpdatableParameter = function isUpdatableParameter(paramName) {
+  return updatableParams.indexOf(paramName) !== -1;
+};
+/**
+ * Is deprecated parameter
+ * @param {String} paramName
+ */
+
+var isDeprecatedParameter = function isDeprecatedParameter(paramName) {
+  return deprecatedParams[paramName];
+};
+
+var checkIfParamIsValid = function checkIfParamIsValid(param) {
+  if (!isValidParameter(param)) {
+    warn("Unknown parameter \"".concat(param, "\""));
+  }
+};
+
+var checkIfToastParamIsValid = function checkIfToastParamIsValid(param) {
+  if (toastIncompatibleParams.indexOf(param) !== -1) {
+    warn("The parameter \"".concat(param, "\" is incompatible with toasts"));
+  }
+};
+
+var checkIfParamIsDeprecated = function checkIfParamIsDeprecated(param) {
+  if (isDeprecatedParameter(param)) {
+    warnAboutDepreation(param, isDeprecatedParameter(param));
+  }
+};
+/**
+ * Show relevant warnings for given params
+ *
+ * @param params
+ */
+
+
+var showWarningsForParams = function showWarningsForParams(params) {
+  for (var param in params) {
+    checkIfParamIsValid(param);
+
+    if (params.toast) {
+      checkIfToastParamIsValid(param);
+    }
+
+    checkIfParamIsDeprecated(param);
+  }
+};
+
+
+
+var staticMethods = Object.freeze({
+	isValidParameter: isValidParameter,
+	isUpdatableParameter: isUpdatableParameter,
+	isDeprecatedParameter: isDeprecatedParameter,
+	argsToParams: argsToParams,
+	isVisible: isVisible$1,
+	clickConfirm: clickConfirm,
+	clickCancel: clickCancel,
+	getContainer: getContainer,
+	getPopup: getPopup,
+	getTitle: getTitle,
+	getContent: getContent,
+	getHtmlContainer: getHtmlContainer,
+	getImage: getImage,
+	getIcon: getIcon,
+	getIcons: getIcons,
+	getCloseButton: getCloseButton,
+	getActions: getActions,
+	getConfirmButton: getConfirmButton,
+	getCancelButton: getCancelButton,
+	getHeader: getHeader,
+	getFooter: getFooter,
+	getFocusableElements: getFocusableElements,
+	getValidationMessage: getValidationMessage,
+	isLoading: isLoading,
+	fire: fire,
+	mixin: mixin,
+	queue: queue,
+	getQueueStep: getQueueStep,
+	insertQueueStep: insertQueueStep,
+	deleteQueueStep: deleteQueueStep,
+	showLoading: showLoading,
+	enableLoading: showLoading,
+	getTimerLeft: getTimerLeft,
+	stopTimer: stopTimer,
+	resumeTimer: resumeTimer,
+	toggleTimer: toggleTimer,
+	increaseTimer: increaseTimer,
+	isTimerRunning: isTimerRunning
+});
+
+/**
+ * Enables buttons and hide loader.
+ */
+
+function hideLoading() {
+  // do nothing if popup is closed
+  var innerParams = privateProps.innerParams.get(this);
+
+  if (!innerParams) {
+    return;
+  }
+
+  var domCache = privateProps.domCache.get(this);
+
+  if (!innerParams.showConfirmButton) {
+    hide(domCache.confirmButton);
+
+    if (!innerParams.showCancelButton) {
+      hide(domCache.actions);
+    }
+  }
+
+  removeClass([domCache.popup, domCache.actions], swalClasses.loading);
+  domCache.popup.removeAttribute('aria-busy');
+  domCache.popup.removeAttribute('data-loading');
+  domCache.confirmButton.disabled = false;
+  domCache.cancelButton.disabled = false;
+}
+
+function getInput$1(instance) {
+  var innerParams = privateProps.innerParams.get(instance || this);
+  var domCache = privateProps.domCache.get(instance || this);
+
+  if (!domCache) {
+    return null;
+  }
+
+  return getInput(domCache.content, innerParams.input);
+}
+
+var fixScrollbar = function fixScrollbar() {
+  // for queues, do not do this more than once
+  if (states.previousBodyPadding !== null) {
+    return;
+  } // if the body has overflow
+
+
+  if (document.body.scrollHeight > window.innerHeight) {
+    // add padding so the content doesn't shift after removal of scrollbar
+    states.previousBodyPadding = parseInt(window.getComputedStyle(document.body).getPropertyValue('padding-right'));
+    document.body.style.paddingRight = "".concat(states.previousBodyPadding + measureScrollbar(), "px");
+  }
+};
+var undoScrollbar = function undoScrollbar() {
+  if (states.previousBodyPadding !== null) {
+    document.body.style.paddingRight = "".concat(states.previousBodyPadding, "px");
+    states.previousBodyPadding = null;
+  }
+};
+
+/* istanbul ignore next */
+
+var iOSfix = function iOSfix() {
+  var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream || navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1;
+
+  if (iOS && !hasClass(document.body, swalClasses.iosfix)) {
+    var offset = document.body.scrollTop;
+    document.body.style.top = "".concat(offset * -1, "px");
+    addClass(document.body, swalClasses.iosfix);
+    lockBodyScroll();
+  }
+};
+/* istanbul ignore next */
+
+var lockBodyScroll = function lockBodyScroll() {
+  // #1246
+  var container = getContainer();
+  var preventTouchMove;
+
+  container.ontouchstart = function (e) {
+    preventTouchMove = e.target === container || !isScrollable(container) && e.target.tagName !== 'INPUT' // #1603
+    ;
+  };
+
+  container.ontouchmove = function (e) {
+    if (preventTouchMove) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+  };
+};
+/* istanbul ignore next */
+
+
+var undoIOSfix = function undoIOSfix() {
+  if (hasClass(document.body, swalClasses.iosfix)) {
+    var offset = parseInt(document.body.style.top, 10);
+    removeClass(document.body, swalClasses.iosfix);
+    document.body.style.top = '';
+    document.body.scrollTop = offset * -1;
+  }
+};
+
+var isIE11 = function isIE11() {
+  return !!window.MSInputMethodContext && !!document.documentMode;
+}; // Fix IE11 centering sweetalert2/issues/933
+
+/* istanbul ignore next */
+
+
+var fixVerticalPositionIE = function fixVerticalPositionIE() {
+  var container = getContainer();
+  var popup = getPopup();
+  container.style.removeProperty('align-items');
+
+  if (popup.offsetTop < 0) {
+    container.style.alignItems = 'flex-start';
+  }
+};
+/* istanbul ignore next */
+
+
+var IEfix = function IEfix() {
+  if (typeof window !== 'undefined' && isIE11()) {
+    fixVerticalPositionIE();
+    window.addEventListener('resize', fixVerticalPositionIE);
+  }
+};
+/* istanbul ignore next */
+
+var undoIEfix = function undoIEfix() {
+  if (typeof window !== 'undefined' && isIE11()) {
+    window.removeEventListener('resize', fixVerticalPositionIE);
+  }
+};
+
+// Adding aria-hidden="true" to elements outside of the active modal dialog ensures that
+// elements not within the active modal dialog will not be surfaced if a user opens a screen
+// reader’s list of elements (headings, form controls, landmarks, etc.) in the document.
+
+var setAriaHidden = function setAriaHidden() {
+  var bodyChildren = toArray(document.body.children);
+  bodyChildren.forEach(function (el) {
+    if (el === getContainer() || contains(el, getContainer())) {
+      return;
+    }
+
+    if (el.hasAttribute('aria-hidden')) {
+      el.setAttribute('data-previous-aria-hidden', el.getAttribute('aria-hidden'));
+    }
+
+    el.setAttribute('aria-hidden', 'true');
+  });
+};
+var unsetAriaHidden = function unsetAriaHidden() {
+  var bodyChildren = toArray(document.body.children);
+  bodyChildren.forEach(function (el) {
+    if (el.hasAttribute('data-previous-aria-hidden')) {
+      el.setAttribute('aria-hidden', el.getAttribute('data-previous-aria-hidden'));
+      el.removeAttribute('data-previous-aria-hidden');
+    } else {
+      el.removeAttribute('aria-hidden');
+    }
+  });
+};
+
+/**
+ * This module containts `WeakMap`s for each effectively-"private  property" that a `Swal` has.
+ * For example, to set the private property "foo" of `this` to "bar", you can `privateProps.foo.set(this, 'bar')`
+ * This is the approach that Babel will probably take to implement private methods/fields
+ *   https://github.com/tc39/proposal-private-methods
+ *   https://github.com/babel/babel/pull/7555
+ * Once we have the changes from that PR in Babel, and our core class fits reasonable in *one module*
+ *   then we can use that language feature.
+ */
+var privateMethods = {
+  swalPromiseResolve: new WeakMap()
+};
+
+/*
+ * Instance method to close sweetAlert
+ */
+
+function removePopupAndResetState(instance, container, isToast, onAfterClose) {
+  if (isToast) {
+    triggerOnAfterCloseAndDispose(instance, onAfterClose);
+  } else {
+    restoreActiveElement().then(function () {
+      return triggerOnAfterCloseAndDispose(instance, onAfterClose);
+    });
+    globalState.keydownTarget.removeEventListener('keydown', globalState.keydownHandler, {
+      capture: globalState.keydownListenerCapture
+    });
+    globalState.keydownHandlerAdded = false;
+  }
+
+  if (container.parentNode) {
+    container.parentNode.removeChild(container);
+  }
+
+  if (isModal()) {
+    undoScrollbar();
+    undoIOSfix();
+    undoIEfix();
+    unsetAriaHidden();
+  }
+
+  removeBodyClasses();
+}
+
+function removeBodyClasses() {
+  removeClass([document.documentElement, document.body], [swalClasses.shown, swalClasses['height-auto'], swalClasses['no-backdrop'], swalClasses['toast-shown'], swalClasses['toast-column']]);
+}
+
+function disposeSwal(instance) {
+  // Unset this.params so GC will dispose it (#1569)
+  delete instance.params; // Unset globalState props so GC will dispose globalState (#1569)
+
+  delete globalState.keydownHandler;
+  delete globalState.keydownTarget; // Unset WeakMaps so GC will be able to dispose them (#1569)
+
+  unsetWeakMaps(privateProps);
+  unsetWeakMaps(privateMethods);
+}
+
+function close(resolveValue) {
+  var popup = getPopup();
+
+  if (!popup) {
+    return;
+  }
+
+  var innerParams = privateProps.innerParams.get(this);
+
+  if (!innerParams || hasClass(popup, innerParams.hideClass.popup)) {
+    return;
+  }
+
+  var swalPromiseResolve = privateMethods.swalPromiseResolve.get(this);
+  removeClass(popup, innerParams.showClass.popup);
+  addClass(popup, innerParams.hideClass.popup);
+  var backdrop = getContainer();
+  removeClass(backdrop, innerParams.showClass.backdrop);
+  addClass(backdrop, innerParams.hideClass.backdrop);
+  handlePopupAnimation(this, popup, innerParams); // Resolve Swal promise
+
+  swalPromiseResolve(resolveValue || {});
+}
+
+var handlePopupAnimation = function handlePopupAnimation(instance, popup, innerParams) {
+  var container = getContainer(); // If animation is supported, animate
+
+  var animationIsSupported = animationEndEvent && hasCssAnimation(popup);
+  var onClose = innerParams.onClose,
+      onAfterClose = innerParams.onAfterClose;
+
+  if (onClose !== null && typeof onClose === 'function') {
+    onClose(popup);
+  }
+
+  if (animationIsSupported) {
+    animatePopup(instance, popup, container, onAfterClose);
+  } else {
+    // Otherwise, remove immediately
+    removePopupAndResetState(instance, container, isToast(), onAfterClose);
+  }
+};
+
+var animatePopup = function animatePopup(instance, popup, container, onAfterClose) {
+  globalState.swalCloseEventFinishedCallback = removePopupAndResetState.bind(null, instance, container, isToast(), onAfterClose);
+  popup.addEventListener(animationEndEvent, function (e) {
+    if (e.target === popup) {
+      globalState.swalCloseEventFinishedCallback();
+      delete globalState.swalCloseEventFinishedCallback;
+    }
+  });
+};
+
+var unsetWeakMaps = function unsetWeakMaps(obj) {
+  for (var i in obj) {
+    obj[i] = new WeakMap();
+  }
+};
+
+var triggerOnAfterCloseAndDispose = function triggerOnAfterCloseAndDispose(instance, onAfterClose) {
+  setTimeout(function () {
+    if (onAfterClose !== null && typeof onAfterClose === 'function') {
+      onAfterClose();
+    }
+
+    if (!getPopup()) {
+      disposeSwal(instance);
+    }
+  });
+};
+
+function setButtonsDisabled(instance, buttons, disabled) {
+  var domCache = privateProps.domCache.get(instance);
+  buttons.forEach(function (button) {
+    domCache[button].disabled = disabled;
+  });
+}
+
+function setInputDisabled(input, disabled) {
+  if (!input) {
+    return false;
+  }
+
+  if (input.type === 'radio') {
+    var radiosContainer = input.parentNode.parentNode;
+    var radios = radiosContainer.querySelectorAll('input');
+
+    for (var i = 0; i < radios.length; i++) {
+      radios[i].disabled = disabled;
+    }
+  } else {
+    input.disabled = disabled;
+  }
+}
+
+function enableButtons() {
+  setButtonsDisabled(this, ['confirmButton', 'cancelButton'], false);
+}
+function disableButtons() {
+  setButtonsDisabled(this, ['confirmButton', 'cancelButton'], true);
+}
+function enableInput() {
+  return setInputDisabled(this.getInput(), false);
+}
+function disableInput() {
+  return setInputDisabled(this.getInput(), true);
+}
+
+function showValidationMessage(error) {
+  var domCache = privateProps.domCache.get(this);
+  domCache.validationMessage.innerHTML = error;
+  var popupComputedStyle = window.getComputedStyle(domCache.popup);
+  domCache.validationMessage.style.marginLeft = "-".concat(popupComputedStyle.getPropertyValue('padding-left'));
+  domCache.validationMessage.style.marginRight = "-".concat(popupComputedStyle.getPropertyValue('padding-right'));
+  show(domCache.validationMessage);
+  var input = this.getInput();
+
+  if (input) {
+    input.setAttribute('aria-invalid', true);
+    input.setAttribute('aria-describedBy', swalClasses['validation-message']);
+    focusInput(input);
+    addClass(input, swalClasses.inputerror);
+  }
+} // Hide block with validation message
+
+function resetValidationMessage$1() {
+  var domCache = privateProps.domCache.get(this);
+
+  if (domCache.validationMessage) {
+    hide(domCache.validationMessage);
+  }
+
+  var input = this.getInput();
+
+  if (input) {
+    input.removeAttribute('aria-invalid');
+    input.removeAttribute('aria-describedBy');
+    removeClass(input, swalClasses.inputerror);
+  }
+}
+
+function getProgressSteps$1() {
+  var domCache = privateProps.domCache.get(this);
+  return domCache.progressSteps;
+}
+
+var Timer =
+/*#__PURE__*/
+function () {
+  function Timer(callback, delay) {
+    _classCallCheck(this, Timer);
+
+    this.callback = callback;
+    this.remaining = delay;
+    this.running = false;
+    this.start();
+  }
+
+  _createClass(Timer, [{
+    key: "start",
+    value: function start() {
+      if (!this.running) {
+        this.running = true;
+        this.started = new Date();
+        this.id = setTimeout(this.callback, this.remaining);
+      }
+
+      return this.remaining;
+    }
+  }, {
+    key: "stop",
+    value: function stop() {
+      if (this.running) {
+        this.running = false;
+        clearTimeout(this.id);
+        this.remaining -= new Date() - this.started;
+      }
+
+      return this.remaining;
+    }
+  }, {
+    key: "increase",
+    value: function increase(n) {
+      var running = this.running;
+
+      if (running) {
+        this.stop();
+      }
+
+      this.remaining += n;
+
+      if (running) {
+        this.start();
+      }
+
+      return this.remaining;
+    }
+  }, {
+    key: "getTimerLeft",
+    value: function getTimerLeft() {
+      if (this.running) {
+        this.stop();
+        this.start();
+      }
+
+      return this.remaining;
+    }
+  }, {
+    key: "isRunning",
+    value: function isRunning() {
+      return this.running;
+    }
+  }]);
+
+  return Timer;
+}();
+
+var defaultInputValidators = {
+  email: function email(string, validationMessage) {
+    return /^[a-zA-Z0-9.+_-]+@[a-zA-Z0-9.-]+\.[a-zA-Z0-9-]{2,24}$/.test(string) ? Promise.resolve() : Promise.resolve(validationMessage || 'Invalid email address');
+  },
+  url: function url(string, validationMessage) {
+    // taken from https://stackoverflow.com/a/3809435 with a small change from #1306
+    return /^https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{2,256}\.[a-z]{2,63}\b([-a-zA-Z0-9@:%_+.~#?&/=]*)$/.test(string) ? Promise.resolve() : Promise.resolve(validationMessage || 'Invalid URL');
+  }
+};
+
+function setDefaultInputValidators(params) {
+  // Use default `inputValidator` for supported input types if not provided
+  if (!params.inputValidator) {
+    Object.keys(defaultInputValidators).forEach(function (key) {
+      if (params.input === key) {
+        params.inputValidator = defaultInputValidators[key];
+      }
+    });
+  }
+}
+
+function validateCustomTargetElement(params) {
+  // Determine if the custom target element is valid
+  if (!params.target || typeof params.target === 'string' && !document.querySelector(params.target) || typeof params.target !== 'string' && !params.target.appendChild) {
+    warn('Target parameter is not valid, defaulting to "body"');
+    params.target = 'body';
+  }
+}
+/**
+ * Set type, text and actions on popup
+ *
+ * @param params
+ * @returns {boolean}
+ */
+
+
+function setParameters(params) {
+  setDefaultInputValidators(params); // showLoaderOnConfirm && preConfirm
+
+  if (params.showLoaderOnConfirm && !params.preConfirm) {
+    warn('showLoaderOnConfirm is set to true, but preConfirm is not defined.\n' + 'showLoaderOnConfirm should be used together with preConfirm, see usage example:\n' + 'https://sweetalert2.github.io/#ajax-request');
+  } // params.animation will be actually used in renderPopup.js
+  // but in case when params.animation is a function, we need to call that function
+  // before popup (re)initialization, so it'll be possible to check Swal.isVisible()
+  // inside the params.animation function
+
+
+  params.animation = callIfFunction(params.animation);
+  validateCustomTargetElement(params); // Replace newlines with <br> in title
+
+  if (typeof params.title === 'string') {
+    params.title = params.title.split('\n').join('<br />');
+  }
+
+  init(params);
+}
+
+/**
+ * Open popup, add necessary classes and styles, fix scrollbar
+ *
+ * @param {Array} params
+ */
+
+var openPopup = function openPopup(params) {
+  var container = getContainer();
+  var popup = getPopup();
+
+  if (typeof params.onBeforeOpen === 'function') {
+    params.onBeforeOpen(popup);
+  }
+
+  addClasses$1(container, popup, params); // scrolling is 'hidden' until animation is done, after that 'auto'
+
+  setScrollingVisibility(container, popup);
+
+  if (isModal()) {
+    fixScrollContainer(container, params.scrollbarPadding);
+  }
+
+  if (!isToast() && !globalState.previousActiveElement) {
+    globalState.previousActiveElement = document.activeElement;
+  }
+
+  if (typeof params.onOpen === 'function') {
+    setTimeout(function () {
+      return params.onOpen(popup);
+    });
+  }
+};
+
+function swalOpenAnimationFinished(event) {
+  var popup = getPopup();
+
+  if (event.target !== popup) {
+    return;
+  }
+
+  var container = getContainer();
+  popup.removeEventListener(animationEndEvent, swalOpenAnimationFinished);
+  container.style.overflowY = 'auto';
+}
+
+var setScrollingVisibility = function setScrollingVisibility(container, popup) {
+  if (animationEndEvent && hasCssAnimation(popup)) {
+    container.style.overflowY = 'hidden';
+    popup.addEventListener(animationEndEvent, swalOpenAnimationFinished);
+  } else {
+    container.style.overflowY = 'auto';
+  }
+};
+
+var fixScrollContainer = function fixScrollContainer(container, scrollbarPadding) {
+  iOSfix();
+  IEfix();
+  setAriaHidden();
+
+  if (scrollbarPadding) {
+    fixScrollbar();
+  } // sweetalert2/issues/1247
+
+
+  setTimeout(function () {
+    container.scrollTop = 0;
+  });
+};
+
+var addClasses$1 = function addClasses(container, popup, params) {
+  addClass(container, params.showClass.backdrop);
+  show(popup); // Animate popup right after showing it
+
+  addClass(popup, params.showClass.popup);
+  addClass([document.documentElement, document.body], swalClasses.shown);
+
+  if (params.heightAuto && params.backdrop && !params.toast) {
+    addClass([document.documentElement, document.body], swalClasses['height-auto']);
+  }
+};
+
+var handleInputOptionsAndValue = function handleInputOptionsAndValue(instance, params) {
+  if (params.input === 'select' || params.input === 'radio') {
+    handleInputOptions(instance, params);
+  } else if (['text', 'email', 'number', 'tel', 'textarea'].indexOf(params.input) !== -1 && isPromise(params.inputValue)) {
+    handleInputValue(instance, params);
+  }
+};
+var getInputValue = function getInputValue(instance, innerParams) {
+  var input = instance.getInput();
+
+  if (!input) {
+    return null;
+  }
+
+  switch (innerParams.input) {
+    case 'checkbox':
+      return getCheckboxValue(input);
+
+    case 'radio':
+      return getRadioValue(input);
+
+    case 'file':
+      return getFileValue(input);
+
+    default:
+      return innerParams.inputAutoTrim ? input.value.trim() : input.value;
+  }
+};
+
+var getCheckboxValue = function getCheckboxValue(input) {
+  return input.checked ? 1 : 0;
+};
+
+var getRadioValue = function getRadioValue(input) {
+  return input.checked ? input.value : null;
+};
+
+var getFileValue = function getFileValue(input) {
+  return input.files.length ? input.getAttribute('multiple') !== null ? input.files : input.files[0] : null;
+};
+
+var handleInputOptions = function handleInputOptions(instance, params) {
+  var content = getContent();
+
+  var processInputOptions = function processInputOptions(inputOptions) {
+    return populateInputOptions[params.input](content, formatInputOptions(inputOptions), params);
+  };
+
+  if (isPromise(params.inputOptions)) {
+    showLoading();
+    params.inputOptions.then(function (inputOptions) {
+      instance.hideLoading();
+      processInputOptions(inputOptions);
+    });
+  } else if (_typeof(params.inputOptions) === 'object') {
+    processInputOptions(params.inputOptions);
+  } else {
+    error("Unexpected type of inputOptions! Expected object, Map or Promise, got ".concat(_typeof(params.inputOptions)));
+  }
+};
+
+var handleInputValue = function handleInputValue(instance, params) {
+  var input = instance.getInput();
+  hide(input);
+  params.inputValue.then(function (inputValue) {
+    input.value = params.input === 'number' ? parseFloat(inputValue) || 0 : "".concat(inputValue);
+    show(input);
+    input.focus();
+    instance.hideLoading();
+  })["catch"](function (err) {
+    error("Error in inputValue promise: ".concat(err));
+    input.value = '';
+    show(input);
+    input.focus();
+    instance.hideLoading();
+  });
+};
+
+var populateInputOptions = {
+  select: function select(content, inputOptions, params) {
+    var select = getChildByClass(content, swalClasses.select);
+    inputOptions.forEach(function (inputOption) {
+      var optionValue = inputOption[0];
+      var optionLabel = inputOption[1];
+      var option = document.createElement('option');
+      option.value = optionValue;
+      option.innerHTML = optionLabel;
+
+      if (params.inputValue.toString() === optionValue.toString()) {
+        option.selected = true;
+      }
+
+      select.appendChild(option);
+    });
+    select.focus();
+  },
+  radio: function radio(content, inputOptions, params) {
+    var radio = getChildByClass(content, swalClasses.radio);
+    inputOptions.forEach(function (inputOption) {
+      var radioValue = inputOption[0];
+      var radioLabel = inputOption[1];
+      var radioInput = document.createElement('input');
+      var radioLabelElement = document.createElement('label');
+      radioInput.type = 'radio';
+      radioInput.name = swalClasses.radio;
+      radioInput.value = radioValue;
+
+      if (params.inputValue.toString() === radioValue.toString()) {
+        radioInput.checked = true;
+      }
+
+      var label = document.createElement('span');
+      label.innerHTML = radioLabel;
+      label.className = swalClasses.label;
+      radioLabelElement.appendChild(radioInput);
+      radioLabelElement.appendChild(label);
+      radio.appendChild(radioLabelElement);
+    });
+    var radios = radio.querySelectorAll('input');
+
+    if (radios.length) {
+      radios[0].focus();
+    }
+  }
+};
+/**
+ * Converts `inputOptions` into an array of `[value, label]`s
+ * @param inputOptions
+ */
+
+var formatInputOptions = function formatInputOptions(inputOptions) {
+  var result = [];
+
+  if (typeof Map !== 'undefined' && inputOptions instanceof Map) {
+    inputOptions.forEach(function (value, key) {
+      result.push([key, value]);
+    });
+  } else {
+    Object.keys(inputOptions).forEach(function (key) {
+      result.push([key, inputOptions[key]]);
+    });
+  }
+
+  return result;
+};
+
+var handleConfirmButtonClick = function handleConfirmButtonClick(instance, innerParams) {
+  instance.disableButtons();
+
+  if (innerParams.input) {
+    handleConfirmWithInput(instance, innerParams);
+  } else {
+    confirm(instance, innerParams, true);
+  }
+};
+var handleCancelButtonClick = function handleCancelButtonClick(instance, dismissWith) {
+  instance.disableButtons();
+  dismissWith(DismissReason.cancel);
+};
+
+var handleConfirmWithInput = function handleConfirmWithInput(instance, innerParams) {
+  var inputValue = getInputValue(instance, innerParams);
+
+  if (innerParams.inputValidator) {
+    instance.disableInput();
+    var validationPromise = Promise.resolve().then(function () {
+      return innerParams.inputValidator(inputValue, innerParams.validationMessage);
+    });
+    validationPromise.then(function (validationMessage) {
+      instance.enableButtons();
+      instance.enableInput();
+
+      if (validationMessage) {
+        instance.showValidationMessage(validationMessage);
+      } else {
+        confirm(instance, innerParams, inputValue);
+      }
+    });
+  } else if (!instance.getInput().checkValidity()) {
+    instance.enableButtons();
+    instance.showValidationMessage(innerParams.validationMessage);
+  } else {
+    confirm(instance, innerParams, inputValue);
+  }
+};
+
+var succeedWith = function succeedWith(instance, value) {
+  instance.closePopup({
+    value: value
+  });
+};
+
+var confirm = function confirm(instance, innerParams, value) {
+  if (innerParams.showLoaderOnConfirm) {
+    showLoading(); // TODO: make showLoading an *instance* method
+  }
+
+  if (innerParams.preConfirm) {
+    instance.resetValidationMessage();
+    var preConfirmPromise = Promise.resolve().then(function () {
+      return innerParams.preConfirm(value, innerParams.validationMessage);
+    });
+    preConfirmPromise.then(function (preConfirmValue) {
+      if (isVisible(getValidationMessage()) || preConfirmValue === false) {
+        instance.hideLoading();
+      } else {
+        succeedWith(instance, typeof preConfirmValue === 'undefined' ? value : preConfirmValue);
+      }
+    });
+  } else {
+    succeedWith(instance, value);
+  }
+};
+
+var addKeydownHandler = function addKeydownHandler(instance, globalState, innerParams, dismissWith) {
+  if (globalState.keydownTarget && globalState.keydownHandlerAdded) {
+    globalState.keydownTarget.removeEventListener('keydown', globalState.keydownHandler, {
+      capture: globalState.keydownListenerCapture
+    });
+    globalState.keydownHandlerAdded = false;
+  }
+
+  if (!innerParams.toast) {
+    globalState.keydownHandler = function (e) {
+      return keydownHandler(instance, e, innerParams, dismissWith);
+    };
+
+    globalState.keydownTarget = innerParams.keydownListenerCapture ? window : getPopup();
+    globalState.keydownListenerCapture = innerParams.keydownListenerCapture;
+    globalState.keydownTarget.addEventListener('keydown', globalState.keydownHandler, {
+      capture: globalState.keydownListenerCapture
+    });
+    globalState.keydownHandlerAdded = true;
+  }
+}; // Focus handling
+
+var setFocus = function setFocus(innerParams, index, increment) {
+  var focusableElements = getFocusableElements(); // search for visible elements and select the next possible match
+
+  for (var i = 0; i < focusableElements.length; i++) {
+    index = index + increment; // rollover to first item
+
+    if (index === focusableElements.length) {
+      index = 0; // go to last item
+    } else if (index === -1) {
+      index = focusableElements.length - 1;
+    }
+
+    return focusableElements[index].focus();
+  } // no visible focusable elements, focus the popup
+
+
+  getPopup().focus();
+};
+var arrowKeys = ['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown', 'Left', 'Right', 'Up', 'Down' // IE11
+];
+var escKeys = ['Escape', 'Esc' // IE11
+];
+
+var keydownHandler = function keydownHandler(instance, e, innerParams, dismissWith) {
+  if (innerParams.stopKeydownPropagation) {
+    e.stopPropagation();
+  } // ENTER
+
+
+  if (e.key === 'Enter') {
+    handleEnter(instance, e, innerParams); // TAB
+  } else if (e.key === 'Tab') {
+    handleTab(e, innerParams); // ARROWS - switch focus between buttons
+  } else if (arrowKeys.indexOf(e.key) !== -1) {
+    handleArrows(); // ESC
+  } else if (escKeys.indexOf(e.key) !== -1) {
+    handleEsc(e, innerParams, dismissWith);
+  }
+};
+
+var handleEnter = function handleEnter(instance, e, innerParams) {
+  // #720 #721
+  if (e.isComposing) {
+    return;
+  }
+
+  if (e.target && instance.getInput() && e.target.outerHTML === instance.getInput().outerHTML) {
+    if (['textarea', 'file'].indexOf(innerParams.input) !== -1) {
+      return; // do not submit
+    }
+
+    clickConfirm();
+    e.preventDefault();
+  }
+};
+
+var handleTab = function handleTab(e, innerParams) {
+  var targetElement = e.target;
+  var focusableElements = getFocusableElements();
+  var btnIndex = -1;
+
+  for (var i = 0; i < focusableElements.length; i++) {
+    if (targetElement === focusableElements[i]) {
+      btnIndex = i;
+      break;
+    }
+  }
+
+  if (!e.shiftKey) {
+    // Cycle to the next button
+    setFocus(innerParams, btnIndex, 1);
+  } else {
+    // Cycle to the prev button
+    setFocus(innerParams, btnIndex, -1);
+  }
+
+  e.stopPropagation();
+  e.preventDefault();
+};
+
+var handleArrows = function handleArrows() {
+  var confirmButton = getConfirmButton();
+  var cancelButton = getCancelButton(); // focus Cancel button if Confirm button is currently focused
+
+  if (document.activeElement === confirmButton && isVisible(cancelButton)) {
+    cancelButton.focus(); // and vice versa
+  } else if (document.activeElement === cancelButton && isVisible(confirmButton)) {
+    confirmButton.focus();
+  }
+};
+
+var handleEsc = function handleEsc(e, innerParams, dismissWith) {
+  if (callIfFunction(innerParams.allowEscapeKey)) {
+    e.preventDefault();
+    dismissWith(DismissReason.esc);
+  }
+};
+
+var handlePopupClick = function handlePopupClick(domCache, innerParams, dismissWith) {
+  if (innerParams.toast) {
+    handleToastClick(domCache, innerParams, dismissWith);
+  } else {
+    // Ignore click events that had mousedown on the popup but mouseup on the container
+    // This can happen when the user drags a slider
+    handleModalMousedown(domCache); // Ignore click events that had mousedown on the container but mouseup on the popup
+
+    handleContainerMousedown(domCache);
+    handleModalClick(domCache, innerParams, dismissWith);
+  }
+};
+
+var handleToastClick = function handleToastClick(domCache, innerParams, dismissWith) {
+  // Closing toast by internal click
+  domCache.popup.onclick = function () {
+    if (innerParams.showConfirmButton || innerParams.showCancelButton || innerParams.showCloseButton || innerParams.input) {
+      return;
+    }
+
+    dismissWith(DismissReason.close);
+  };
+};
+
+var ignoreOutsideClick = false;
+
+var handleModalMousedown = function handleModalMousedown(domCache) {
+  domCache.popup.onmousedown = function () {
+    domCache.container.onmouseup = function (e) {
+      domCache.container.onmouseup = undefined; // We only check if the mouseup target is the container because usually it doesn't
+      // have any other direct children aside of the popup
+
+      if (e.target === domCache.container) {
+        ignoreOutsideClick = true;
+      }
+    };
+  };
+};
+
+var handleContainerMousedown = function handleContainerMousedown(domCache) {
+  domCache.container.onmousedown = function () {
+    domCache.popup.onmouseup = function (e) {
+      domCache.popup.onmouseup = undefined; // We also need to check if the mouseup target is a child of the popup
+
+      if (e.target === domCache.popup || domCache.popup.contains(e.target)) {
+        ignoreOutsideClick = true;
+      }
+    };
+  };
+};
+
+var handleModalClick = function handleModalClick(domCache, innerParams, dismissWith) {
+  domCache.container.onclick = function (e) {
+    if (ignoreOutsideClick) {
+      ignoreOutsideClick = false;
+      return;
+    }
+
+    if (e.target === domCache.container && callIfFunction(innerParams.allowOutsideClick)) {
+      dismissWith(DismissReason.backdrop);
+    }
+  };
+};
+
+function _main(userParams) {
+  showWarningsForParams(userParams); // Check if there is another Swal closing
+
+  if (getPopup() && globalState.swalCloseEventFinishedCallback) {
+    globalState.swalCloseEventFinishedCallback();
+    delete globalState.swalCloseEventFinishedCallback;
+  } // Check if there is a swal disposal defer timer
+
+
+  if (globalState.deferDisposalTimer) {
+    clearTimeout(globalState.deferDisposalTimer);
+    delete globalState.deferDisposalTimer;
+  }
+
+  var innerParams = prepareParams(userParams);
+  setParameters(innerParams);
+  Object.freeze(innerParams); // clear the previous timer
+
+  if (globalState.timeout) {
+    globalState.timeout.stop();
+    delete globalState.timeout;
+  } // clear the restore focus timeout
+
+
+  clearTimeout(globalState.restoreFocusTimeout);
+  var domCache = populateDomCache(this);
+  render(this, innerParams);
+  privateProps.innerParams.set(this, innerParams);
+  return swalPromise(this, domCache, innerParams);
+}
+
+var prepareParams = function prepareParams(userParams) {
+  var showClass = _extends({}, defaultParams.showClass, userParams.showClass);
+
+  var hideClass = _extends({}, defaultParams.hideClass, userParams.hideClass);
+
+  var params = _extends({}, defaultParams, userParams);
+
+  params.showClass = showClass;
+  params.hideClass = hideClass; // @deprecated
+
+  if (userParams.animation === false) {
+    params.showClass = {
+      popup: '',
+      backdrop: 'swal2-backdrop-show swal2-noanimation'
+    };
+    params.hideClass = {};
+  }
+
+  return params;
+};
+
+var swalPromise = function swalPromise(instance, domCache, innerParams) {
+  return new Promise(function (resolve) {
+    // functions to handle all closings/dismissals
+    var dismissWith = function dismissWith(dismiss) {
+      instance.closePopup({
+        dismiss: dismiss
+      });
+    };
+
+    privateMethods.swalPromiseResolve.set(instance, resolve);
+    setupTimer(globalState, innerParams, dismissWith);
+
+    domCache.confirmButton.onclick = function () {
+      return handleConfirmButtonClick(instance, innerParams);
+    };
+
+    domCache.cancelButton.onclick = function () {
+      return handleCancelButtonClick(instance, dismissWith);
+    };
+
+    domCache.closeButton.onclick = function () {
+      return dismissWith(DismissReason.close);
+    };
+
+    handlePopupClick(domCache, innerParams, dismissWith);
+    addKeydownHandler(instance, globalState, innerParams, dismissWith);
+
+    if (innerParams.toast && (innerParams.input || innerParams.footer || innerParams.showCloseButton)) {
+      addClass(document.body, swalClasses['toast-column']);
+    } else {
+      removeClass(document.body, swalClasses['toast-column']);
+    }
+
+    handleInputOptionsAndValue(instance, innerParams);
+    openPopup(innerParams);
+    initFocus(domCache, innerParams); // Scroll container to top on open (#1247)
+
+    domCache.container.scrollTop = 0;
+  });
+};
+
+var populateDomCache = function populateDomCache(instance) {
+  var domCache = {
+    popup: getPopup(),
+    container: getContainer(),
+    content: getContent(),
+    actions: getActions(),
+    confirmButton: getConfirmButton(),
+    cancelButton: getCancelButton(),
+    closeButton: getCloseButton(),
+    validationMessage: getValidationMessage(),
+    progressSteps: getProgressSteps()
+  };
+  privateProps.domCache.set(instance, domCache);
+  return domCache;
+};
+
+var setupTimer = function setupTimer(globalState$$1, innerParams, dismissWith) {
+  var timerProgressBar = getTimerProgressBar();
+  hide(timerProgressBar);
+
+  if (innerParams.timer) {
+    globalState$$1.timeout = new Timer(function () {
+      dismissWith('timer');
+      delete globalState$$1.timeout;
+    }, innerParams.timer);
+
+    if (innerParams.timerProgressBar) {
+      show(timerProgressBar);
+      setTimeout(function () {
+        animateTimerProgressBar(innerParams.timer);
+      });
+    }
+  }
+};
+
+var initFocus = function initFocus(domCache, innerParams) {
+  if (innerParams.toast) {
+    return;
+  }
+
+  if (!callIfFunction(innerParams.allowEnterKey)) {
+    return blurActiveElement();
+  }
+
+  if (innerParams.focusCancel && isVisible(domCache.cancelButton)) {
+    return domCache.cancelButton.focus();
+  }
+
+  if (innerParams.focusConfirm && isVisible(domCache.confirmButton)) {
+    return domCache.confirmButton.focus();
+  }
+
+  setFocus(innerParams, -1, 1);
+};
+
+var blurActiveElement = function blurActiveElement() {
+  if (document.activeElement && typeof document.activeElement.blur === 'function') {
+    document.activeElement.blur();
+  }
+};
+
+/**
+ * Updates popup parameters.
+ */
+
+function update(params) {
+  var popup = getPopup();
+  var innerParams = privateProps.innerParams.get(this);
+
+  if (!popup || hasClass(popup, innerParams.hideClass.popup)) {
+    return warn("You're trying to update the closed or closing popup, that won't work. Use the update() method in preConfirm parameter or show a new popup.");
+  }
+
+  var validUpdatableParams = {}; // assign valid params from `params` to `defaults`
+
+  Object.keys(params).forEach(function (param) {
+    if (Swal.isUpdatableParameter(param)) {
+      validUpdatableParams[param] = params[param];
+    } else {
+      warn("Invalid parameter to update: \"".concat(param, "\". Updatable params are listed here: https://github.com/sweetalert2/sweetalert2/blob/master/src/utils/params.js"));
+    }
+  });
+
+  var updatedParams = _extends({}, innerParams, validUpdatableParams);
+
+  render(this, updatedParams);
+  privateProps.innerParams.set(this, updatedParams);
+  Object.defineProperties(this, {
+    params: {
+      value: _extends({}, this.params, params),
+      writable: false,
+      enumerable: true
+    }
+  });
+}
+
+
+
+var instanceMethods = Object.freeze({
+	hideLoading: hideLoading,
+	disableLoading: hideLoading,
+	getInput: getInput$1,
+	close: close,
+	closePopup: close,
+	closeModal: close,
+	closeToast: close,
+	enableButtons: enableButtons,
+	disableButtons: disableButtons,
+	enableInput: enableInput,
+	disableInput: disableInput,
+	showValidationMessage: showValidationMessage,
+	resetValidationMessage: resetValidationMessage$1,
+	getProgressSteps: getProgressSteps$1,
+	_main: _main,
+	update: update
+});
+
+var currentInstance; // SweetAlert constructor
+
+function SweetAlert() {
+  // Prevent run in Node env
+
+  /* istanbul ignore if */
+  if (typeof window === 'undefined') {
+    return;
+  } // Check for the existence of Promise
+
+  /* istanbul ignore if */
+
+
+  if (typeof Promise === 'undefined') {
+    error('This package requires a Promise library, please include a shim to enable it in this browser (See: https://github.com/sweetalert2/sweetalert2/wiki/Migration-from-SweetAlert-to-SweetAlert2#1-ie-support)');
+  }
+
+  currentInstance = this;
+
+  for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+    args[_key] = arguments[_key];
+  }
+
+  var outerParams = Object.freeze(this.constructor.argsToParams(args));
+  Object.defineProperties(this, {
+    params: {
+      value: outerParams,
+      writable: false,
+      enumerable: true,
+      configurable: true
+    }
+  });
+
+  var promise = this._main(this.params);
+
+  privateProps.promise.set(this, promise);
+} // `catch` cannot be the name of a module export, so we define our thenable methods here instead
+
+
+SweetAlert.prototype.then = function (onFulfilled) {
+  var promise = privateProps.promise.get(this);
+  return promise.then(onFulfilled);
+};
+
+SweetAlert.prototype["finally"] = function (onFinally) {
+  var promise = privateProps.promise.get(this);
+  return promise["finally"](onFinally);
+}; // Assign instance methods from src/instanceMethods/*.js to prototype
+
+
+_extends(SweetAlert.prototype, instanceMethods); // Assign static methods from src/staticMethods/*.js to constructor
+
+
+_extends(SweetAlert, staticMethods); // Proxy to instance methods to constructor, for now, for backwards compatibility
+
+
+Object.keys(instanceMethods).forEach(function (key) {
+  SweetAlert[key] = function () {
+    if (currentInstance) {
+      var _currentInstance;
+
+      return (_currentInstance = currentInstance)[key].apply(_currentInstance, arguments);
+    }
+  };
+});
+SweetAlert.DismissReason = DismissReason;
+SweetAlert.version = '9.5.4';
+
+var Swal = SweetAlert;
+Swal["default"] = Swal;
+
+return Swal;
+
+})));
+if (typeof this !== 'undefined' && this.Sweetalert2){  this.swal = this.sweetAlert = this.Swal = this.SweetAlert = this.Sweetalert2}
+
+"undefined"!=typeof document&&function(e,t){var n=e.createElement("style");if(e.getElementsByTagName("head")[0].appendChild(n),n.styleSheet)n.styleSheet.disabled||(n.styleSheet.cssText=t);else try{n.innerHTML=t}catch(e){n.innerText=t}}(document,".swal2-popup.swal2-toast{-webkit-box-orient:horizontal;-webkit-box-direction:normal;flex-direction:row;-webkit-box-align:center;align-items:center;width:auto;padding:.625em;overflow-y:hidden;background:#fff;box-shadow:0 0 .625em #d9d9d9}.swal2-popup.swal2-toast .swal2-header{-webkit-box-orient:horizontal;-webkit-box-direction:normal;flex-direction:row}.swal2-popup.swal2-toast .swal2-title{-webkit-box-flex:1;flex-grow:1;-webkit-box-pack:start;justify-content:flex-start;margin:0 .6em;font-size:1em}.swal2-popup.swal2-toast .swal2-footer{margin:.5em 0 0;padding:.5em 0 0;font-size:.8em}.swal2-popup.swal2-toast .swal2-close{position:static;width:.8em;height:.8em;line-height:.8}.swal2-popup.swal2-toast .swal2-content{-webkit-box-pack:start;justify-content:flex-start;font-size:1em}.swal2-popup.swal2-toast .swal2-icon{width:2em;min-width:2em;height:2em;margin:0}.swal2-popup.swal2-toast .swal2-icon .swal2-icon-content{display:-webkit-box;display:flex;-webkit-box-align:center;align-items:center;font-size:1.8em;font-weight:700}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-popup.swal2-toast .swal2-icon .swal2-icon-content{font-size:.25em}}.swal2-popup.swal2-toast .swal2-icon.swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line]{top:.875em;width:1.375em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:.3125em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:.3125em}.swal2-popup.swal2-toast .swal2-actions{flex-basis:auto!important;width:auto;height:auto;margin:0 .3125em}.swal2-popup.swal2-toast .swal2-styled{margin:0 .3125em;padding:.3125em .625em;font-size:1em}.swal2-popup.swal2-toast .swal2-styled:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(50,100,150,.4)}.swal2-popup.swal2-toast .swal2-success{border-color:#a5dc86}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line]{position:absolute;width:1.6em;height:3em;-webkit-transform:rotate(45deg);transform:rotate(45deg);border-radius:50%}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.8em;left:-.5em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:2em 2em;transform-origin:2em 2em;border-radius:4em 0 0 4em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.25em;left:.9375em;-webkit-transform-origin:0 1.5em;transform-origin:0 1.5em;border-radius:0 4em 4em 0}.swal2-popup.swal2-toast .swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-success .swal2-success-fix{top:0;left:.4375em;width:.4375em;height:2.6875em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line]{height:.3125em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=tip]{top:1.125em;left:.1875em;width:.75em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=long]{top:.9375em;right:.1875em;width:1.375em}.swal2-popup.swal2-toast .swal2-success.swal2-icon-show .swal2-success-line-tip{-webkit-animation:swal2-toast-animate-success-line-tip .75s;animation:swal2-toast-animate-success-line-tip .75s}.swal2-popup.swal2-toast .swal2-success.swal2-icon-show .swal2-success-line-long{-webkit-animation:swal2-toast-animate-success-line-long .75s;animation:swal2-toast-animate-success-line-long .75s}.swal2-popup.swal2-toast.swal2-show{-webkit-animation:swal2-toast-show .5s;animation:swal2-toast-show .5s}.swal2-popup.swal2-toast.swal2-hide{-webkit-animation:swal2-toast-hide .1s forwards;animation:swal2-toast-hide .1s forwards}.swal2-container{display:-webkit-box;display:flex;position:fixed;z-index:1060;top:0;right:0;bottom:0;left:0;-webkit-box-orient:horizontal;-webkit-box-direction:normal;flex-direction:row;-webkit-box-align:center;align-items:center;-webkit-box-pack:center;justify-content:center;padding:.625em;overflow-x:hidden;-webkit-transition:background-color .1s;transition:background-color .1s;-webkit-overflow-scrolling:touch}.swal2-container.swal2-backdrop-show{background:rgba(0,0,0,.4)}.swal2-container.swal2-backdrop-hide{background:0 0!important}.swal2-container.swal2-top{-webkit-box-align:start;align-items:flex-start}.swal2-container.swal2-top-left,.swal2-container.swal2-top-start{-webkit-box-align:start;align-items:flex-start;-webkit-box-pack:start;justify-content:flex-start}.swal2-container.swal2-top-end,.swal2-container.swal2-top-right{-webkit-box-align:start;align-items:flex-start;-webkit-box-pack:end;justify-content:flex-end}.swal2-container.swal2-center{-webkit-box-align:center;align-items:center}.swal2-container.swal2-center-left,.swal2-container.swal2-center-start{-webkit-box-align:center;align-items:center;-webkit-box-pack:start;justify-content:flex-start}.swal2-container.swal2-center-end,.swal2-container.swal2-center-right{-webkit-box-align:center;align-items:center;-webkit-box-pack:end;justify-content:flex-end}.swal2-container.swal2-bottom{-webkit-box-align:end;align-items:flex-end}.swal2-container.swal2-bottom-left,.swal2-container.swal2-bottom-start{-webkit-box-align:end;align-items:flex-end;-webkit-box-pack:start;justify-content:flex-start}.swal2-container.swal2-bottom-end,.swal2-container.swal2-bottom-right{-webkit-box-align:end;align-items:flex-end;-webkit-box-pack:end;justify-content:flex-end}.swal2-container.swal2-bottom-end>:first-child,.swal2-container.swal2-bottom-left>:first-child,.swal2-container.swal2-bottom-right>:first-child,.swal2-container.swal2-bottom-start>:first-child,.swal2-container.swal2-bottom>:first-child{margin-top:auto}.swal2-container.swal2-grow-fullscreen>.swal2-modal{display:-webkit-box!important;display:flex!important;-webkit-box-flex:1;flex:1;align-self:stretch;-webkit-box-pack:center;justify-content:center}.swal2-container.swal2-grow-row>.swal2-modal{display:-webkit-box!important;display:flex!important;-webkit-box-flex:1;flex:1;align-content:center;-webkit-box-pack:center;justify-content:center}.swal2-container.swal2-grow-column{-webkit-box-flex:1;flex:1;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-direction:column}.swal2-container.swal2-grow-column.swal2-bottom,.swal2-container.swal2-grow-column.swal2-center,.swal2-container.swal2-grow-column.swal2-top{-webkit-box-align:center;align-items:center}.swal2-container.swal2-grow-column.swal2-bottom-left,.swal2-container.swal2-grow-column.swal2-bottom-start,.swal2-container.swal2-grow-column.swal2-center-left,.swal2-container.swal2-grow-column.swal2-center-start,.swal2-container.swal2-grow-column.swal2-top-left,.swal2-container.swal2-grow-column.swal2-top-start{-webkit-box-align:start;align-items:flex-start}.swal2-container.swal2-grow-column.swal2-bottom-end,.swal2-container.swal2-grow-column.swal2-bottom-right,.swal2-container.swal2-grow-column.swal2-center-end,.swal2-container.swal2-grow-column.swal2-center-right,.swal2-container.swal2-grow-column.swal2-top-end,.swal2-container.swal2-grow-column.swal2-top-right{-webkit-box-align:end;align-items:flex-end}.swal2-container.swal2-grow-column>.swal2-modal{display:-webkit-box!important;display:flex!important;-webkit-box-flex:1;flex:1;align-content:center;-webkit-box-pack:center;justify-content:center}.swal2-container:not(.swal2-top):not(.swal2-top-start):not(.swal2-top-end):not(.swal2-top-left):not(.swal2-top-right):not(.swal2-center-start):not(.swal2-center-end):not(.swal2-center-left):not(.swal2-center-right):not(.swal2-bottom):not(.swal2-bottom-start):not(.swal2-bottom-end):not(.swal2-bottom-left):not(.swal2-bottom-right):not(.swal2-grow-fullscreen)>.swal2-modal{margin:auto}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-container .swal2-modal{margin:0!important}}.swal2-popup{display:none;position:relative;box-sizing:border-box;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-direction:column;-webkit-box-pack:center;justify-content:center;width:32em;max-width:100%;padding:1.25em;border:none;border-radius:.3125em;background:#fff;font-family:inherit;font-size:1rem}.swal2-popup:focus{outline:0}.swal2-popup.swal2-loading{overflow-y:hidden}.swal2-header{display:-webkit-box;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-direction:column;-webkit-box-align:center;align-items:center}.swal2-title{position:relative;max-width:100%;margin:0 0 .4em;padding:0;color:#595959;font-size:1.875em;font-weight:600;text-align:center;text-transform:none;word-wrap:break-word}.swal2-actions{display:-webkit-box;display:flex;z-index:1;flex-wrap:wrap;-webkit-box-align:center;align-items:center;-webkit-box-pack:center;justify-content:center;width:100%;margin:1.25em auto 0}.swal2-actions:not(.swal2-loading) .swal2-styled[disabled]{opacity:.4}.swal2-actions:not(.swal2-loading) .swal2-styled:hover{background-image:-webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.1)),to(rgba(0,0,0,.1)));background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))}.swal2-actions:not(.swal2-loading) .swal2-styled:active{background-image:-webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.2)),to(rgba(0,0,0,.2)));background-image:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))}.swal2-actions.swal2-loading .swal2-styled.swal2-confirm{box-sizing:border-box;width:2.5em;height:2.5em;margin:.46875em;padding:0;-webkit-animation:swal2-rotate-loading 1.5s linear 0s infinite normal;animation:swal2-rotate-loading 1.5s linear 0s infinite normal;border:.25em solid transparent;border-radius:100%;border-color:transparent;background-color:transparent!important;color:transparent;cursor:default;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.swal2-actions.swal2-loading .swal2-styled.swal2-cancel{margin-right:30px;margin-left:30px}.swal2-actions.swal2-loading :not(.swal2-styled).swal2-confirm::after{content:\"\";display:inline-block;width:15px;height:15px;margin-left:5px;-webkit-animation:swal2-rotate-loading 1.5s linear 0s infinite normal;animation:swal2-rotate-loading 1.5s linear 0s infinite normal;border:3px solid #999;border-radius:50%;border-right-color:transparent;box-shadow:1px 1px 1px #fff}.swal2-styled{margin:.3125em;padding:.625em 2em;box-shadow:none;font-weight:500}.swal2-styled:not([disabled]){cursor:pointer}.swal2-styled.swal2-confirm{border:0;border-radius:.25em;background:initial;background-color:#3085d6;color:#fff;font-size:1.0625em}.swal2-styled.swal2-cancel{border:0;border-radius:.25em;background:initial;background-color:#aaa;color:#fff;font-size:1.0625em}.swal2-styled:focus{outline:0;box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(50,100,150,.4)}.swal2-styled::-moz-focus-inner{border:0}.swal2-footer{-webkit-box-pack:center;justify-content:center;margin:1.25em 0 0;padding:1em 0 0;border-top:1px solid #eee;color:#545454;font-size:1em}.swal2-timer-progress-bar{position:absolute;bottom:0;left:0;width:100%;height:.25em;background:rgba(0,0,0,.2)}.swal2-image{max-width:100%;margin:1.25em auto}.swal2-close{position:absolute;z-index:2;top:0;right:0;-webkit-box-pack:center;justify-content:center;width:1.2em;height:1.2em;padding:0;overflow:hidden;-webkit-transition:color .1s ease-out;transition:color .1s ease-out;border:none;border-radius:0;outline:initial;background:0 0;color:#ccc;font-family:serif;font-size:2.5em;line-height:1.2;cursor:pointer}.swal2-close:hover{-webkit-transform:none;transform:none;background:0 0;color:#f27474}.swal2-close::-moz-focus-inner{border:0}.swal2-content{z-index:1;-webkit-box-pack:center;justify-content:center;margin:0;padding:0;color:#545454;font-size:1.125em;font-weight:400;line-height:normal;text-align:center;word-wrap:break-word}.swal2-checkbox,.swal2-file,.swal2-input,.swal2-radio,.swal2-select,.swal2-textarea{margin:1em auto}.swal2-file,.swal2-input,.swal2-textarea{box-sizing:border-box;width:100%;-webkit-transition:border-color .3s,box-shadow .3s;transition:border-color .3s,box-shadow .3s;border:1px solid #d9d9d9;border-radius:.1875em;background:inherit;box-shadow:inset 0 1px 1px rgba(0,0,0,.06);color:inherit;font-size:1.125em}.swal2-file.swal2-inputerror,.swal2-input.swal2-inputerror,.swal2-textarea.swal2-inputerror{border-color:#f27474!important;box-shadow:0 0 2px #f27474!important}.swal2-file:focus,.swal2-input:focus,.swal2-textarea:focus{border:1px solid #b4dbed;outline:0;box-shadow:0 0 3px #c4e6f5}.swal2-file::-webkit-input-placeholder,.swal2-input::-webkit-input-placeholder,.swal2-textarea::-webkit-input-placeholder{color:#ccc}.swal2-file::-moz-placeholder,.swal2-input::-moz-placeholder,.swal2-textarea::-moz-placeholder{color:#ccc}.swal2-file:-ms-input-placeholder,.swal2-input:-ms-input-placeholder,.swal2-textarea:-ms-input-placeholder{color:#ccc}.swal2-file::-ms-input-placeholder,.swal2-input::-ms-input-placeholder,.swal2-textarea::-ms-input-placeholder{color:#ccc}.swal2-file::placeholder,.swal2-input::placeholder,.swal2-textarea::placeholder{color:#ccc}.swal2-range{margin:1em auto;background:#fff}.swal2-range input{width:80%}.swal2-range output{width:20%;color:inherit;font-weight:600;text-align:center}.swal2-range input,.swal2-range output{height:2.625em;padding:0;font-size:1.125em;line-height:2.625em}.swal2-input{height:2.625em;padding:0 .75em}.swal2-input[type=number]{max-width:10em}.swal2-file{background:inherit;font-size:1.125em}.swal2-textarea{height:6.75em;padding:.75em}.swal2-select{min-width:50%;max-width:100%;padding:.375em .625em;background:inherit;color:inherit;font-size:1.125em}.swal2-checkbox,.swal2-radio{-webkit-box-align:center;align-items:center;-webkit-box-pack:center;justify-content:center;background:#fff;color:inherit}.swal2-checkbox label,.swal2-radio label{margin:0 .6em;font-size:1.125em}.swal2-checkbox input,.swal2-radio input{margin:0 .4em}.swal2-validation-message{display:none;-webkit-box-align:center;align-items:center;-webkit-box-pack:center;justify-content:center;padding:.625em;overflow:hidden;background:#f0f0f0;color:#666;font-size:1em;font-weight:300}.swal2-validation-message::before{content:\"!\";display:inline-block;width:1.5em;min-width:1.5em;height:1.5em;margin:0 .625em;border-radius:50%;background-color:#f27474;color:#fff;font-weight:600;line-height:1.5em;text-align:center}.swal2-icon{position:relative;box-sizing:content-box;-webkit-box-pack:center;justify-content:center;width:5em;height:5em;margin:1.25em auto 1.875em;border:.25em solid transparent;border-radius:50%;font-family:inherit;line-height:5em;cursor:default;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.swal2-icon .swal2-icon-content{display:-webkit-box;display:flex;-webkit-box-align:center;align-items:center;font-size:3.75em}.swal2-icon.swal2-error{border-color:#f27474;color:#f27474}.swal2-icon.swal2-error .swal2-x-mark{position:relative;-webkit-box-flex:1;flex-grow:1}.swal2-icon.swal2-error [class^=swal2-x-mark-line]{display:block;position:absolute;top:2.3125em;width:2.9375em;height:.3125em;border-radius:.125em;background-color:#f27474}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:1.0625em;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:1em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal2-icon.swal2-error.swal2-icon-show{-webkit-animation:swal2-animate-error-icon .5s;animation:swal2-animate-error-icon .5s}.swal2-icon.swal2-error.swal2-icon-show .swal2-x-mark{-webkit-animation:swal2-animate-error-x-mark .5s;animation:swal2-animate-error-x-mark .5s}.swal2-icon.swal2-warning{border-color:#facea8;color:#f8bb86}.swal2-icon.swal2-info{border-color:#9de0f6;color:#3fc3ee}.swal2-icon.swal2-question{border-color:#c9dae1;color:#87adbd}.swal2-icon.swal2-success{border-color:#a5dc86;color:#a5dc86}.swal2-icon.swal2-success [class^=swal2-success-circular-line]{position:absolute;width:3.75em;height:7.5em;-webkit-transform:rotate(45deg);transform:rotate(45deg);border-radius:50%}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.4375em;left:-2.0635em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:3.75em 3.75em;transform-origin:3.75em 3.75em;border-radius:7.5em 0 0 7.5em}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.6875em;left:1.875em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:0 3.75em;transform-origin:0 3.75em;border-radius:0 7.5em 7.5em 0}.swal2-icon.swal2-success .swal2-success-ring{position:absolute;z-index:2;top:-.25em;left:-.25em;box-sizing:content-box;width:100%;height:100%;border:.25em solid rgba(165,220,134,.3);border-radius:50%}.swal2-icon.swal2-success .swal2-success-fix{position:absolute;z-index:1;top:.5em;left:1.625em;width:.4375em;height:5.625em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal2-icon.swal2-success [class^=swal2-success-line]{display:block;position:absolute;z-index:2;height:.3125em;border-radius:.125em;background-color:#a5dc86}.swal2-icon.swal2-success [class^=swal2-success-line][class$=tip]{top:2.875em;left:.875em;width:1.5625em;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal2-icon.swal2-success [class^=swal2-success-line][class$=long]{top:2.375em;right:.5em;width:2.9375em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal2-icon.swal2-success.swal2-icon-show .swal2-success-line-tip{-webkit-animation:swal2-animate-success-line-tip .75s;animation:swal2-animate-success-line-tip .75s}.swal2-icon.swal2-success.swal2-icon-show .swal2-success-line-long{-webkit-animation:swal2-animate-success-line-long .75s;animation:swal2-animate-success-line-long .75s}.swal2-icon.swal2-success.swal2-icon-show .swal2-success-circular-line-right{-webkit-animation:swal2-rotate-success-circular-line 4.25s ease-in;animation:swal2-rotate-success-circular-line 4.25s ease-in}.swal2-progress-steps{-webkit-box-align:center;align-items:center;margin:0 0 1.25em;padding:0;background:inherit;font-weight:600}.swal2-progress-steps li{display:inline-block;position:relative}.swal2-progress-steps .swal2-progress-step{z-index:20;width:2em;height:2em;border-radius:2em;background:#3085d6;color:#fff;line-height:2em;text-align:center}.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step{background:#3085d6}.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step{background:#add8e6;color:#fff}.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step-line{background:#add8e6}.swal2-progress-steps .swal2-progress-step-line{z-index:10;width:2.5em;height:.4em;margin:0 -1px;background:#3085d6}[class^=swal2]{-webkit-tap-highlight-color:transparent}.swal2-show{-webkit-animation:swal2-show .3s;animation:swal2-show .3s}.swal2-hide{-webkit-animation:swal2-hide .15s forwards;animation:swal2-hide .15s forwards}.swal2-noanimation{-webkit-transition:none;transition:none}.swal2-scrollbar-measure{position:absolute;top:-9999px;width:50px;height:50px;overflow:scroll}.swal2-rtl .swal2-close{right:auto;left:0}.swal2-rtl .swal2-timer-progress-bar{right:0;left:auto}@supports (-ms-accelerator:true){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@-moz-document url-prefix(){.swal2-close:focus{outline:2px solid rgba(50,100,150,.4)}}@-webkit-keyframes swal2-toast-show{0%{-webkit-transform:translateY(-.625em) rotateZ(2deg);transform:translateY(-.625em) rotateZ(2deg)}33%{-webkit-transform:translateY(0) rotateZ(-2deg);transform:translateY(0) rotateZ(-2deg)}66%{-webkit-transform:translateY(.3125em) rotateZ(2deg);transform:translateY(.3125em) rotateZ(2deg)}100%{-webkit-transform:translateY(0) rotateZ(0);transform:translateY(0) rotateZ(0)}}@keyframes swal2-toast-show{0%{-webkit-transform:translateY(-.625em) rotateZ(2deg);transform:translateY(-.625em) rotateZ(2deg)}33%{-webkit-transform:translateY(0) rotateZ(-2deg);transform:translateY(0) rotateZ(-2deg)}66%{-webkit-transform:translateY(.3125em) rotateZ(2deg);transform:translateY(.3125em) rotateZ(2deg)}100%{-webkit-transform:translateY(0) rotateZ(0);transform:translateY(0) rotateZ(0)}}@-webkit-keyframes swal2-toast-hide{100%{-webkit-transform:rotateZ(1deg);transform:rotateZ(1deg);opacity:0}}@keyframes swal2-toast-hide{100%{-webkit-transform:rotateZ(1deg);transform:rotateZ(1deg);opacity:0}}@-webkit-keyframes swal2-toast-animate-success-line-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@keyframes swal2-toast-animate-success-line-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@-webkit-keyframes swal2-toast-animate-success-line-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}@keyframes swal2-toast-animate-success-line-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}@-webkit-keyframes swal2-show{0%{-webkit-transform:scale(.7);transform:scale(.7)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes swal2-show{0%{-webkit-transform:scale(.7);transform:scale(.7)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}100%{-webkit-transform:scale(1);transform:scale(1)}}@-webkit-keyframes swal2-hide{0%{-webkit-transform:scale(1);transform:scale(1);opacity:1}100%{-webkit-transform:scale(.5);transform:scale(.5);opacity:0}}@keyframes swal2-hide{0%{-webkit-transform:scale(1);transform:scale(1);opacity:1}100%{-webkit-transform:scale(.5);transform:scale(.5);opacity:0}}@-webkit-keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.875em;width:1.5625em}}@keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.875em;width:1.5625em}}@-webkit-keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@-webkit-keyframes swal2-rotate-success-circular-line{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}100%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@keyframes swal2-rotate-success-circular-line{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}100%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@-webkit-keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}50%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}80%{margin-top:-.375em;-webkit-transform:scale(1.15);transform:scale(1.15)}100%{margin-top:0;-webkit-transform:scale(1);transform:scale(1);opacity:1}}@keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}50%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}80%{margin-top:-.375em;-webkit-transform:scale(1.15);transform:scale(1.15)}100%{margin-top:0;-webkit-transform:scale(1);transform:scale(1);opacity:1}}@-webkit-keyframes swal2-animate-error-icon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}100%{-webkit-transform:rotateX(0);transform:rotateX(0);opacity:1}}@keyframes swal2-animate-error-icon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}100%{-webkit-transform:rotateX(0);transform:rotateX(0);opacity:1}}@-webkit-keyframes swal2-rotate-loading{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes swal2-rotate-loading{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow:hidden}body.swal2-height-auto{height:auto!important}body.swal2-no-backdrop .swal2-container{top:auto;right:auto;bottom:auto;left:auto;max-width:calc(100% - .625em * 2);background-color:transparent!important}body.swal2-no-backdrop .swal2-container>.swal2-modal{box-shadow:0 0 10px rgba(0,0,0,.4)}body.swal2-no-backdrop .swal2-container.swal2-top{top:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-no-backdrop .swal2-container.swal2-top-left,body.swal2-no-backdrop .swal2-container.swal2-top-start{top:0;left:0}body.swal2-no-backdrop .swal2-container.swal2-top-end,body.swal2-no-backdrop .swal2-container.swal2-top-right{top:0;right:0}body.swal2-no-backdrop .swal2-container.swal2-center{top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}body.swal2-no-backdrop .swal2-container.swal2-center-left,body.swal2-no-backdrop .swal2-container.swal2-center-start{top:50%;left:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-no-backdrop .swal2-container.swal2-center-end,body.swal2-no-backdrop .swal2-container.swal2-center-right{top:50%;right:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-no-backdrop .swal2-container.swal2-bottom{bottom:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-no-backdrop .swal2-container.swal2-bottom-left,body.swal2-no-backdrop .swal2-container.swal2-bottom-start{bottom:0;left:0}body.swal2-no-backdrop .swal2-container.swal2-bottom-end,body.swal2-no-backdrop .swal2-container.swal2-bottom-right{right:0;bottom:0}@media print{body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow-y:scroll!important}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown)>[aria-hidden=true]{display:none}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) .swal2-container{position:static!important}}body.swal2-toast-shown .swal2-container{background-color:transparent}body.swal2-toast-shown .swal2-container.swal2-top{top:0;right:auto;bottom:auto;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-top-end,body.swal2-toast-shown .swal2-container.swal2-top-right{top:0;right:0;bottom:auto;left:auto}body.swal2-toast-shown .swal2-container.swal2-top-left,body.swal2-toast-shown .swal2-container.swal2-top-start{top:0;right:auto;bottom:auto;left:0}body.swal2-toast-shown .swal2-container.swal2-center-left,body.swal2-toast-shown .swal2-container.swal2-center-start{top:50%;right:auto;bottom:auto;left:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-center{top:50%;right:auto;bottom:auto;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}body.swal2-toast-shown .swal2-container.swal2-center-end,body.swal2-toast-shown .swal2-container.swal2-center-right{top:50%;right:0;bottom:auto;left:auto;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-left,body.swal2-toast-shown .swal2-container.swal2-bottom-start{top:auto;right:auto;bottom:0;left:0}body.swal2-toast-shown .swal2-container.swal2-bottom{top:auto;right:auto;bottom:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-end,body.swal2-toast-shown .swal2-container.swal2-bottom-right{top:auto;right:0;bottom:0;left:auto}body.swal2-toast-column .swal2-toast{-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-direction:column;-webkit-box-align:stretch;align-items:stretch}body.swal2-toast-column .swal2-toast .swal2-actions{-webkit-box-flex:1;flex:1;align-self:stretch;height:2.2em;margin-top:.3125em}body.swal2-toast-column .swal2-toast .swal2-loading{-webkit-box-pack:center;justify-content:center}body.swal2-toast-column .swal2-toast .swal2-input{height:2em;margin:.3125em auto;font-size:1em}body.swal2-toast-column .swal2-toast .swal2-validation-message{font-size:1em}");
+
+/***/ }),
+
 /***/ "./node_modules/uuid/index.js":
 /*!************************************!*\
   !*** ./node_modules/uuid/index.js ***!
@@ -25874,7 +28896,7 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 0:
+/***/ 7:
 /*!********************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Ftopics%2Fdirected-situations&absolutePagePath=%2FUsers%2Fraheemmcdonald%2FDesktop%2Fcxcspanish-next%2Fpages%2Ftopics%2Fdirected-situations.js ***!
   \********************************************************************************************************************************************************************************************/
@@ -25897,5 +28919,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[7,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=directed-situations.js.map

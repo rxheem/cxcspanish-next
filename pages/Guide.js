@@ -3,6 +3,9 @@ import Head from "next/head";
 import Breadcrumb from "../common/Breadcrumb";
 import BreadcrumbItem from "../common/BreadcrumbItem";
 
+// components
+import GuideSnippet from "../common/GuideSnippet";
+
 const Guide = props => (
   <Layout>
     <Head>
@@ -27,10 +30,14 @@ const Guide = props => (
     </Breadcrumb>
 
     <h1 class="title is-4">Guides</h1>
-    <p>
-      Our guides will help you take your Spanish to the next level, with
-      completed with examples and practice questions.
-    </p>
+    <div className="columns">
+      <div className="column">
+        <div className="box"></div>
+      </div>
+      <div className="column is-one-third">
+        <div className="box"></div>
+      </div>
+    </div>
   </Layout>
 );
 

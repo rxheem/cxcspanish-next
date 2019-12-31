@@ -43,6 +43,7 @@
     "fbjs": "^1.0.0",
     "font-awesome": "^4.7.0",
     "formik": "^1.5.8",
+    "geolocation": "^0.2.0",
     "google-ads-api": "^3.5.0",
     "google-translate": "^3.0.0",
     "graphql": "^14.4.2",
@@ -96,6 +97,7 @@
     "request": "^2.88.0",
     "styled-components": "^4.3.2",
     "subscriptions-transport-ws": "^0.9.16",
+    "sweetalert2": "^9.5.4",
     "uuid": "^3.3.3",
     "yup": "^0.27.0"
   },
