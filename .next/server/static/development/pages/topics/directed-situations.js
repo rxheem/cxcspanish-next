@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 7);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -200,7 +200,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 const Breadcrumb = props => __jsx("nav", {
   className: "breadcrumb is-desktop-only",
   "aria-label": "breadcrumbs"
-}, __jsx("ul", null, __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+}, __jsx("ul", null, __jsx("li", null, __jsx("a", {
   href: "/"
 }, "Home")), props.children));
 
@@ -221,32 +221,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/raheemmcdonald/Desktop/cxcspanish-next/common/BreadcrumbItem.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-const BreadcrumbItem = props => __jsx("li", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 4
-  },
-  __self: undefined
-}, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-  href: props.href,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 5
-  },
-  __self: undefined
-}, __jsx("a", {
-  href: true,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 6
-  },
-  __self: undefined
-}, props.title)));
+const BreadcrumbItem = props => __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  href: props.href
+}, __jsx("a", null, props.title)));
 
 /* harmony default export */ __webpack_exports__["default"] = (BreadcrumbItem);
 
@@ -3230,7 +3211,7 @@ class DirectedSituations extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Co
 
 /***/ }),
 
-/***/ 4:
+/***/ 7:
 /*!***************************************************!*\
   !*** multi ./pages/topics/directed-situations.js ***!
   \***************************************************/

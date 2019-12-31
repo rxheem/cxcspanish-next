@@ -264,7 +264,7 @@ var Breadcrumb = function Breadcrumb(props) {
   return __jsx("nav", {
     className: "breadcrumb is-desktop-only",
     "aria-label": "breadcrumbs"
-  }, __jsx("ul", null, __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  }, __jsx("ul", null, __jsx("li", null, __jsx("a", {
     href: "/"
   }, "Home")), props.children));
 };
@@ -286,33 +286,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/raheemmcdonald/Desktop/cxcspanish-next/common/BreadcrumbItem.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 var BreadcrumbItem = function BreadcrumbItem(props) {
-  return __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: props.href,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, __jsx("a", {
-    href: true,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, props.title)));
+  return __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: props.href
+  }, __jsx("a", null, props.title)));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (BreadcrumbItem);
@@ -28896,7 +28877,7 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 7:
+/***/ 10:
 /*!********************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Ftopics%2Fdirected-situations&absolutePagePath=%2FUsers%2Fraheemmcdonald%2FDesktop%2Fcxcspanish-next%2Fpages%2Ftopics%2Fdirected-situations.js ***!
   \********************************************************************************************************************************************************************************************/
@@ -28919,5 +28900,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[7,"static/runtime/webpack.js","styles"]]]);
+},[[10,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=directed-situations.js.map

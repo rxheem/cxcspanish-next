@@ -175,6 +175,45 @@ const ExamTopics = props => (
         </div>
       </div>
     </div>
+
+    <div>
+      <div className="box">
+        <p>
+          The syllabus has been carefully crafted to develop students'
+          listening, writing and speaking skills. It aims to:
+        </p>
+
+        <ul
+          style={{
+            paddingTop: "20px",
+            paddingLeft: "20px",
+            listStyleType: "disc"
+          }}
+        >
+          <li style={{ paddingBottom: "15px" }}>
+            Develop fundamental language skills to communicate effectively in
+            Spanish in everyday situations;
+          </li>
+          <li style={{ paddingBottom: "15px" }}>
+            Develop the ability to read, write and respond to information based
+            on their social environment in an acceptable manner;
+          </li>
+          <li style={{ paddingBottom: "15px" }}>
+            Develop appreciation for the language and culture of French and
+            Spanish speaking people of the region;
+          </li>
+          <li style={{ paddingBottom: "15px" }}>
+            Develop the foundation for further study of a foreign language;
+          </li>
+          <li style={{ paddingBottom: "15px" }}>
+            Increase the potential for career opportunities;
+          </li>
+          <li style={{ paddingBottom: "15px" }}>
+            Encourage a positive attitude toward people of different cultures.
+          </li>
+        </ul>
+      </div>
+    </div>
   </Layout>
 );
 

@@ -26,7 +26,7 @@ const Guide = props => (
     </Head>
 
     <Breadcrumb>
-      <BreadcrumbItem title="Guide" href="/guide" />
+      <BreadcrumbItem title="Guides" href="/guide" />
     </Breadcrumb>
 
     <h1 class="title is-4">Guides</h1>

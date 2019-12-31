@@ -13,7 +13,6 @@ import Quote from "../../common/Quote";
 // All contents
 import Overview from "./contents/dir-sit/Overview";
 import Examples from "./contents/dir-sit/Examples";
-
 import TryThese from "./contents/dir-sit/TryThese";
 
 class DirectedSituations extends React.Component {

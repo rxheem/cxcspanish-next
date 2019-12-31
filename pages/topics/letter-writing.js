@@ -4,19 +4,85 @@ import Head from "next/head";
 import Link from "next/link";
 import Breadcrumb from "../../common/Breadcrumb";
 import BreadcrumbItem from "../../common/BreadcrumbItem";
+import $ from "jquery";
+
+// All contents
+import TryThese from "./contents/let-wri/TryThese";
 
 class LetterWriting extends React.Component {
-  componentDidMount() {}
+  componentDidMount() {
+    function removeActiveClass() {
+      $(".liOverview").removeClass("is-active");
+      $(".liTips").removeClass("is-active");
+      $(".liSample1").removeClass("is-active");
+      $(".liSample2").removeClass("is-active");
+      $(".liSample3").removeClass("is-active");
+    }
+
+    // Function to hide all the content
+    function hideAllContent() {
+      $("#overview").hide();
+      $("#tips").hide();
+      $("#sample1").hide();
+      $("#sample2").hide();
+      $("#sample3").hide();
+    }
+
+    // On click event for overview
+    $(".btnOverview").click(function() {
+      removeActiveClass();
+      hideAllContent();
+
+      $("#overview").show();
+      $(".liOverview").addClass("is-active");
+    });
+
+    // On click event for Tips
+    $(".btnTips").click(function() {
+      removeActiveClass();
+      hideAllContent();
+
+      $("#tips").show();
+      $(".liTips").addClass("is-active");
+    });
+
+    // On click event for Sample 1
+    $(".btnSample1").click(function() {
+      removeActiveClass();
+      hideAllContent();
+
+      $("#sample1").show();
+      $(".liSample1").addClass("is-active");
+    });
+
+    // On click event for Sample 1
+    $(".btnSample2").click(function() {
+      removeActiveClass();
+      hideAllContent();
+
+      $("#sample2").show();
+      $(".liSample2").addClass("is-active");
+    });
+
+    // On click event for Sample 1
+    $(".btnSample3").click(function() {
+      removeActiveClass();
+      hideAllContent();
+
+      $("#sample3").show();
+      $(".liSample3").addClass("is-active");
+    });
+
+    // Triggers click on Overview tabs
+    $(".btnOverview").trigger("click");
+  }
 
   render() {
     return (
       <Layout>
         <Head>
           <title>Letter Writing | CXC Spanish Guide</title>
-          <meta
-            name="description"
-            content="CXC Spanish Online is the perfect free online study guide to pass your CXC Spanish exam with syllabus revision, exercises and downloadable resouces."
-          />
+          <meta name="description" content="" />
           <meta
             name="keywords"
             content="cxc,csec spanish,spanish jamaica,contact,cxc spanish,cxc spansih jamaica,espanol jamaica, csec spanish past papers, spanish, cape, caribbean examination counsil,caribbean examination counsel, español, espanol, study guide, study, pass csec spanish exam, caribbean examination counsil,caribbean examination counsel, español, espanol, study guide, study, directed situations, free response,present tense,imperfect tense,ser vs estar,subjunctive mood,subjunctive tense spanish,reading comprehension,contextual dialogue, contextual announcements, poster,spanish,pass"
@@ -39,35 +105,38 @@ class LetterWriting extends React.Component {
         <h1 className="title is-5">Letter Writing</h1>
 
         <div className="columns">
-          <div className="column is-one-third">
-            <div className=""></div>
-          </div>
           <div className="column">
-            {/* Tabs */}
-            <div className="tabs">
+            <nav className="tabs">
               <ul>
                 <li class="liOverview is-active">
                   <a className="btnOverview">Overview</a>
                 </li>
-                <li className="liExamples">
-                  <a className="btnExamples">Examples</a>
+                <li className="liTips">
+                  <a className="btnTips">Tips</a>
                 </li>
-                <li className="liExercises">
-                  <a className="btnExercises">Exercises</a>
+                <li className="liSample1">
+                  <a className="btnSample1">Sample 1</a>
                 </li>
-                <li className="liResources">
-                  <a className="btnResources">Resources</a>
+                <li className="liSample2">
+                  <a className="btnSample2">Sample 2</a>
+                </li>
+                <li className="liSample3">
+                  <a className="btnSample3">Sample 3</a>
                 </li>
               </ul>
-            </div>
+            </nav>
 
             {/* Section */}
-            <section className="content">
+            <section id="content" className="box">
               <div id="overview"></div>
-              <div id="examples"></div>
-              <div id="exercises"></div>
-              <div id="resources"></div>
+              <div id="tips"></div>
+              <div id="sample1"></div>
+              <div id="sample2"></div>
+              <div id="sample3"></div>
             </section>
+          </div>
+          <div className="column is-one-third">
+            <TryThese />
           </div>
         </div>
       </Layout>

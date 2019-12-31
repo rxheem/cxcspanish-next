@@ -15,10 +15,7 @@ const PastPapersPreview = props => (
       />
       <PaperView src="https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230481831_23.jpg" />
       <PaperView src="https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482661_25.jpg" />
-      <PaperView
-        href="https://drive.google.com/open?id=1tqA_1detFGFcTrp5LWQQdKzDglrGuUUw"
-        src="https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482586_3.jpg"
-      />
+
       <PaperView src="https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482876_3.jpg" />
       <PaperView
         href="https://drive.google.com/file/d/1MZRz6QafC43548ocvA1kwHPny2lxjKfn/view?usp=sharing"
@@ -51,6 +48,10 @@ const PastPapersPreview = props => (
       <PaperView
         href=""
         src="https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482302_4.jpg"
+      />
+      <PaperView
+        href="https://drive.google.com/open?id=1tqA_1detFGFcTrp5LWQQdKzDglrGuUUw"
+        src="https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482586_3.jpg"
       />
       <PaperView
         href=""

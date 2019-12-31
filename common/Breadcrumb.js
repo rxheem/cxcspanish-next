@@ -4,7 +4,7 @@ const Breadcrumb = props => (
   <nav className="breadcrumb is-desktop-only" aria-label="breadcrumbs">
     <ul>
       <li>
-        <Link href="/">Home</Link>
+        <a href="/">Home</a>
       </li>
       {props.children}
     </ul>
