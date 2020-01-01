@@ -1,8 +1,9 @@
-import uuid4 from "uuid";
+import uuidv4 from "uuid";
 import LazyLoad from "react-lazyload";
+import { Animated } from "react-animated-css";
 
 const PaperView = props => (
-  <li>
+  <li id={uuidv4()}>
     <a target="_blank" download href={props.href}>
       <style>{`
     @media only screen and (min-width: 600px) {
@@ -21,7 +22,15 @@ const PaperView = props => (
     `}</style>
 
       <LazyLoad>
-        <img className="preview-image" alt="past paper" src={props.src} />
+        <Animated
+          animationIn="slideInRight"
+          animationOut="fadeOut"
+          isVisible={true}
+        >
+          <figure>
+            <img className="preview-image" alt="past paper" src={props.src} />
+          </figure>
+        </Animated>
       </LazyLoad>
     </a>
   </li>

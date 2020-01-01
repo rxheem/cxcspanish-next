@@ -58,7 +58,7 @@ const ExamTopics = props => (
                     name="caret-right"
                     style={{ paddingRight: "8px", color: "coral" }}
                   />
-                  <Link>Directed Situations</Link>
+                  <a href="/topics/directed-situations">Directed Situations</a>
                 </li>
               </ul>
 
@@ -72,14 +72,14 @@ const ExamTopics = props => (
                     name="caret-right"
                     style={{ paddingRight: "8px", color: "" }}
                   />
-                  <Link>Letter Writing</Link>
+                  <a href="/topics/letter-writing">Letter Writing</a>
                 </li>
                 <li>
                   <FA
                     name="caret-right"
                     style={{ paddingRight: "8px", color: "" }}
                   />
-                  <Link>Composition</Link>
+                  <a href="/topics/composition">Composition</a>
                 </li>
               </ul>
             </div>
@@ -91,14 +91,16 @@ const ExamTopics = props => (
                     name="caret-right"
                     style={{ paddingRight: "8px", color: "" }}
                   />
-                  <Link>Contextual Announcement</Link>
+                  <a href="/topics/contextual-announcements">
+                    Contextual Announcements
+                  </a>
                 </li>
                 <li>
                   <FA
                     name="caret-right"
                     style={{ paddingRight: "8px", color: "" }}
                   />
-                  <Link>Contextual Dialogue</Link>
+                  <a href="/topics/contextual-dialogue">Contextual Dialogue</a>
                 </li>
               </ul>
               <br />
@@ -110,7 +112,9 @@ const ExamTopics = props => (
                       name="caret-right"
                       style={{ paddingRight: "8px", color: "" }}
                     />
-                    <Link>Reading Comprehension</Link>
+                    <a href="/topics/reading-comprehension">
+                      Reading Comprehension
+                    </a>
                   </span>
                 </li>
                 <li>
@@ -119,7 +123,7 @@ const ExamTopics = props => (
                       name="caret-right"
                       style={{ paddingRight: "8px", color: "" }}
                     />
-                    <Link>Directed Situations</Link>
+                    <a>Directed Situations</a>
                   </span>
                 </li>
               </ul>
@@ -139,7 +143,7 @@ const ExamTopics = props => (
                     name="caret-right"
                     style={{ paddingRight: "8px", color: "" }}
                   />
-                  <Link>Listening Comprehension</Link>
+                  <a>Listening Comprehension</a>
                 </li>
               </ul>
             </div>
@@ -152,7 +156,7 @@ const ExamTopics = props => (
                     name="caret-right"
                     style={{ paddingRight: "8px", color: "" }}
                   />
-                  <Link>Response to Situations</Link>
+                  <a>Response to Situations</a>
                 </li>
 
                 <li>
@@ -160,14 +164,14 @@ const ExamTopics = props => (
                     name="caret-right"
                     style={{ paddingRight: "8px", color: "" }}
                   />
-                  <Link>Conversation</Link>
+                  <a>Conversation</a>
                 </li>
                 <li>
                   <FA
                     name="caret-right"
                     style={{ paddingRight: "8px", color: "" }}
                   />
-                  <Link>Reading Passage</Link>
+                  <a>Reading Passage</a>
                 </li>
               </ul>
             </div>

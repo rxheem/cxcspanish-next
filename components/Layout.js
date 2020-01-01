@@ -8,6 +8,7 @@ import Swal from "sweetalert2";
 
 // CSS imports
 import CSS from "../assets/bulma.css";
+import Animate from "../assets/animate.css";
 
 import BulmaAccordianCSS from "../assets/bulma-accordian.css";
 import "../assets/fontawesome.js";

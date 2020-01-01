@@ -37,7 +37,20 @@ function Index({}) {
       <Breadcrumb>
         <BreadcrumbItem />
       </Breadcrumb>
-
+      <div className="row">
+        <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+          <figure class="image is-128x128">
+            <img
+              src="https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482630_4.jpg"
+              alt=""
+            />
+          </figure>
+        </div>
+        <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">...</div>
+        <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">...</div>
+        <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">...</div>
+      </div>
+      <br /> <br /> <br />
       <PastPapersPreview />
     </Layout>
   );

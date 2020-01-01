@@ -50,10 +50,18 @@ class Navbar extends React.Component {
           <div className="navbar-start">
             <NavItem title="Guides" href="/guide" />
 
-            <a className="navbar-item has-dropdown is-hoverable">
+            <a className="navbar-item has-dropdown is-hoverable ">
               <Link href="exam-topics">
-                <a href="exam-topics" className="navbar-link">
+                <a href="exam-topics" className="navbar-link is-arrowless">
                   Exam Topics
+                  <FA
+                    name="chevron-down is-hidden-mobile"
+                    style={{
+                      paddingLeft: "10px",
+                      marginTop: "4px",
+                      paddingRight: "-3px"
+                    }}
+                  />
                 </a>
               </Link>
 
@@ -99,7 +107,17 @@ class Navbar extends React.Component {
 
             <a className="navbar-item has-dropdown is-hoverable">
               <Link href="exam-topics">
-                <a className="navbar-link">Verb Tenses</a>
+                <a className="navbar-link is-arrowless">
+                  Verb Tenses
+                  <FA
+                    name="chevron-down is-hidden-mobile"
+                    style={{
+                      paddingLeft: "10px",
+                      marginTop: "4px",
+                      paddingRight: "-3px"
+                    }}
+                  />
+                </a>
               </Link>
 
               <div className="navbar-dropdown">

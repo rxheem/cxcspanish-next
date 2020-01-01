@@ -5,8 +5,10 @@ import Link from "next/link";
 import Breadcrumb from "../../common/Breadcrumb";
 import BreadcrumbItem from "../../common/BreadcrumbItem";
 import $ from "jquery";
+import FA from "react-fontawesome";
 
 // All contents
+import Overview from "./contents/let-wri/Overview";
 import TryThese from "./contents/let-wri/TryThese";
 
 class LetterWriting extends React.Component {
@@ -115,25 +117,90 @@ class LetterWriting extends React.Component {
                   <a className="btnTips">Tips</a>
                 </li>
                 <li className="liSample1">
-                  <a className="btnSample1">Sample 1</a>
+                  <a className="btnSample1">
+                    <FA
+                      className="has-text-primary"
+                      style={{ paddingRight: "7px" }}
+                      name="pencil-alt"
+                    />
+                    Sample 1
+                  </a>
                 </li>
                 <li className="liSample2">
-                  <a className="btnSample2">Sample 2</a>
+                  <a className="btnSample2">
+                    <FA
+                      className="has-text-primary"
+                      style={{ paddingRight: "7px" }}
+                      name="pencil-alt"
+                    />
+                    Sample 2
+                  </a>
                 </li>
                 <li className="liSample3">
-                  <a className="btnSample3">Sample 3</a>
+                  <a className="btnSample3">
+                    <FA
+                      className="has-text-primary"
+                      style={{ paddingRight: "7px" }}
+                      name="pencil-alt"
+                    />
+                    Sample 3
+                  </a>
                 </li>
               </ul>
             </nav>
 
             {/* Section */}
-            <section id="content" className="box">
-              <div id="overview"></div>
+            <section id="content">
+              <div id="overview">
+                <Overview />
+              </div>
               <div id="tips"></div>
               <div id="sample1"></div>
               <div id="sample2"></div>
               <div id="sample3"></div>
             </section>
+
+            <br className="is-hidden-desktop" />
+            <nav className="tabs is-hidden-desktop">
+              <ul>
+                <li class="liOverview is-active">
+                  <a className="btnOverview">Overview</a>
+                </li>
+                <li className="liTips">
+                  <a className="btnTips">Tips</a>
+                </li>
+                <li className="liSample1">
+                  <a className="btnSample1">
+                    <FA
+                      className="has-text-primary"
+                      style={{ paddingRight: "7px" }}
+                      name="pencil-alt"
+                    />
+                    Sample 1
+                  </a>
+                </li>
+                <li className="liSample2">
+                  <a className="btnSample2">
+                    <FA
+                      className="has-text-primary"
+                      style={{ paddingRight: "7px" }}
+                      name="pencil-alt"
+                    />
+                    Sample 2
+                  </a>
+                </li>
+                <li className="liSample3">
+                  <a className="btnSample3">
+                    <FA
+                      className="has-text-primary"
+                      style={{ paddingRight: "7px" }}
+                      name="pencil-alt"
+                    />
+                    Sample 3
+                  </a>
+                </li>
+              </ul>
+            </nav>
           </div>
           <div className="column is-one-third">
             <TryThese />
