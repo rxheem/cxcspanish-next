@@ -1,6 +1,8 @@
 import uuidv4 from "uuid";
 import LazyLoad from "react-lazyload";
 import { Animated } from "react-animated-css";
+import Img from "react-image";
+import Loader from "react-loader-spinner";
 
 const PaperView = props => (
   <li id={uuidv4()}>
@@ -21,17 +23,30 @@ const PaperView = props => (
     }
     `}</style>
 
-      <LazyLoad>
-        <Animated
-          animationIn="slideInRight"
-          animationOut="fadeOut"
-          isVisible={true}
-        >
+      <Animated
+        animationIn="slideInRight"
+        animationOut="fadeOut"
+        isVisible={true}
+      >
+        <LazyLoad>
           <figure>
-            <img className="preview-image" alt="past paper" src={props.src} />
+            <Img
+              className="preview-image"
+              alt="past paper"
+              src={props.src}
+              loader={
+                <Loader
+                  type="ThreeDots"
+                  color="#00BFFF"
+                  height={100}
+                  width={100}
+                  timeout={3000} //3 secs
+                />
+              }
+            />
           </figure>
-        </Animated>
-      </LazyLoad>
+        </LazyLoad>
+      </Animated>
     </a>
   </li>
 );

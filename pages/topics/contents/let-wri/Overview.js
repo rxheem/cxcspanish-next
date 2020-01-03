@@ -1,6 +1,8 @@
 import FA from "react-fontawesome";
 import Quote from "../../../../common/Quote";
 import Answer from "../../../../common/Answer";
+import Img from "react-image";
+import Loader from "react-loader-spinner";
 
 const Fragment = React.Fragment;
 
@@ -8,8 +10,8 @@ const Overview = props => (
   <div>
     <div className="box">
       <p>
-        Letter writing is <i>optional</i> on your exam and you can instead
-        choose to write a <a href="/topics/composition">Composition</a>.
+        The letter writing section on your exam is <i>optional</i> and you can
+        instead choose to write a <a href="/topics/composition">Composition</a>.
         However, if you choose to do this question is is important to know what
         is required and how your letter is to be structured.
       </p>
@@ -45,7 +47,51 @@ const Overview = props => (
         </li>
       </ul>
     </div>
-
+    <div className="box">
+      <div className="columns">
+        <div className="column">
+          <Img
+            src={[
+              "https://scanmarker.com/wp-content/uploads/2019/06/top-tips-1-1000x480.jpg",
+              "https://blog.asana.com/wp-content/post-images/Asana-Tips-Feature-Roundup_Article-1024x655@2x.png",
+              "https://blog.commlabindia.com/wp-content/uploads/2016/11/tips-to-design-effective-elearning.jpg"
+            ]}
+            alt="image of top tips"
+            loader={
+              <Loader
+                type="Puff"
+                color="#00BFFF"
+                height={100}
+                width={100}
+                timeout={3000} //3 secs
+              />
+            }
+          />
+        </div>
+        <div className="column">
+          <ul
+            style={{
+              paddingLeft: "20px",
+              listStyleType: "disc"
+            }}
+          >
+            <li style={{ paddingBottom: "10px" }}>
+              Make sure to discuss all points given
+            </li>
+            <li style={{ paddingBottom: "10px" }}>
+              Be conversational when writing
+            </li>
+            <li style={{ paddingBottom: "10px" }}>
+              Use phrases and expressions often
+            </li>
+            <li style={{ paddingBottom: "10px" }}>
+              Choose the verb tenses appropriate for the topic
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div className="box"></div>
     <div className="box">
       <p>Lets take a look at an example question.</p>
 

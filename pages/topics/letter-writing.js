@@ -10,6 +10,11 @@ import FA from "react-fontawesome";
 // All contents
 import Overview from "./contents/let-wri/Overview";
 import TryThese from "./contents/let-wri/TryThese";
+import SampleOne from "./contents/let-wri/SampleOne";
+import SampleTwo from "./contents/let-wri/SampleTwo";
+import SampleThree from "./contents/let-wri/SampleThree";
+import UsefulPhrases from "./contents/let-wri/UsefulPhrases";
+import WordBank from "./contents/let-wri/WordBank";
 
 class LetterWriting extends React.Component {
   componentDidMount() {
@@ -113,36 +118,22 @@ class LetterWriting extends React.Component {
                 <li class="liOverview is-active">
                   <a className="btnOverview">Overview</a>
                 </li>
-                <li className="liTips">
-                  <a className="btnTips">Tips</a>
-                </li>
+
                 <li className="liSample1">
                   <a className="btnSample1">
-                    <FA
-                      className="has-text-primary"
-                      style={{ paddingRight: "7px" }}
-                      name="pencil-alt"
-                    />
+                    <FA name="caret-right" style={{ paddingRight: "7px" }} />
                     Sample 1
                   </a>
                 </li>
                 <li className="liSample2">
                   <a className="btnSample2">
-                    <FA
-                      className="has-text-primary"
-                      style={{ paddingRight: "7px" }}
-                      name="pencil-alt"
-                    />
+                    <FA name="caret-right" style={{ paddingRight: "7px" }} />
                     Sample 2
                   </a>
                 </li>
                 <li className="liSample3">
                   <a className="btnSample3">
-                    <FA
-                      className="has-text-primary"
-                      style={{ paddingRight: "7px" }}
-                      name="pencil-alt"
-                    />
+                    <FA name="caret-right" style={{ paddingRight: "7px" }} />
                     Sample 3
                   </a>
                 </li>
@@ -154,10 +145,16 @@ class LetterWriting extends React.Component {
               <div id="overview">
                 <Overview />
               </div>
-              <div id="tips"></div>
-              <div id="sample1"></div>
-              <div id="sample2"></div>
-              <div id="sample3"></div>
+
+              <div id="sample1">
+                <SampleOne />
+              </div>
+              <div id="sample2">
+                <SampleTwo />
+              </div>
+              <div id="sample3">
+                <SampleThree />
+              </div>
             </section>
 
             <br className="is-hidden-desktop" />
@@ -166,9 +163,7 @@ class LetterWriting extends React.Component {
                 <li class="liOverview is-active">
                   <a className="btnOverview">Overview</a>
                 </li>
-                <li className="liTips">
-                  <a className="btnTips">Tips</a>
-                </li>
+
                 <li className="liSample1">
                   <a className="btnSample1">
                     <FA
@@ -203,6 +198,8 @@ class LetterWriting extends React.Component {
             </nav>
           </div>
           <div className="column is-one-third">
+            <UsefulPhrases />
+            <WordBank />
             <TryThese />
           </div>
         </div>

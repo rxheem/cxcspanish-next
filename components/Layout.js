@@ -8,9 +8,9 @@ import Swal from "sweetalert2";
 
 // CSS imports
 import CSS from "../assets/bulma.css";
-import Animate from "../assets/animate.css";
-
+import BSGrid from "../assets/bootstrap-grid.css";
 import BulmaAccordianCSS from "../assets/bulma-accordian.css";
+import Animate from "../assets/animate.css";
 import "../assets/fontawesome.js";
 
 class Layout extends React.Component {
@@ -26,7 +26,6 @@ class Layout extends React.Component {
     ReactGA.initialize("UA-146229442-1");
     ReactGA.pageview(window.location.pathname + window.location.search);
 
-    // Clears the console
     console.clear();
   }
 

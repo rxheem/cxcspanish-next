@@ -10,7 +10,11 @@ const Answer = props => (
     <p style={{ paddingLeft: "18px" }} className="has-text-grey">
       {props.translated}
 
-      <a href={props.href} target="_blank">
+      <a
+        href={props.href}
+        className={props.noIcon ? "is-hidden" : null}
+        target="_blank"
+      >
         <FA style={{ paddingLeft: "10px" }} name="external-link-alt" />
       </a>
     </p>
