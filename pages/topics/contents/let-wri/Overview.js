@@ -4,6 +4,16 @@ import Answer from "../../../../common/Answer";
 import Img from "react-image";
 import Loader from "react-loader-spinner";
 
+// Carousel
+import {
+  CarouselProvider,
+  Slider,
+  Slide,
+  ButtonBack,
+  ButtonNext
+} from "pure-react-carousel";
+
+// React Fragment
 const Fragment = React.Fragment;
 
 const Overview = props => (
@@ -47,6 +57,8 @@ const Overview = props => (
         </li>
       </ul>
     </div>
+
+    {/* Important Tipa */}
     <div className="box">
       <div className="columns">
         <div className="column">
@@ -91,6 +103,7 @@ const Overview = props => (
         </div>
       </div>
     </div>
+
     <div className="box"></div>
     <div className="box">
       <p>Lets take a look at an example question.</p>
@@ -127,6 +140,25 @@ const Overview = props => (
         }
       />
     </div>
+
+    <CarouselProvider
+      naturalSlideWidth={100}
+      naturalSlideHeight={50}
+      totalSlides={3}
+      style={{ height: "auto" }}
+    >
+      <Slider>
+        <Slide style={{ height: "auto" }} index={0}>
+          <div className="box notification is-primary">1</div>
+        </Slide>
+        <Slide index={1}>
+          <div className="box  notification is-danger">2</div>
+        </Slide>
+        <Slide index={2}>
+          <div className="box notification is-link">3</div>
+        </Slide>
+      </Slider>
+    </CarouselProvider>
   </div>
 );
 

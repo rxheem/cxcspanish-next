@@ -13,10 +13,6 @@ app
   .then(() => {
     const server = express();
 
-    server.get("/user/:name", (req, res) => {
-      app.render(req, res, "/user", { name: req.params.name });
-    });
-
     server.get("*", (req, res) => {
       return handle(req, res);
     });

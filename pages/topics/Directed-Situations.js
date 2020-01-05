@@ -14,6 +14,7 @@ import Quote from "../../common/Quote";
 import Overview from "./contents/dir-sit/Overview";
 import Examples from "./contents/dir-sit/Examples";
 import TryThese from "./contents/dir-sit/TryThese";
+import WordBank from "./contents/dir-sit/WordBank";
 
 class DirectedSituations extends React.Component {
   constructor(props) {
@@ -74,6 +75,7 @@ class DirectedSituations extends React.Component {
       <Layout>
         <Head>
           <title>Directed Situations | CXC Spanish Guide</title>
+
           <meta
             name="description"
             content="CXC Spanish Online is the perfect free online study guide to pass your CXC Spanish exam with syllabus revision, exercises and downloadable resouces."
@@ -119,7 +121,7 @@ class DirectedSituations extends React.Component {
             </nav>
 
             {/* Content */}
-            <div id="content" className="box">
+            <div id="content">
               <div id="overview">
                 <Overview />
               </div>
@@ -145,6 +147,7 @@ class DirectedSituations extends React.Component {
             </nav>
           </div>
           <div className="column is-one-third">
+            <WordBank />
             <TryThese />
           </div>
         </div>

@@ -3,7 +3,7 @@ import Quote from "../../../../common/Quote";
 import Answer from "../../../../common/Answer";
 
 const Examples = props => (
-  <div id="examples">
+  <div className="box" id="examples">
     <p>
       Now that you have an idea of what Directed Situations are, let's look at
       some more examples.

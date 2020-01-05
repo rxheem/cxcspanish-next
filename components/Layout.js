@@ -5,6 +5,7 @@ import ReactGA from "react-ga";
 import Head from "next/head";
 import LazyLoad from "react-lazyload";
 import Swal from "sweetalert2";
+import "pure-react-carousel/dist/react-carousel.es.css";
 
 // CSS imports
 import CSS from "../assets/bulma.css";
@@ -678,11 +679,6 @@ class Layout extends React.Component {
             overflow-y: scroll;
           }
         `}</style>
-        <script
-          src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js"
-          data-cf-settings="5e6cacd3a5277d4e55cfe64b-|49"
-          defer=""
-        ></script>
       </div>
     );
   }
